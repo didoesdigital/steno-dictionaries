@@ -8645,6 +8645,7 @@
 "KPH*/STP*/SBLAESH": "{#Super_L(Shift_L(/))}",
 "STP*/KPH*/SBLAESH": "{#Shift_L(Super_L(/))}",
 "KPH*/SBLAESH": "{#Super_L(/)}",
+"KPH*/KW*BG": "{#Super_L(comma)}",
 "KHR*": "{}",
 "KPH*": "{}",
 "THRA*": "{}",
