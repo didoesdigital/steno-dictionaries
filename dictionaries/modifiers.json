@@ -8650,6 +8650,7 @@
 "KPH*": "{}",
 "THRA*": "{}",
 "STP*": "{}",
+"STP*/S-P": "{#Shift_L(space)} {^}",
 "TKHRAO*ET": "{#Delete}",
 "S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S": "This entry allows the Plover buffer to increase to 100."
 }
