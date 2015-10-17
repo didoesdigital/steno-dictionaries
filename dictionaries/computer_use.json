@@ -1,0 +1,11 @@
+{
+"KPWR*": "{#Super_L(c)}",
+"P*FT": "{#Super_L(v)}",
+"S*F": "{#Super_L(s)}",
+"SKWR": "{#Super_L(z)}",
+"STKWR": "{#Super_L(Shift_L(z))}",
+"TKPH": "{#Super_L(z)}",
+"TKPH*": "{#Super_L(Shift_L(z))}",
+"TPW*FP": "{#Delete}",
+"-FRPBLGTS": "{FLUSH}"
+}

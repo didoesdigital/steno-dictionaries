@@ -1,0 +1,11 @@
+{
+"STPH-B": "{#Down}",
+"STPH-BG": "{#Alt_L(Right)}",
+"STPH-G": "{#Right}",
+"STPH-RB": "{#Alt_L(Left)}",
+"STPHRABG": "{#Alt_L(Shift_L(Right))}",
+"STPHRAG": "{#Shift_L(Right)}",
+"STPHRAR": "{#Shift_L(Left)}",
+"STPHRARB": "{#Alt_L(Shift_L(Left))}",
+"-FRPBLGTS": "{FLUSH}"
+}

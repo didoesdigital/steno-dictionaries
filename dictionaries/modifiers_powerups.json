@@ -1,0 +1,11 @@
+{
+"KPH*/KH*FG": "{#Super_L(grave)}",
+"KPH*/KW*BG": "{#Super_L(comma)}",
+"KPH*/SBLAESH": "{#Super_L(/)}",
+"KPH*/STP*/KH*FG": "{#Super_L(Shift_L(#Grave))}",
+"KPH*/STP*/SBLAESH": "{#Super_L(Shift_L(/))}",
+"STP*/KPH*/KH*FG": "{#Shift_L(Super_L(#Grave))}",
+"STP*/KPH*/SBLAESH": "{#Shift_L(Super_L(/))}",
+"STP*/S-P": "{#Shift_L(space)} {^}",
+"-FRPBLGTS": "{FLUSH}"
+}

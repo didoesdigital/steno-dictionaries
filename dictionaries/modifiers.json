@@ -8639,18 +8639,10 @@
 "STP*/THRA*/KPH*/KHR*/STPH-R": "{#Shift_L(Alt_L(Super_L(Control_L(Left))))}",
 "STP*/THRA*/KPH*/KHR*/STPH-B": "{#Shift_L(Alt_L(Super_L(Control_L(Right))))}",
 "STP*/THRA*/KPH*/KHR*/TA*B": "{#Shift_L(Alt_L(Super_L(Control_L(Tab))))}",
-"KPH*/STP*/KH*FG": "{#Super_L(Shift_L(#Grave))}",
-"STP*/KPH*/KH*FG": "{#Shift_L(Super_L(#Grave))}",
-"KPH*/KH*FG": "{#Super_L(grave)}",
-"KPH*/STP*/SBLAESH": "{#Super_L(Shift_L(/))}",
-"STP*/KPH*/SBLAESH": "{#Shift_L(Super_L(/))}",
-"KPH*/SBLAESH": "{#Super_L(/)}",
-"KPH*/KW*BG": "{#Super_L(comma)}",
 "KHR*": "{}",
 "KPH*": "{}",
 "THRA*": "{}",
 "STP*": "{}",
-"STP*/S-P": "{#Shift_L(space)} {^}",
 "TKHRAO*ET": "{#Delete}",
 "S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S/S": "This entry allows the Plover buffer to increase to 100."
 }
