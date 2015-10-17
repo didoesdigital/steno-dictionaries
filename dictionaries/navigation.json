@@ -7,5 +7,9 @@
 "STPHRAG": "{#Shift_L(Right)}",
 "STPHRAR": "{#Shift_L(Left)}",
 "STPHRARB": "{#Alt_L(Shift_L(Left))}",
+"TPW-BG": "{#Shift_L(Super_L(Right))} {#BackSpace}",
+"TPW-G": "{#Shift_L(Alt_L(Right))} {#BackSpace}",
+"TPW-R": "{#Shift_L(Alt_L(Left))} {#BackSpace}",
+"TPW-RB": "{#Shift_L(Super_L(Left))} {#BackSpace}",
 "WUZ/WUZ": "{FLUSH}"
 }
