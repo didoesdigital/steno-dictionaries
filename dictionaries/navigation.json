@@ -8,6 +8,8 @@
 "STPHRAR": "{#Shift_L(Left)}",
 "KPH-G": "{#Super_L(Right)}",
 "KPH-R": "{#Super_L(Left)}",
+"KPH-P": "{#Super_L(Up)}",
+"KPH-B": "{#Super_L(Down)}",
 "STPHRARB": "{#Alt_L(Shift_L(Left))}",
 "TPW-BG": "{#Shift_L(Super_L(Right))} {#BackSpace}",
 "TPW-G": "{#Shift_L(Alt_L(Right))} {#BackSpace}",
