@@ -7,5 +7,5 @@
 "STP*/KPH*/KH*FG": "{#Shift_L(Super_L(#Grave))}",
 "STP*/KPH*/SBLAESH": "{#Shift_L(Super_L(/))}",
 "STP*/S-P": "{#Shift_L(space)} {^}",
-"-FRPBLGTS": "{FLUSH}"
+"WUZ/WUZ": "{FLUSH}"
 }
