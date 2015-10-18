@@ -7,5 +7,7 @@
 "TEUG": "tig",
 "TK*RB": "{--^}",
 "TKPWEUT": "git",
+"TKPWR*EP": "egrep",
+"TKPWREP": "grep",
 "WUZ/WUZ": "{FLUSH}"
 }
