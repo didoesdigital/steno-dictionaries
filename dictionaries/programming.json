@@ -2,6 +2,7 @@
 "H*PB": "{-^}",
 "PHR-B": "{#Control_L(Super_L(Down))}",
 "PHR-P": "{#Control_L(Super_L(Up))}",
+"SR*EUPL": "vim",
 "TEUG": "tig",
 "TK*RB": "{--^}",
 "TKPWEUT": "git",
