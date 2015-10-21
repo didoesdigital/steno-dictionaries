@@ -2,6 +2,7 @@
 "-P": "{# space period space}",
 "H*PB": "{-^}",
 "KHR-D": "cd",
+"PEUP/EUPB": "pip install",
 "PHR-B": "{#Control_L(Super_L(Down))}",
 "PHR-P": "{#Control_L(Super_L(Up))}",
 "SKWRO*FPB": "JSON",
