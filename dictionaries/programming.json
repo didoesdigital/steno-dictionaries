@@ -3,6 +3,8 @@
 "KHR-D": "cd",
 "PHR-B": "{#Control_L(Super_L(Down))}",
 "PHR-P": "{#Control_L(Super_L(Up))}",
+"SKWRO*FPB": "JSON",
+"SKWROFPB": "json",
 "SR*EUPL": "vim",
 "TEUG": "tig",
 "TK*RB": "{--^}",
