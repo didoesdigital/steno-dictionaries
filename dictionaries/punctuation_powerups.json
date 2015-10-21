@@ -1,6 +1,6 @@
 {
 "PREPB/-S": "()",
-"PREPBS": "{^} () {#Left}",
+"PRPBS": "{^} () {#Left}",
 "PWR-BGT/-S": "[]",
 "PWR-BGTS": "{^} [] {#Left}",
 "SKW*BGS": "{^} '' {#Left}",
