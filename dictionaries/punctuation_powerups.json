@@ -1,5 +1,11 @@
 {
+"PREPB/-S": "()",
+"PREPBS": "{^} () {#Left}",
+"PWR-BGT/-S": "[]",
+"PWR-BGTS": "{^} [] {#Left}",
 "SKW*BGS": "{^} '' {#Left}",
 "TKW*BGS": "{^} \"\" {#Left}",
+"TPR-BGT/-S": "\\{\\}",
+"TPR-BGTS": "{^} \\{\\} {#Left}",
 "WUZ/WUZ": "{FLUSH}"
 }
