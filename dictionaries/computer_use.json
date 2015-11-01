@@ -1,8 +1,10 @@
 {
 "K*UT": "{#Super_L(x)}",
+"KPW": "{#Super_L(x)}",
 "KPWR": "{#Super_L(c)}",
 "KPWR*": "{#Super_L(c)}",
 "P*FT": "{#Super_L(v)}",
+"PWR": "{#Super_L(v)}",
 "S*F": "{#Super_L(s)}",
 "SKWR": "{#Super_L(z)}",
 "STKWR": "{#Super_L(Shift_L(z))}",
