@@ -6,8 +6,6 @@
 "KPA*E/HED": "HEAD",
 "KPA*E/SKWROFPB": "JSON",
 "PEUP/EUPB": "pip install",
-"PHR-B": "{#Control_L(Super_L(Down))}",
-"PHR-P": "{#Control_L(Super_L(Up))}",
 "R*R": "{#Return}{^}{>}",
 "SKWRO*FPB": "JSON",
 "SKWROFPB": "json",
