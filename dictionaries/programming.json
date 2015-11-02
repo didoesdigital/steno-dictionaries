@@ -10,6 +10,7 @@
 "KOPB/TPEUG": "config",
 "KPA*E/HED": "HEAD",
 "KPA*E/SKWROFPB": "JSON",
+"P*URL": "perl",
 "PAOEU/TPH*FPB": "pyenv",
 "PEUP/EUPB": "pip install",
 "PHERPBLGT": "mergetool",
