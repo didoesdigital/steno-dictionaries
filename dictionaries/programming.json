@@ -3,6 +3,7 @@
 "APT/TKPWET": "apt-get",
 "ETS": "etc",
 "H*PB": "{-^}",
+"HRAFBG/SEFRPB": "elasticsearch",
 "KHER/PEUBG": "cherry-pick",
 "KHR*D": "{^}{# c d space}",
 "KHR-D": "{^}cd",
