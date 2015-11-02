@@ -4,6 +4,7 @@
 "ETS": "etc",
 "H*PB": "{-^}",
 "KHER/PEUBG": "cherry-pick",
+"KHR*D": "{^}{# c d space}",
 "KHR-D": "{^}cd",
 "KOPB/TPEUG": "config",
 "KPA*E/HED": "HEAD",
