@@ -2,5 +2,5 @@
 "-FRL": "{#Super_L(space)} {^}",
 "A*FRL": "{#Super_L(space)} {^}",
 "SP-LT": "{#Alt_L(space)}{^}",
-"WUZ/WUZ": "{FLUSH}"
+"WUZ/WUZ": "{}"
 }
