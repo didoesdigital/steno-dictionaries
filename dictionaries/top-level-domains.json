@@ -1,9 +1,12 @@
 {
+"KRA*EU": "{^.ca}",
 "KROPL": "{^.com}",
 "O*RG": "org",
+"P-P/AU": "{^.au}",
 "P-P/KROPL": "{^.com}",
 "P-P/KROPL/AU": "{^.com.au}",
-"P-P/AU": "{^.au}",
 "P-P/O*RG": "{^.org}",
+"TKORG": "{^.org}",
+"TPH*ET": "{^.net}",
 "WUZ/WUZ": "{}"
 }
