@@ -1,5 +1,5 @@
 {
-"-P": "{# space period space}",
+"-P": ".",
 "APT/TKPWET": "apt-get",
 "ETS": "etc",
 "H*PB": "{-^}",
