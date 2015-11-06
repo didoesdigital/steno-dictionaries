@@ -1,5 +1,5 @@
 {
-"STOEUFRL": "{#Alt_L(Shift_L(Left))} {#Super_L(c)} {#Right} {#Shift_L(Alt_L(Super_L(Control_L(s))))}",
-"STOEUFRPBL": "{#Super_L(c)} {#Right} {#Shift_L(Alt_L(Super_L(Control_L(s))))}",
+"STOEUFRL": "{#Alt_L(Shift_L(Left))} {#Super_L(c)} {#Right} {#Control_L(Alt_L(Shift_L(Super_L(s))))}",
+"STOEUFRPBL": "{#Super_L(c)} {#Right} {#Control_L(Alt_L(Shift_L(Super_L(s))))}",
 "WUZ/WUZ": "{}"
 }
