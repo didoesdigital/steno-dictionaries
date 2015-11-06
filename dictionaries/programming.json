@@ -47,6 +47,7 @@
 "TKPWEUT/TKEUF": "{^}git diff",
 "TKPWEUT/TKEUF/KAEURBD": "{^}git diff --cached",
 "TKPWH*EUT": "{^}git commit -v{#Return}{^}i{^}{-|}",
+"TKPWH*EUTD": "{^}git commit -v --amend{#Return}{^}i{^}{-|}",
 "TKPWR*EP": "egrep",
 "TKPWREP": "grep",
 "TPH*FPB": "env",
