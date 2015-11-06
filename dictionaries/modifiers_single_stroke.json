@@ -51,5 +51,17 @@
 "KP*RBLT": "{#Super_L(Alt_L(x))}",
 "KWR*RBLT": "{#Super_L(Alt_L(y))}",
 "STKPW*RBLT": "{#Super_L(Alt_L(z))}",
+"1-RG": "{^}{#Control_L(F1)}{^}",
+"2-RG": "{^}{#Control_L(F2)}{^}",
+"3-RG": "{^}{#Control_L(F3)}{^}",
+"4-RG": "{^}{#Control_L(F4)}{^}",
+"5-RG": "{^}{#Control_L(F5)}{^}",
+"KR-6": "{^}{#Control_L(F6)}{^}",
+"KR-7": "{^}{#Control_L(F7)}{^}",
+"KR-8": "{^}{#Control_L(F8)}{^}",
+"KR-9": "{^}{#Control_L(F9)}{^}",
+"10-RG": "{^}{#Control_L(F10)}{^}",
+"11-RG": "{^}{#Control_L(F11)}{^}",
+"12-RG": "{^}{#Control_L(F12)}{^}",
 "WUZ/WUZ": "{}"
 }
