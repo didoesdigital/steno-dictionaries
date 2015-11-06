@@ -1,0 +1,8 @@
+{
+"KPH-LG": "[](){#Left Left Left}{^}{-|}",
+"KPH-PBLG": "![](){#Left Left Left}{^} {-|}",
+"PH-FPL": "*{^}",
+"PH-FPLS": "**{^}",
+"PH-LG": "![](){#Left(Left(Left(Left(Left)))}",
+"WUZ/WUZ": "{}"
+}
