@@ -1,6 +1,5 @@
 {
-"PHR*FR": "{#Shift_L(Alt_L(Super_L(Control_L(s))))}",
-"STOEUFRL": "{#Alt_L(Shift_L(Left))} {#Shift_L(Alt_L(Super_L(Control_L(s))))}",
-"STOEUFRPBL": "{#Alt_L(Shift_L(Left))} {#Shift_L(Alt_L(Super_L(Control_L(s))))}",
+"STOEUFRL": "{#Alt_L(Shift_L(Left))} {#Super_L(c)} {#Right} {#Shift_L(Alt_L(Super_L(Control_L(s))))}",
+"STOEUFRPBL": "{#Super_L(c)} {#Right} {#Shift_L(Alt_L(Super_L(Control_L(s))))}",
 "WUZ/WUZ": "{}"
 }
