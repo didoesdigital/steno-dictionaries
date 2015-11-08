@@ -2,6 +2,14 @@
 "-FRL": "{#Super_L(space)} {^}",
 "A*FRL": "{#Super_L(space)} {^}",
 "SP-LT": "{#Alt_L(space)}{^}",
+"TPAO*EUPBDZ": "{#Control_L(Alt_L(Super_L(Shift_L(f))))}",
+"KRO*EPLZ": "{#Control_L(Alt_L(Super_L(Shift_L(c))))}",
+"SHRA*BGZ": "{#Control_L(Alt_L(Super_L(Shift_L(l))))}",
+"TKA*RBZ": "{#Control_L(Alt_L(Super_L(Shift_L(d))))}",
+"P*EUFLZ": "{#Control_L(Alt_L(Super_L(Shift_L(p))))}",
+"PHA*UZ": "{#Control_L(Alt_L(Super_L(Shift_L(m))))}",
+"T*ERPLZ": "{#Control_L(Alt_L(Super_L(Shift_L(t))))}",
+"S*UBLZ": "{#Control_L(Alt_L(Super_L(Shift_L(b))))}",
 "TKPWAO*LG": "!g{#Return}",
 "WUZ/WUZ": "{}"
 }
