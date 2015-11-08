@@ -1,9 +1,15 @@
 {
+"#": "{*+}",
+"KPA*E": "{<}",
+"KPA*Z": "{*-|}",
+"PHRAOBG": "{PLOVER:LOOKUP}",
 "PHROF": "{PLOVER:SUSPEND}",
 "PHROLG": "{PLOVER:TOGGLE}",
 "PHROPB": "{PLOVER:RESUME}",
-"PWRA*EBG": "{*?}",
-"SPA*EUS": "{*!}",
+"PWRA*EBGZ": "{*?}",
+"SKWRO*EUPBZ": "{*!}",
+"TK*LS": "{^^}",
 "TKUPT": "{PLOVER:ADD_TRANSLATION}",
+"TPHRO*ERZ": "{*>}",
 "WUZ/WUZ": "{}"
 }
