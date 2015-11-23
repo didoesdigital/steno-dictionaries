@@ -6,10 +6,11 @@
 "KRO*EPLZ": "{#Control_L(Alt_L(Super_L(Shift_L(c))))}",
 "SHRA*BGZ": "{#Control_L(Alt_L(Super_L(Shift_L(l))))}",
 "TKA*RBZ": "{#Control_L(Alt_L(Super_L(Shift_L(d))))}",
-"P*EUFLZ": "{#Control_L(Alt_L(Super_L(Shift_L(p))))}",
+"P*EUFLZ": "{#Control_L(Alt_L(Super_L(Shift_L(v))))}",
 "PHA*UZ": "{#Control_L(Alt_L(Super_L(Shift_L(m))))}",
 "T*ERPLZ": "{#Control_L(Alt_L(Super_L(Shift_L(t))))}",
 "S*UBLZ": "{#Control_L(Alt_L(Super_L(Shift_L(b))))}",
+"PHRO*EFRZ": "{#Control_L(Alt_L(Super_L(Shift_L(p))))}",
 "TKPWAO*LG": "!g{#Return}",
 "WUZ/WUZ": "{}"
 }
