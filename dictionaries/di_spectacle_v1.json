@@ -1,0 +1,15 @@
+{
+"SP-BG": "{#Control_L(Alt_L(Super_L(k)))}",
+"SP-FP": "{#Control_L(Alt_L(Super_L(u)))}",
+"SP-FPL": "{#Control_L(Alt_L(Super_L(Up)))}",
+"SP-FR": "{#Control_L(Alt_L(Super_L(Left)))}",
+"SP-FRPBLG": "{#Control_L(Alt_L(Super_L(f)))}",
+"SP-L": "{#Control_L(Alt_L(Super_L(l)))}",
+"SP-LG": "{#Control_L(Alt_L(Super_L(Right)))}",
+"SP-PB": "{#Control_L(Alt_L(Super_L(c)))}",
+"SP-PL": "{#Control_L(Alt_L(Super_L(i)))}",
+"SP-RB": "{#Control_L(Alt_L(Super_L(j)))}",
+"SP-RBG": "{#Control_L(Alt_L(Super_L(Down)))}",
+"SP-S": "{#Control_L(Alt_L(Super_L(s)))}",
+"WUZ/WUZ": "{}"
+}
