@@ -1,6 +1,9 @@
 {
 "#": "{*+}",
 "KPA*E": "{<}",
+"KPA*EU": "{^}{<}",
+"KPA*EUZ": "{^}{*<}",
+"KPA*EZ": "{*<}",
 "KPA*Z": "{*-|}",
 "PHRAOBG": "{PLOVER:LOOKUP}",
 "PHREUG": "{PLOVER:CONFIGURE}",
