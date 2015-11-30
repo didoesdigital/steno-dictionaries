@@ -77,7 +77,7 @@
 "SR*EUPL": "vim",
 "SR*EUPL/SR*EUPL": "Vim",
 "STPREFBG": "{#Escape}{^}:x{^}",
-"T*EULD": "~",
+"T*EULD": "{^}~{^}",
 "TEUG": "tig",
 "TK*RB": "{--^}",
 "TKEUR": "dir",
