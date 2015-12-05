@@ -1,4 +1,5 @@
 {
+"*EPLT": "{#Control_L(e)}",
 "PHR-B": "{#Control_L(Super_L(Down))}",
 "PHR-P": "{#Control_L(Super_L(Up))}",
 "SPWAOEUD": "{#Super_L(k(b))}",
