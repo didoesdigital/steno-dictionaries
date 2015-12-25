@@ -5,5 +5,6 @@
 "TW-L": "{#Super_L(Shift_L(bracketright))}",
 "TW-P": "{#Super_L(Shift_L(grave))}",
 "TW-R": "{#Super_L(Shift_L(Tab))}",
+"TW*G": "{#Super_L(Tab Tab)}",
 "WUZ/WUZ": "{}"
 }
