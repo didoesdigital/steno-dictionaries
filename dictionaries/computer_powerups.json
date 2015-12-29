@@ -10,6 +10,7 @@
 "PHA*UZ": "{#Control_L(Alt_L(Super_L(Shift_L(m))))}",
 "T*ERPLZ": "{#Control_L(Alt_L(Super_L(Shift_L(t))))}",
 "S*UBLZ": "{#Control_L(Alt_L(Super_L(Shift_L(b))))}",
+"STPR*EUZ": "{#Control_L(Alt_L(Super_L(Shift_L(r))))}",
 "PHRO*EFRZ": "{#Control_L(Alt_L(Super_L(Shift_L(p))))}",
 "TKPWAO*LG": "!g{#Return}",
 "WUZ/WUZ": "{}"
