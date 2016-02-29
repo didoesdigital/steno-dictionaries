@@ -12,6 +12,7 @@
 "S*UBLZ": "{#Control_L(Alt_L(Super_L(Shift_L(b))))}",
 "STPR*EUZ": "{#Control_L(Alt_L(Super_L(Shift_L(r))))}",
 "PHRO*EFRZ": "{#Control_L(Alt_L(Super_L(Shift_L(p))))}",
+"SK*EFPZ": "{#Control_L(Alt_L(Super_L(Shift_L(k))))}",
 "TKPWAO*LG": "!g{#Return}",
 "WUZ/WUZ": "{}"
 }
