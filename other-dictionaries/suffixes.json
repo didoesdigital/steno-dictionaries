@@ -1,3 +1,4 @@
+{
 "#-D": "{^ed}",
 "*BG": "{^k}",
 "*EFBG": "{^esque}",
@@ -709,4 +710,5 @@
 "WOS/TEU": "{^uosity}",
 "WOUS": "{^uous}",
 "WUPL": "{^uum}",
-"WUS": "{^uous}",
+"WUS": "{^uous}"
+}
