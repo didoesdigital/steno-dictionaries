@@ -26,6 +26,7 @@
 "REG/EBG": "regex",
 "REG/EBGS": "regexp",
 "RO*EUB/SKWREPLS": "rubygems",
+"THOR/SKHRAPL": "authorize!",
 "TK-F": "def",
 "TPHO/KO/TKPWEU/REU": "nokogiri",
 "TPHRARB/PWR-BGT": "flash[:{^}",
