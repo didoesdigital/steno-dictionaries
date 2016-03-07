@@ -10,6 +10,7 @@
 "STKWR": "{#Super_L(Shift_L(z))}",
 "TKPH": "{#Super_L(z)}",
 "TKPH*": "{#Super_L(Shift_L(z))}",
+"TP*EFBG": "{#Super_L(BackSpace)}",
 "1-BGS": "{^}{#F1}{^}",
 "2-BGS": "{^}{#F2}{^}",
 "3-BGS": "{^}{#F3}{^}",
