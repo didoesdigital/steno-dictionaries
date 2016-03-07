@@ -1,5 +1,6 @@
 {
 "STOEUFRL": "{#Alt_L(Shift_L(Left))} {#Super_L(c)} {#Right} {#Control_L(Alt_L(Shift_L(Super_L(s))))}",
+"-FRL/STOEUPB": "{#Super_L(space)}{^}steno{^}",
 "STOEUFRPBL": "{#Super_L(c)} {#Right} {#Control_L(Alt_L(Shift_L(Super_L(s))))}",
 "TKEUBGS/REU/TEPL/PHRA*EUT": "{^}\\{\n\"\": \"\",\n\"WUZ/WUZ\": \"\\{\\}\"\n\\}",
 "WUZ/WUZ": "{}"
