@@ -17,6 +17,8 @@
 "SHR-G": "{#Shift_L(Alt_L(Right))}",
 "SHR-P": "{#Shift_L(Alt_L(Up))}",
 "SHR-R": "{#Shift_L(Alt_L(Left))}",
+"SP-B": "{#space}",
+"SP-P": "{#Shift_L(space)}",
 "STP-B": "{#Shift_L(Down)}",
 "STP-BG": "{#Shift_L(Alt_L(Right))}",
 "STP-G": "{#Shift_L(Right)}",
