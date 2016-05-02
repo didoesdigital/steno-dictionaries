@@ -6,6 +6,7 @@
 "P*FT": "{#Super_L(v)}",
 "PWR": "{#Super_L(v)}",
 "S*F": "{#Super_L(s)}",
+"SA*EF": "{#Super_L(Alt_L(s))}",
 "SKWR": "{#Super_L(z)}",
 "STKWR": "{#Super_L(Shift_L(z))}",
 "TKPH": "{#Super_L(z)}",
