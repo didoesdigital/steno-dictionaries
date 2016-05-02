@@ -2,6 +2,7 @@
 "-FRL": "{#Super_L(space)} {^}",
 "A*FRL": "{#Super_L(space)} {^}",
 "TKO*": "{#Control_L(Alt_L(Super_L(Shift_L(o))))}",
+"KPWR*": "{#Super_L(Alt_L(c))}",
 "SP-LT": "{#Alt_L(space)}{^}",
 "SPAO*EBG": "{#Alt_L(Escape)}",
 "TPAO*EUPBDZ": "{#Control_L(Alt_L(Super_L(Shift_L(f))))}",
