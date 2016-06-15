@@ -106,6 +106,8 @@
 "TKPWEUT/KR*R": "git push origin HEAD:refs/for/master",
 "TKPWEUT/PURB/PURB": "git push origin master:master+push",
 "TKPWEUT/TKEUF": "{^}git diff",
+"TKPW*OUT": "{^}git checkout",
+"TKPW*OUT/WH*PB": "{^}git checkout -b",
 "TKPWEUT/TKEUF/KAEURBD": "{^}git diff --cached",
 "TKPWH*EUT": "{^}git commit -v{#Return}{^}i{^}{-|}",
 "TKPWH*EUTD": "{^}git commit -v --amend{#Return}{^}i{^}{-|}",
