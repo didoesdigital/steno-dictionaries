@@ -3,6 +3,7 @@
 "SPWAO*UT": "{#Escape}:%s/",
 "SR*EUPL": "victim",
 "SR*F": "{#Escape}{^}:w{#Return}",
+"STPR*F": "{#Escape}{^}:w{#Return}",
 "SREUPL": "vim",
 "STPR*": "{>}{^h^}",
 "STPR-B": "{>}{^k^}",
