@@ -92,6 +92,7 @@
 "SU/TKO*": "sudo",
 "T*EULD": "{^}~{^}",
 "TEUG": "tig",
+"TEUGS": "tig status",
 "TK*RB": "{--^}",
 "TKEUR": "dir",
 "TKEUR": "dir",
