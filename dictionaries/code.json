@@ -116,6 +116,7 @@
 "TKPWH*TD": "{^}git commit -v --amend{#Return}{^}i{^}{-|}",
 "TKPWHERPBLG": "git merge",
 "TKPWHERPBLG/PURB": "git merge master+push",
+"T*TS": "tig status",
 "TKPWR*EP": "egrep",
 "TKPWREP": "grep",
 "TPH*FPB": "env",
