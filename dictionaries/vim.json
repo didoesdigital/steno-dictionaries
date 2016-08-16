@@ -16,5 +16,7 @@
 "STPR-FPLT": "{#Escape}:{^}",
 "T*EULD": "{^}~{^}",
 "TPHRORB": "{^}${^}",
+"STPR-F": "{^gT^}",
+"STPR-L": "{^gt^}",
 "WUZ/WUZ": "{}"
 }
