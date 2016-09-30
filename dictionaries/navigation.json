@@ -27,6 +27,8 @@
 "STP-RB": "{#Shift_L(Alt_L(Left))}",
 "STPH-B": "{#Down}",
 "STPH-BG": "{#Alt_L(Right)}",
+"THRAB": "{#Alt_L(Down)}",
+"THRAP": "{#Alt_L(Up)}",
 "STPH-G": "{#Right}",
 "STPH-P": "{#Up}",
 "STPH-R": "{#Left}",
