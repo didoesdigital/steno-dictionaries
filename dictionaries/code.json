@@ -113,6 +113,7 @@
 "TKPWH*EUT": "{^}git commit -v{#Return}{^}i{^}{-|}",
 "TKPWH*EUTD": "{^}git commit -v --amend{#Return}{^}i{^}{-|}",
 "TKPWH*T": "{^}git commit -v{#Return}{^}i{^}{-|}",
+"KPA*EUP": "{^}C{^}i{^}{-|}",
 "TKPWH*TD": "{^}git commit -v --amend{#Return}{^}i{^}{-|}",
 "TKPWHERPBLG": "git merge",
 "TKPWHERPBLG/PURB": "git merge master+push",
