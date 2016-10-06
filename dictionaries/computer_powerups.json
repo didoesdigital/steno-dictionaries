@@ -17,6 +17,7 @@
 "PHRO*EFRZ": "{#Control_L(Alt_L(Super_L(Shift_L(p))))}",
 "SK*EFPZ": "{#Control_L(Alt_L(Super_L(Shift_L(k))))}",
 "TAO*UPBZ": "{#Control_L(Alt_L(Super_L(Shift_L(n))))}",
+"PWAO*BGZ": "{#Control_L(Alt_L(Shift_L(o)))}",
 "SKR*PB": "{#Super_L(Shift_L(4))}",
 "SKR*RPB": "{#Super_L(Control_L(Shift_L(4)))}",
 "TKPWAO*LG": "!g{#Return}",
