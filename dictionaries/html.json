@@ -1,5 +1,6 @@
 {
 "EUPBG/SR-S": "<img src=\"{^}",
+"A/HREF": "<a href=\"{^}",
 "PWR": "<br>",
 "WUZ/WUZ": "{}"
 }
