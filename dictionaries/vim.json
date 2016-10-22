@@ -11,7 +11,7 @@
 "STPR-B": "{>}{^k^}",
 "STPR-G": "{>}{^l^}",
 "STPR-R": "{>}{^j^}",
-"STPROEUFRL": "{^}{#Escape}{^\"^}{^*^}{^y^}{^i^}{^w^}{#Control_L(Alt_L(Shift_L(Super_L(s))))}",
+"STPROEUFRL": "{^}{#Escape}{^\"^}{^*^}{^y^}{^i^}{^w^}{^e^}{^a^}{#Control_L(Alt_L(Shift_L(Super_L(s))))}",
 "STPREFBG": "{^}{#Escape}{^}:x{^}",
 "STPR-FPLT": "{^}{#Escape}:{^}",
 "T*EULD": "{^}~{^}",
