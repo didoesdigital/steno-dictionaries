@@ -8,6 +8,8 @@
 "STPR*F": "{^}{#Escape}{^}:w{#Return}",
 "SREUPL": "vim",
 "STPR*": "{>}{^h^}",
+"STPR*P": "{>}{#Control_L(b)}",
+"STPR*B": "{>}{#Control_L(f)}",
 "STPR-B": "{>}{^k^}",
 "STPR-G": "{>}{^l^}",
 "STPR-R": "{>}{^j^}",
