@@ -11,7 +11,7 @@
 "SHRA*BGZ": "{#Control_L(Alt_L(Super_L(Shift_L(l))))}",
 "TKA*RBZ": "{#Control_L(Alt_L(Super_L(Shift_L(d))))}",
 "SR*LZ": "{#Control_L(Alt_L(Super_L(Shift_L(v))))}",
-"T*ERPLZ": "{#Control_L(Alt_L(Super_L(Shift_L(t))))}",
+"T*ERPLZ": "{#F7}",
 "S*UBLZ": "{#Control_L(Alt_L(Super_L(Shift_L(b))))}",
 "STPR*EUZ": "{#Control_L(Alt_L(Super_L(Shift_L(r))))}",
 "PHRO*EFRZ": "{#Control_L(Alt_L(Super_L(Shift_L(p))))}",
