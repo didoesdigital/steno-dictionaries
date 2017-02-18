@@ -17,7 +17,7 @@
 "STPR-L": "{^gt^}",
 "STPR-R": "{>}{^j^}",
 "STPREFBG": "{^}{#Escape}{^}:x{^}",
-"STPROEUFRL": "{^}{#Escape}{^\"^}{^*^}{^y^}{^i^}{^w^}{^e^}{^a^}{#Control_L(Alt_L(Shift_L(Super_L(s))))}",
+"STPROEUFRL": "{^}{#Escape Escape shift(apostrophe) asterisk y i w e a Control_L(Alt_L(Shift_L(Super_L(s))))}",
 "T*EULD": "{^}~{^}",
 "TPHRORB": "{^}${^}",
 "WUZ/WUZ": "{}"
