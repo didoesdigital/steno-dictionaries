@@ -43,7 +43,7 @@
 "P-B/KOEUP": "pbcopy",
 "P-P/SKWR-S": "{^.^}js",
 "P-PS": "../{^}",
-"PAEPBG/STA*RT": "/usr/local/bin/passenger start",
+"PAEPBG/STA*RT": "passenger start",
 "PAOEU/S*FR": "python -m SimpleHTTPServer",
 "PAOEU/TPH*FPB": "pyenv",
 "PAPB/TKOBG": "Pandoc",
