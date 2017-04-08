@@ -7,6 +7,7 @@
 "SPAO*EBG": "{#Alt_L(Escape)}",
 "KA*LZ": "{#Control_L(Alt_L(Super_L(Shift_L(a))))}",
 "TPAO*EUPBDZ": "{#Control_L(Alt_L(Super_L(Shift_L(f))))}",
+"TPAO*EURZ": "{#F8}",
 "KRO*EPLZ": "{#Control_L(Alt_L(Super_L(Shift_L(C))))}",
 "SHRA*BGZ": "{#Control_L(Alt_L(Super_L(Shift_L(l))))}",
 "TKA*RBZ": "{#Control_L(Alt_L(Super_L(Shift_L(d))))}",
