@@ -3,5 +3,17 @@
 "-FRL/STOEUPB": "{#Super_L(space)}{^}steno{^}",
 "STOEUFRPBL": "{#Super_L(c)} {#Right} {#Control_L(Alt_L(Shift_L(Super_L(s))))}",
 "TKEUBGS/REU/TEPL/PHRA*EUT": "{^}\\{\n\"\": \"\",\n\"WUZ/WUZ\": \"\\{\\}\"\n\\}",
+"HRO*ER": "{MODE:LOWER}",
+"K-BGS": "{MODE:CAMEL}",
+"KA*PS": "{MODE:CAPS}",
+"KHRAO*ER": "{MODE:CLEAR}",
+"KPHA*PLD": "{MODE:SET_SPACE:, }",
+"SPAO*EUPBL": "{MODE:LOWER} {MODE:SET_SPACE:-}",
+"STPHA*EUBG": "{MODE:SNAKE}",
+"TAO*EULT": "{MODE:TITLE}",
+"TPHO*EFP": "{MODE:SET_SPACE:}",
+"R*EFT": "{MODE:RESET}",
+"R*EFTZ": "{MODE:RESET_CASE}",
+"R*EFTZ": "{MODE:RESET_SPACE}",
 "WUZ/WUZ": "{}"
 }
