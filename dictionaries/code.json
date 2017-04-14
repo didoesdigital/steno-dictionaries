@@ -78,6 +78,7 @@
 "RAEUBG/TK-B/TKPWRAEUT": "rake db:migrate",
 "RAEUBG/TKPWRAEUT": "rake db:migrate",
 "RAO*EPLD": "readme",
+"RAED/PH*E": "readme",
 "REDZ/SEFR": "redis-server",
 "REG/EBGS": "regexp",
 "RO*EUB/SKWREPLS": "rubygems",
