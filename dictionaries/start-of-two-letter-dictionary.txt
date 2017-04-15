@@ -1,26 +1,4 @@
 
-
-"TP*E": "Fe",
-"PWO": "Bo",
-"R*BGS": "Rx",
-"R-BGS": "Rx",
-"RA": "Ra",
-"A*L/A*L": "Al",
-"AL": "Al",
-"AL/AL": "Al",
-"ED": "Ed",
-"ED/ED": "Ed",
-"EL": "El",
-
-"HR*B": "lb.",
-"KOFPLT": "Co.",
-"PH-T": "Mt.",
-"REFRPLT": "re:",
-"S*T": "St.",
-"S-R": "Sr.",
-"ST-FPLT": "St.",
-"TKR-FPLT": "Dr.",
-
 "TPHA*E": "'n'",
 
 "*PL": "am",
