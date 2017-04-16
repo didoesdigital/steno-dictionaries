@@ -62,8 +62,6 @@
 "SO": "so",
 "T": "it",
 "TK*E": "de",
-"TK*EU": "di",
-"TKA": "da",
 "TKO": "do",
 "TKORBGS": "do{,}",
 "AOE/EPL": "'em",
