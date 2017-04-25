@@ -4,6 +4,7 @@
 "PHR-B": "{^}{#Alt_L(k)}",
 "PHR-R": "{^}{#Alt_L(j)}",
 "SPWAO*UT": "{^}{#Escape}:%s/{^}",
+"TKPWRA*B": "{^}{#Escape}:g##y A{#Left} {#Left} {#Left} {#Left}",
 "SR*EUPL": "victim",
 "SR*F": "{^}{#Escape}{^}:w{#Return}",
 "SREUPL": "vim",
