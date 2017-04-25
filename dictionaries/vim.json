@@ -1,8 +1,9 @@
 {
+"OEU/KRO*EU": "{^/\\c^}",
 "P-P": "{^.^}",
 "PHR-B": "{^}{#Alt_L(k)}",
 "PHR-R": "{^}{#Alt_L(j)}",
-"SPWAO*UT": "{^}{#Escape}:%s/",
+"SPWAO*UT": "{^}{#Escape}:%s/{^}",
 "SR*EUPL": "victim",
 "SR*F": "{^}{#Escape}{^}:w{#Return}",
 "SREUPL": "vim",
