@@ -1,7 +1,10 @@
 {
 "KP*S": "xs",
 "PH*PB/PH*PB": "min",
+"PHA*BGS/PHA*BGS": "max",
 "S*PL": "sm",
+"*PLD": "md",
+"HR*PBLG": "lg",
 "A/HREF": "<a href=\"{^}",
 "EUPBG/SR-S": "<img src=\"{^}",
 "HAOEPLT/5*": "<!DOCTYPE html>{#Return}{^}<html{^ ^}lang=\"en\">{#Return}{^}<head>{#Return}{^}{^ ^}{^ ^}<meta{^ ^}charset=\"utf-8\"{^ ^}/>{#Return}{^}{^ ^}{^ ^}<title></title>{#Return}{^}{^ ^}{^ ^}<link{^ ^}rel=\"stylesheet\"{^ ^}href=\"css/main.css\"{^ ^}type=\"text/css\"{^ ^}/>{#Return}{^}</head>{#Return}{^}{#Return}{^}<body>{#Return}{^}{#Return}{^}{^ ^}{^ ^}<h1></h1>{#Return}{^}{^ ^}{^ ^}<p></p>{#Return}{^}{#Return}{^}</body>{#Return}{^}</html>",
