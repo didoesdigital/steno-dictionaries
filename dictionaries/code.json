@@ -88,7 +88,7 @@
 "SKR-P": "scp",
 "SKW*EL": "SQL",
 "SKW*ELT": "SQLite",
-"SKWR-S": "JavaScript",
+"SKWR*S": "JavaScript",
 "SKWRA/SRA*": "Java",
 "SKWRAEU/SOPB": "JSON",
 "SKWRAOER/KWRA": "Jira",
