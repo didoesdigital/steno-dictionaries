@@ -4,6 +4,7 @@
 "SP-FPL": "{#Control_L(Alt_L(Super_L(Up)))}",
 "SP-FR": "{#Control_L(Alt_L(Super_L(Left)))}",
 "SP-FRPBLG": "{#Control_L(Alt_L(Super_L(f)))}",
+"SP-FRPBLGTS": "{#Control_L(Alt_L(Shift_L(Right)))}",
 "SP-L": "{#Control_L(Alt_L(Super_L(l)))}",
 "SP-LG": "{#Control_L(Alt_L(Super_L(Right)))}",
 "SP-PB": "{#Control_L(Alt_L(Super_L(c)))}",
