@@ -3,6 +3,7 @@
 "A*FRL": "{#Super_L(space)} {^}",
 "TKO*": "{#Control_L(Alt_L(Super_L(Shift_L(o))))}",
 "KPWR*": "{#command(option(c))}",
+"KPHR*R": "{#command(return)}",
 "SP-LT": "{#Control_L(space)}{^}",
 "SPAO*EBG": "{#Alt_L(Escape)}",
 "KA*LZ": "{#Control_L(Alt_L(Super_L(Shift_L(a))))}",
