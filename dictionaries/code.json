@@ -1,6 +1,6 @@
 {
 "R-PL/TK*EUR": "rmdir",
-"STP*EULD": "~/",
+"STP*EULD": "{^}~/{^}",
 "*EPLT": "elm",
 "08Z": "8000",
 "2-9Z": "9292",
