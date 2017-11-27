@@ -45,6 +45,7 @@
 "KHEBG/S*UPL": "checksum",
 "KHER/PEUBG": "cherry-pick",
 "KHOEPB": "chown",
+"KPHOD": "chmod",
 "KHR*D": "{^}{# c d space}",
 "KHR-D": "{^}cd",
 "KPA*E/HED": "HEAD",
