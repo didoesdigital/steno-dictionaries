@@ -1,6 +1,5 @@
 {
 "STP*EULD": "~/",
-"KHR*D/POEUP": "cd ../",
 "*EPLT": "elm",
 "08Z": "8000",
 "2-9Z": "9292",
@@ -50,6 +49,8 @@
 "KPHOD": "chmod",
 "KHR*D": "{^}{# c d space}",
 "KHR-D": "{^}cd",
+"POEUP": "../{^}",
+"PO*EUP": "{^}../{^}",
 "KPA*E/HED": "HEAD",
 "KPA*E/SKWROFPB": "JSON",
 "KR*P/PHR*US/PHR*US": "C++",
