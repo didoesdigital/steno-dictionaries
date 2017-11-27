@@ -1,4 +1,5 @@
 {
+"P*PLD": ".md",
 "R-PL/TK*EUR": "rmdir",
 "STP*EULD": "{^}~/{^}",
 "*EPLT": "elm",
