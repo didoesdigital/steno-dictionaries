@@ -1,4 +1,11 @@
 {
+"TKE/PWUG": "debug",
+"PROBG": "proc",
+"TPAOEUL/TPHAEUPL": "filename",
+"TKPW*T": "goto",
+"STR*UBGT": "struct",
+"KO*PBT": "const",
+"PR*EF": "prev",
 "P*PLD": "{^}.md",
 "R-PL/TK*EUR": "rmdir",
 "STP*EULD": "{^}~/{^}",
