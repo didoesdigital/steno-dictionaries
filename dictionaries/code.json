@@ -1,4 +1,6 @@
 {
+"SHRAOEPT": "smtp",
+"SHRAO*EPT": "{>}smtp://{^}",
 "TPROPBT/PA*EUPBLG": "frontpage",
 "PWAEUS/TK-LS/TPHAEUPL": "basename",
 "EUPB/KHR*": "incl",
