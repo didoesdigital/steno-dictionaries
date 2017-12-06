@@ -1,7 +1,8 @@
 {
-"AUD": "AUD",
+"*AUD": "AUD",
 "UDZ": "USD",
 "UR/O*": "euro",
+"*EUR": "EUR",
 "KHROPB": "colon",
 "KRAOU/S*E/ROE": "cruzeiro",
 "TPREFPB/TPRAEPBG": "french franc",
