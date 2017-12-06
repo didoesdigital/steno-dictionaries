@@ -1,4 +1,8 @@
 {
+"SR*EUD/-S": "vids",
+"TKEPT/-FPLT": "dept.",
+"TKE/-PT": "dept",
+"HOU/TK-LS/TO": "howto",
 "AOUPB/-F": "univ",
 "TKAOEU/HROG": "dialog",
 "TP*EUS": "phys",
@@ -9,6 +13,7 @@
 "HREURS": "human resource information system",
 "HR*EURS": "HRIS",
 "PAEUFP": "pH",
+"KA/KWRA": "ka",
 "KH*": "ch",
 "TK*EU": "di",
 "TKA": "da",
