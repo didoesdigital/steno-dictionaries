@@ -131455,7 +131455,7 @@
 "TPOET/STAT": "Photostat",
 "TPOET/STAT/EUBG": "photostatic",
 "TPOET/TKPWRAF": "photograph",
-"TPOET/TO/KOEUP": "photocopy",
+"TPOET/TO/KO*EP": "photocopy",
 "TPOEU/*ER": "foyer",
 "TPOEU/ER": "foyer",
 "TPOEU/ERS": "foyers",
