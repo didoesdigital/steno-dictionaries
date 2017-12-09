@@ -14145,6 +14145,7 @@
 "EBGS/TEPBDZ": "extends",
 "EBGS/TEPBGS": "extension",
 "EBGS/TEPBGS/-S": "extensions",
+"STEPBGS/-S": "extensions",
 "EBGS/TEPBLT": "extent",
 "EBGS/TEPBS/EUBL": "extensible",
 "EBGS/TEPBS/EUBLT": "extensibility",
