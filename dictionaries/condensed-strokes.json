@@ -1,4 +1,12 @@
 {
+"SKAOUTS": "executes",
+"EBGS/PREGSZ": "expressions",
+"KPEPGSZ": "exceptions",
+"KPAEUPBGS": "exchanges",
+"KPAEUPBG/-S": "exchanges",
+"KPAEUPBG/-D": "exchanged",
+"KPAEUPBG/-G": "exchanging",
+"KPEPGS/A*L": "exceptional",
 "KP-PT/AEUGS": "expectation",
 "KP-PT/AEUGSZ": "expectations",
 "KP-PT/AEUGS/-S": "expectations",
