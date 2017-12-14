@@ -8,7 +8,7 @@
 "*UFT/*UFT": "UTF-",
 "A*RG/SR*": "ARGV",
 "A*RG/TP*": "ARGF",
-"A*RT/KPES": "attr_accessor",
+"A*RT/SESZ": "attr_accessor",
 "A*RT/RAERD": "attr_reader",
 "A*RT/WREUR": "attr_writer",
 "AF/TP*EURLT": "after_filter",
