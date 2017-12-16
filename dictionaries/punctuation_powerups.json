@@ -2,7 +2,7 @@
 "SKHR-PB": "{^};{^}",
 "KPHR": "{!}",
 "KPWRABGS": "{^}</>{#Left}{^}",
-"PH*PBS": "\u2212",
+"PH*PBS": "-",
 "PR-PBS": "{^~|()^}{#Left}",
 "PR*EPBS": "{^~|()^}{#Left}",
 "PREPB/-S": "()",
