@@ -13,7 +13,6 @@
 "A/HREF": "<a href=\"{^}",
 "KWR-LGS": "{^}=\"\"{#Left}{^}",
 "EUPBG/SR-S": "<img src=\"{^}",
-"HAOEPLT/5*": "<!DOCTYPE html>{#Return}{^}<html{^ ^}lang=\"en\">{#Return}{^}<head>{#Return}{^}{^ ^}{^ ^}<meta{^ ^}charset=\"utf-8\"{^ ^}/>{#Return}{^}{^ ^}{^ ^}<title></title>{#Return}{^}{^ ^}{^ ^}<link{^ ^}rel=\"stylesheet\"{^ ^}href=\"css/main.css\"{^ ^}type=\"text/css\"{^ ^}/>{#Return}{^}</head>{#Return}{^}{#Return}{^}<body>{#Return}{^}{#Return}{^}{^ ^}{^ ^}<h1></h1>{#Return}{^}{^ ^}{^ ^}<p></p>{#Return}{^}{#Return}{^}</body>{#Return}{^}</html>",
 "TKAOEP/TK-LS/P*EUPBG": "deeppink",
 "KHEBG/PWOBGS": "checkbox",
 "KPH*EPBT": "<!-- -->",
