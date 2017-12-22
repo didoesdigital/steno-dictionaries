@@ -15,6 +15,7 @@
 "EUPBG/SR-S": "<img src=\"{^}",
 "TKAOEP/TK-LS/P*EUPBG": "deeppink",
 "KHEBG/PWOBGS": "checkbox",
+"PW*UPBT": "button",
 "KPH*EPBT": "<!-- -->",
 "P-BGS": "{&px}",
 "PWR*": "<br>",
