@@ -1,4 +1,8 @@
 {
+"KHR-P": "{#Control_L(Up)}",
+"KHR-B": "{#Control_L(Down)}",
+"KHR-R": "{#Control_L(Left)}",
+"KHR-G": "{#Control_L(Right)}",
 "K*UT": "{#Super_L(x)}",
 "KPW": "{#Super_L(x)}",
 "KPWR": "{#Super_L(c)}",
