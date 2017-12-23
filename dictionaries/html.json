@@ -18,7 +18,7 @@
 "PW*UPBT": "button",
 "KPH*EPBT": "<!-- -->",
 "P-BGS": "{&px}",
-"PWR*": "<br>",
+"PWR*": "<br />",
 "RE/PWEBG/KA/PURPL": "rebeccapurple",
 "S*ED/TKEUPBGS": "z-index",
 "SKR*S": "scss",
