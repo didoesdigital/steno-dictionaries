@@ -1,4 +1,8 @@
 {
+"SRUPBLD": "vundle",
+"PWUPBLD": "bundle",
+"PHRUG": "plug",
+"STPREFBG": "{#Escape}{^}:x{^}",
 "SR*EUP": ":vsp{#Return}",
 "OEU/KRO*EU": "{^/\\c^}",
 "P-P": "{^.^}",
@@ -23,5 +27,5 @@
 "STPROEUFRL": "{^}{#Escape Escape shift(apostrophe) asterisk y i w e a Control_L(Alt_L(Shift_L(Super_L(s))))}",
 "T*EULD": "{^}~{^}",
 "TPHRORB": "{^}${^}",
-"WUZ/WUZ": "{}"
+"WUZ/WUZ": "{#}"
 }

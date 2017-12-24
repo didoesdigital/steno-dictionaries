@@ -1,4 +1,6 @@
 {
+"PHAEUL/TK-LS/TO": "mailto",
+"HR*EF": "href",
 "SKPWRABGS": "< />{#Left}{#Left}{#Left}{^}",
 "TEGT/TK-LS/KWRA*ER": "textarea",
 "SKP*P": "&nbsp;",
@@ -26,5 +28,5 @@
 "STKPW/TKEUPBGS": "z-index",
 "STKPWEUPBGS": "z-index",
 "TK*EUF": "div",
-"WUZ/WUZ": "{}"
+"WUZ/WUZ": "{#}"
 }

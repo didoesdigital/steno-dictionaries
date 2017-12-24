@@ -1,4 +1,12 @@
 {
+"R-B/TPH*FPB": "rbenv",
+"RAEUBG/TK-B/ROL": "rake db:rollback",
+"RAEUBG/TK-B/SAEUD": "rake db:seed",
+"RAEUBG/TK-B/SET": "rake db:setup",
+"RAEUBG/TK-B/SKAOEPL/TK*UPL": "db:schema:dump",
+"RAEUBG/TK-B/TKPWRAEUT": "rake db:migrate",
+"RAEUBG/TKPWRAEUT": "rake db:migrate",
+"REDZ/SEFR": "redis-server",
 "RO*EUB": "ruby",
 "*ERB/KHRO*EZ": "%>{^}",
 "*ERB/KPEBG": "{^}<%={^}",
@@ -34,5 +42,5 @@
 "TPHRARB/PWR-BGT/ROEUR": "flash[:error]",
 "TPHRARB/PWR-BGT/SKES": "flash[:success]",
 "TPHRARB/PWR-BGT/TPH-TS": "flash[:notice]",
-"WUZ/WUZ": "{}"
+"WUZ/WUZ": "{#}"
 }
