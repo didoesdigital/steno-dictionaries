@@ -1,4 +1,9 @@
 {
+"PHRA*EU": "{#AudioPlay}",
+"SROPL": "{#AudioRaiseVolume}",
+"SRO*PL": "{#AudioLowerVolume}",
+"TPH*EGT": "{#AudioNext}",
+"PHAO*UT": "{#AudioMute}",
 "PAO*EUPZ": "{#Super_L(option(Shift_L(bar)))}",
 "KPH*/TPEFBG": "{#Super_L(Escape)}",
 "-FRL": "{#Super_L(space)} {^}",
@@ -29,5 +34,5 @@
 "SKR*PB": "{#Super_L(Shift_L(4))}",
 "SKR*RPB": "{#Super_L(Control_L(Shift_L(4)))}",
 "TKPWAO*LG": "!g{#Return}",
-"WUZ/WUZ": "{}"
+"WUZ/WUZ": "{#}"
 }
