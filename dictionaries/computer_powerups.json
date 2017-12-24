@@ -1,4 +1,5 @@
 {
+"PAO*EUPZ": "{#Super_L(option(Shift_L(bar)))}",
 "KPH*/TPEFBG": "{#Super_L(Escape)}",
 "-FRL": "{#Super_L(space)} {^}",
 "A*FRL": "{#Super_L(space)} {^}",
