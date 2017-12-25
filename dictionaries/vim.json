@@ -12,7 +12,7 @@
 "TKPWRA*B": "{^}{#Escape}:g##y A{#Left} {#Left} {#Left} {#Left}",
 "SR*EUPL": "victim",
 "SR*F": "{^}{#Escape}{^}:w{#Return}",
-"SREUPL": "vim",
+"SREUPL": "{^}vim",
 "STPR*": "{>}{^h^}",
 "STPR*B": "{>}{#Control_L(f)}",
 "STPR*F": "{^}{#Escape}{^}:w{#Return}",
