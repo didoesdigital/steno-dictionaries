@@ -9,6 +9,7 @@
 "-FRL": "{#Super_L(space)} {^}",
 "A*FRL": "{#Super_L(space)} {^}",
 "TKO*": "{#Control_L(Alt_L(Super_L(Shift_L(o))))}",
+"TAO*EUPZ": "{#Control_L(Alt_L(Super_L(Shift_L(t))))}",
 "KPWR*": "{#command(option(c))}",
 "KPHR*R": "{#command(return)}",
 "SP-LT": "{#Control_L(space)}{^}",
