@@ -2,7 +2,7 @@
 "TKPWEUT/EUG": "gitignore",
 "PHERPBLGT": "mergetool",
 "KHEBGT": "checkout",
-"T*TS": "tig status",
+"T*TS": "{^}tig status",
 "TEUG": "tig",
 "TEUGS": "tig status",
 "TKPWEUT": "git",
@@ -35,7 +35,7 @@
 "TKPWEUT/KR*R": "git push origin HEAD:refs/for/master",
 "RE/SET/TK*RB/HARD/O*RPBLG/OEU/PHAFRT": "reset --hard origin/master",
 "PHERPBLG": "merge",
-"TKPWHERPBLG": "git merge",
+"TKPWHERPBLG": "{^}git merge",
 "TKPWEUT/HUB": "GitHub",
 "WUZ/WUZ": "{#}"
 }
