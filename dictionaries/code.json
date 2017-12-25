@@ -1,4 +1,7 @@
 {
+"AERG": "arg",
+"AERGS": "args",
+"SKP*D": "&&",
 "SHRAOEPT": "smtp",
 "SHRAO*EPT": "{>}smtp://{^}",
 "PWAEUS/TK-LS/TPHAEUPL": "basename",
