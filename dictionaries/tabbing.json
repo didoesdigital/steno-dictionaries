@@ -1,4 +1,6 @@
 {
+"TW-FB": "{#Super_L(bracketleft)}",
+"TW-LG": "{#Super_L(bracketright)}",
 "TW-B": "{#Super_L(grave)}",
 "TW-F": "{#Super_L(Shift_L(bracketleft))}",
 "TW-G": "{#Super_L(Tab)}",
