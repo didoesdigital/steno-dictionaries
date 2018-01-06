@@ -19,6 +19,8 @@
 "SHR-P": "{#Shift_L(Alt_L(Up))}",
 "SHR-R": "{#Shift_L(Alt_L(Left))}",
 "STP-RB": "{#Shift_L(Alt_L(Left))}",
+"STP-FPL": "{#Shift_L(Super_L(Left))}",
+"STP-RBG": "{#Shift_L(Super_L(Right))}",
 "SP-B": "{#space}",
 "SP-P": "{#Shift_L(space)}",
 "STP-B": "{#Shift_L(Down)}",
