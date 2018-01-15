@@ -1,4 +1,11 @@
 {
+"H*EGDZ": "<h1></h1>{#Left}{#Left}{#Left}{#Left}{#Left}{^^}",
+"1*EDZ": "<h1></h1>{#Left}{#Left}{#Left}{#Left}{#Left}{^^}",
+"2*EDZ": "<h2></h2>{#Left}{#Left}{#Left}{#Left}{#Left}{^^}",
+"3*EDZ": "<h3></h3>{#Left}{#Left}{#Left}{#Left}{#Left}{^^}",
+"4*EDZ": "<h4></h4>{#Left}{#Left}{#Left}{#Left}{#Left}{^^}",
+"5*EDZ": "<h5></h5>{#Left}{#Left}{#Left}{#Left}{#Left}{^^}",
+"KO*EDZ": "<code></code>{#Left}{#Left}{#Left}{#Left}{#Left}{#Left}{#Left}{^^}",
 "PHAEUL/TK-LS/TO": "mailto",
 "HR*EF": "href",
 "SKPWRABGS": "< />{#Left}{#Left}{#Left}{^}",
