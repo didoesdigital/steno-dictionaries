@@ -1,4 +1,5 @@
 {
+"PWRES/*T": "blest",
 "AOPB/WA*RD": "onward",
 "TKR*UPBG/*EPB": "drunken",
 "HORS/PH*EPB": "horsemen",
@@ -25,7 +26,7 @@
 "EUPB/SROL/TAEURL": "involuntarily",
 "S*EUFLGS": "civilisation",
 "SHAEUPL/-FL": "shameful",
-"PERPB/APBLG/-S": "personage",
+"PERPB/APBLG": "personage",
 "PERPB/APBLG/-S": "personages",
 "TPHOEBL/PHA*PB": "nobleman",
 "PWE/TPAUL": "befallen",
