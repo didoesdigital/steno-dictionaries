@@ -18,6 +18,8 @@
 "HAOUR/EUS/TEUBG": "heuristic",
 "HROE/TPEUD/ELT": "low-fidelity",
 "HAOEU/TPEUD/ELT": "high-fidelity",
+"HROE/TP*EU": "lo-fi",
+"HAOEU/TP*EU": "hi-fi",
 "TKPWRAEU/PWOBGS": "graybox",
 "UPB/SUB/SKRAOEUB": "unsubscribe",
 "TPHA*F": "nav",
