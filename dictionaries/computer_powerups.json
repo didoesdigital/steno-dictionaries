@@ -1,4 +1,5 @@
 {
+"PHA*Z": "{#Control_L(Alt_L(Super_L(Shift_L(m))))}",
 "KHA*RZ": "{#Control_L(Super_L(space))}",
 "STP*R": "{#Shift_L(Return)}",
 "O*EURPLT": "{#Super_L(backslash)}",
