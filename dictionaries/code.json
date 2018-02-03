@@ -85,6 +85,8 @@
 "P-B/KO*EUP": "pbcopy",
 "P-B/PAEUFT": "pbpaste",
 "P-P/SKWR-S": "{^.^}js",
+"SKWR-S": "js",
+"SKWR*S": "JS",
 "P-PS": "../{^}",
 "PAEPBG/STA*RT": "passenger start",
 "PAPB/TKOBG": "pandoc",
