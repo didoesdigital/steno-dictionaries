@@ -803,7 +803,7 @@ direction
 chair
 due
 support
-tom
+Tom
 date
 waiting
 Christian
@@ -2696,7 +2696,7 @@ Francis
 holder
 involved
 sunshine
-dutch
+Dutch
 council
 princes
 ate
@@ -2759,7 +2759,7 @@ establishment
 vote
 muttered
 thither
-oxford
+Oxford
 cavalry
 lofty
 endure
@@ -4013,7 +4013,7 @@ vivid
 woe
 calculate
 killing
-laura
+Laura
 savages
 wasted
 trifle
@@ -5224,7 +5224,7 @@ reflections
 crops
 pushing
 proves
-jimmy
+Jimmy
 pathetic
 imperfect
 haughty
@@ -8053,7 +8053,7 @@ courageous
 carpenter
 Sundays
 concluding
-danish
+Danish
 steer
 influential
 surround
@@ -8644,7 +8644,7 @@ pondered
 fringe
 raiment
 Henrietta
-wellington
+Wellington
 foreman
 feat
 thirteenth
@@ -8812,7 +8812,7 @@ allude
 corrupted
 thorn
 junior
-tony
+Tony
 Calcutta
 re
 Holt
@@ -9208,7 +9208,7 @@ brake
 nut
 stability
 crafty
-kirk
+Kirk
 bough
 momentous
 albeit
