@@ -1,4 +1,11 @@
 {
+"KPHEPB/TAER": "commentary",
+"KPHEPB/TAEUR": "commentary",
+"KOPL/-PLT/TAEUR": "commentary",
+"KOPL/-PLTD": "commented",
+"KOPL/-PLTS": "comments",
+"KPHEPLT": "comment",
+"KOPLT": "comment",
 "*EUBS": "issues",
 "*URB": "issue",
 "TPEURBGS/-S": "fixes",
