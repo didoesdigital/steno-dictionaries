@@ -1,5 +1,8 @@
 {
 "KHRO*D": "cdo",
+"KHRO*D/SPWAO*UT": "cdo s###g | w {#Left} {#Left} {#Left} {#Left} {#Left} {#Left} {#Left}",
+"STPREG": "{^}{#Escape}:cn{#Return}",
+"STPR*EG": "{^}{#Escape}:cp{#Return}",
 "SREUPL/KWRUPL": "vimium",
 "SRUPBLD": "vundle",
 "PWUPBLD": "bundle",
