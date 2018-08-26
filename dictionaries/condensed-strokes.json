@@ -1,4 +1,9 @@
 {
+"SPWEPBD/-D": "intended",
+"SPWEPBD/A*L": "intentional",
+"UPB/SPWEPBD/-D": "unintended",
+"UPB/SPWEPBD/A*L": "unintentional",
+"UPB/SPWEPBGS/HREU": "unintentionally",
 "EUPB/KRAOEFD": "increased",
 "REFRB/-D": "reserved",
 "RE/SRAOUS": "reviews",
