@@ -1,6 +1,6 @@
 {
 "SKOEUL": "console",
-"SKO*EUL": "{#Super_L(Shift_L(j))}",
+"SKO*EUL": "{#Super_L(Alt_L(j))}",
 "A*FD": "asdf",
 "-P/TKPWEUT": ".git",
 "-P/TKPWEUT/EUG": ".gitignore",
