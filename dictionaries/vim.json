@@ -1,4 +1,6 @@
 {
+"SROEUPBD": "{^}ys{^}",
+"SRO*EUPBD": "{^}yS{^}",
 "KHRO*D": "cdo",
 "KHRO*D/SPWAO*UT": "cdo s###g | w {#Left} {#Left} {#Left} {#Left} {#Left} {#Left} {#Left}",
 "STPREG": "{^}{#Escape}:cn{#Return}",
