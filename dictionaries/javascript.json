@@ -10,6 +10,7 @@
 "KW-LS": "{^==^}",
 "KW*LS": "{^===^}",
 "E6S/TP*UPBGS": "() => \\{\\}{#Left}{^}",
+"SKWR-S/TP*UPBGS": "{>}function () \\{\\}{#Left}{^}",
 "SKWR*S/TP*UPBGS": "{>}function () \\{\\}{#Left}{^}",
 "TH-P": "{>}this{^.^}",
 "TKPWET/HREPLT/PWEU/EUD": "{>}getElementById",
