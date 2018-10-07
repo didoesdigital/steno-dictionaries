@@ -7,6 +7,7 @@
 "KHA*RZ": "{#Control_L(Super_L(space))}",
 "STP*R": "{#Shift_L(Return)}",
 "R-RB": "{#Shift_L(Return)}",
+"R*RB": "{#Shift_L(Return)}",
 "KPHO*EU": "{#Super_L(backslash)}",
 "O*EURPLT": "{#Super_L(backslash)}",
 "O*EURPBLT": "{#Super_L(Shift_L(backslash))}",
