@@ -1,4 +1,12 @@
 {
+"PO*PB": "Object",
+"PO*PB/P-P": "Object.{^}",
+"PO*PB/A/SAOEUPB": "Object.assign({},){#Left}{^}",
+"PO*PB/A/SAO*EUPB": "Object.assign({},){#Left}{^}",
+"O*B/P-P": "Object.{^}",
+"O*B/P-P/A/SAOEUPB": "Object.assign({}, ){#Left}{^}",
+"O*B/P-P/A/SAOEUPB": "Object.assign({}, ){#Left}{^}",
+"O*B/A/SAO*EUPB": "Object.assign({},){#Left}{^}",
 "SKWR-S": "js",
 "SKWR-S/SKWR-S": "JS",
 "E6S": "es6",

@@ -1,4 +1,9 @@
 {
+"O*B/P-P/A/SAOEUPB/STAEUT": "Object.assign({}, this.state.){#Left}{^}",
+"O*B/P-P/A/SAOEUPB/STA*EUT": "Object.assign({}, this.state.){#Left}{^}",
+"O*B/P-P/A/SAOEUPB/STA*ET": "Object.assign({}, this.state.){#Left}{^}",
+"O*B/A/SAO*EUPB": "Object.assign({}, this.state){#Left}{^}",
+"PO*PB/A/SAO*EUPB": "Object.assign({}, this.state){#Left}{^}",
 "RERPBD/PR*EPBS": "{>}render()",
 "KRUBGT/O*R/PR*EPBS": "{>}constructor()",
 "KPOEPBT/TKEUD/PHO*UPBT": "{>}componentDidMount",
