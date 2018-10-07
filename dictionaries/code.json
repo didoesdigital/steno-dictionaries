@@ -40,6 +40,7 @@
 "TKPW/TK-LS/TO": "goto",
 "STR*UBGT": "struct",
 "KO*PBT": "const",
+"KO*PBS": "const",
 "PR*EF": "prev",
 "P*PLD": "{^}.md",
 "R-PL/TK*EUR": "rmdir",
