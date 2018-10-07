@@ -1,6 +1,13 @@
 {
-"TKPWET/EL/*EPLT/PWEU/EUD": "getElementById",
-"TKPWET/EL/*EPLT/PWEU/*EUD": "getElementById",
+"SKW-LS": "{ }=={ }",
+"SKW*LS": "{ }==={ }",
+"KW-LS": "{^==^}",
+"KW*LS": "{^===^}",
+"E6S/TP*UPBGS": "() => \\{\\}{#Left}{^}",
+"SKWR*S/TP*UPBGS": "{>}function () \\{\\}{#Left}{^}",
+"TH-P": "{>}this{^.^}",
+"TKPWET/HREPLT/PWEU/EUD": "{>}getElementById",
+"TKPWET/HREPLT/PWEU/*EUD": "{>}getElementById",
 "*E/S*/HREUPBT": "eslint",
 "*E/S*/HR*EUPBT": "eslint",
 "WUZ/WUZ": "{#}"
