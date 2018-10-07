@@ -1,4 +1,8 @@
 {
+"SKWR-S": "js",
+"SKWR-S/SKWR-S": "JS",
+"E6S": "es6",
+"E6S/E6S": "ES6",
 "SKW-LS": "{ }=={ }",
 "SKW*LS": "{ }==={ }",
 "KW-LS": "{^==^}",
