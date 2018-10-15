@@ -4,6 +4,8 @@
 "SK*EFP/STPH-G": "{#Super_L(Control_L(Right))}",
 "SK*EFP/STPH-R": "{#Super_L(Control_L(Left))}",
 "SK*EFP/STPH-B": "{#Super_L(Control_L(Down))}",
+"SK*EFP/PHR-P": "{#Alt_L(Super_L(Up))}",
+"SK*EFP/PHR-B": "{#Alt_L(Super_L(Down))}",
 "A*ERPLT": "{#Super_L(apostrophe)}",
 "WUZ/WUZ": "{}"
 }
