@@ -20,7 +20,7 @@
 "TPOEL/-D": "foaled",
 "TKPWOR/-D": "gored",
 "TKPWRAEU/-D": "grayed",
-"TKPRAEU/-D": "greyed",
+"TKPWRA*EU/-D": "greyed",
 "PWUR/-D": "burred",
 "PWAR/-D": "barred",
 "PWAUL/-D": "balled",
