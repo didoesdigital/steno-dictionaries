@@ -28,7 +28,9 @@
 "SKHRAPL/KH-FG": "{!} {`}{-|}",
 "STKPWHR-FPLT/KW-TS": "!”",
 "KW-RBGTS": ",”",
-"TP-P": "{‘^}",
-"TP-L": "{^’}",
+"TP-P": "{~|'^}",
+"TP-L": "{^~|'}",
+"TP-P/TP-P": "{~|‘^}",
+"TP-L/TP-L": "{^~|’}",
 "WUZ/WUZ": "{}"
 }
