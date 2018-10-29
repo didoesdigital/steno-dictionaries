@@ -1,4 +1,6 @@
 {
+"SKHROG": "console.log(){#Left}{^}",
+"SKHRO*G": "console.log(\"\"){#Left}{#Left}{^}",
 "PO*PB": "Object",
 "PO*PB/P-P": "Object.{^}",
 "PO*PB/A/SAOEUPB": "Object.assign({},){#Left}{^}",
