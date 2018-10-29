@@ -11,6 +11,7 @@
 "SKWR-S/SKWR-S": "JS",
 "E6S": "es6",
 "E6S/E6S": "ES6",
+"SKWA*LS": "{ }={ }",
 "SKW-LS": "{ }=={ }",
 "SKW*LS": "{ }==={ }",
 "SKW-LS/KWR-GS": "{ }=={ }\"{^}",
