@@ -5,5 +5,5 @@
 "SROEUFRS/STPH-B": "{#Control_L(Alt_L(Shift_L(Down)))}",
 "SROEUFRS/STPH-P": "{#Control_L(Alt_L(Shift_L(Up)))}",
 "SROEUFRS/STPH-R": "{#Control_L(Alt_L(Shift_L(Left)))}",
-"WUZ/WUZ": "{}"
+"WUZ/WUZ": "{#}"
 }

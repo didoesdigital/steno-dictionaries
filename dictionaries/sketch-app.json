@@ -7,5 +7,5 @@
 "SK*EFP/PHR-P": "{#Alt_L(Super_L(Up))}",
 "SK*EFP/PHR-B": "{#Alt_L(Super_L(Down))}",
 "A*ERPLT": "{#Super_L(apostrophe)}",
-"WUZ/WUZ": "{}"
+"WUZ/WUZ": "{#}"
 }

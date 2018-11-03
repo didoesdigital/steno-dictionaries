@@ -115,5 +115,5 @@
 "KP*RBL": "{#Control_L(x)}",
 "KWR*RBL": "{#Control_L(y)}",
 "STKPW*RBL": "{#Control_L(z)}",
-"WUZ/WUZ": "{}"
+"WUZ/WUZ": "{#}"
 }

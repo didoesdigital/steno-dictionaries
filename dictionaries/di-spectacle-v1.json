@@ -12,5 +12,5 @@
 "SP-RB": "{#Control_L(Alt_L(Super_L(j)))}",
 "SP-RBG": "{#Control_L(Alt_L(Super_L(Down)))}",
 "SP-S": "{#Control_L(Alt_L(Super_L(s)))}",
-"WUZ/WUZ": "{}"
+"WUZ/WUZ": "{#}"
 }
