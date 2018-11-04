@@ -102,9 +102,9 @@ Here are all the dictionaries included:
 
 ## English Dictionaries
 
-- A main [`dict.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict.json) dictionary, containing many English words using briefs and phonetic strokes, but contains fewer misstrokes.
-- A [`top-10000-project-gutenberg-words.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/top-10000-project-gutenberg-words.json) dictionary, containing 10,000 common words from [Project Gutenberg](https://www.gutenberg.org/). This is a great starter dictionary.
-- A [`google-10000-english.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/google-10000-english.json) dictionary, including 10,000 popular English words by N-grams; credit goes to [Josh Kaufman's typing word list from Google's Trillion Word Corpus](https://github.com/first20hours/google-10000-english).
+- A main [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict.json) dictionary, containing many English words using briefs and phonetic strokes, but contains fewer misstrokes.
+- A [`top-10000-project-gutenberg-words.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/top-10000-project-gutenberg-words.json) dictionary, containing 10,000 common words from [Project Gutenberg](https://www.gutenberg.org/). This is a great starter dictionary.
+- A [`google-10000-english.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/google-10000-english.json) dictionary, including 10,000 popular English words by N-grams; credit goes to [Josh Kaufman's typing word list from Google's Trillion Word Corpus](https://github.com/first20hours/google-10000-english).
 
 
 
@@ -158,9 +158,9 @@ The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plove
 
 ## Vocabulary Dictionaries
 
-- [`nouns.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/nouns.json) contains a few hundred additional words.
-- [`pronouns.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/pronouns.json) contains a few hundred pronouns.
-- [`condensed-strokes.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/condensed-strokes.json) contains a combinations of existing strokes in the main Plover dictionary so that they appear in searches when you look up strokes. These words can already be written using the default Plover dictionary and prefix/suffix strokes or punctuation strokes. It can be useful for improving dictionary lookups, but is not needed to write the words.
+- [`nouns.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/nouns.json) contains a few hundred additional words.
+- [`pronouns.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/pronouns.json) contains a few hundred pronouns.
+- [`condensed-strokes.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/condensed-strokes.json) contains a combinations of existing strokes in the main Plover dictionary so that they appear in searches when you look up strokes. These words can already be written using the default Plover dictionary and prefix/suffix strokes or punctuation strokes. It can be useful for improving dictionary lookups, but is not needed to write the words.
 
 
 
@@ -168,8 +168,8 @@ The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plove
 
 Based on [Plover's default `main.json` dictionary](https://github.com/openstenoproject/plover/blob/master/plover/assets/main.json), this repo contains 2 alternative fingerspelling dictionaries:
 
-- A [`fingerspelling-FPLT.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/fingerspelling-FPLT.json) dictionary, using fingerspelled letters on the left hand and `-FPLT` on the right hand.
-- A [`fingerspelling-RBGS.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/fingerspelling-RBGS.json) dictionary, using fingerspelled letters on the left hand and `-RBGS` on the right hand.
+- A [`fingerspelling-FPLT.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/fingerspelling-FPLT.json) dictionary, using fingerspelled letters on the left hand and `-FPLT` on the right hand.
+- A [`fingerspelling-RBGS.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/fingerspelling-RBGS.json) dictionary, using fingerspelled letters on the left hand and `-RBGS` on the right hand.
 
 
 
@@ -177,7 +177,7 @@ Based on [Plover's default `main.json` dictionary](https://github.com/openstenop
 
 This dictionary lets you navigate and edit text efficiently on a Mac. You can move the cursor by letter, word, or line, select while doing so, and also backspace or forward delete by character, word, or line.
 
-To use the following briefs, copy the [`navigation.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/navigation.json) file into your dictionary folder and add it to your Plover config:
+To use the following briefs, copy the [`navigation.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/navigation.json) file into your dictionary folder and add it to your Plover config:
 
 As per Plover's default, you use `-R`, `-P`, `-B`, and `-G` for left, up, down, and right.
 
@@ -199,7 +199,7 @@ Use `SP-B` to space up/forward and `SP-P` to space down/backward. That is, in th
 
 Use `THRAB` for ⌥ ⇓ and `THRAP` for ⌥ ⇑.
 
-The complementary [`tabbing.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/navigation.json) dictionary also lets you switch tabs, windows, and apps.
+The complementary [`tabbing.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/navigation.json) dictionary also lets you switch tabs, windows, and apps.
 
 Use `TW-` and a direction for tabbing. Adding `-F`/`-L` gives you ⌘⇧[/⌘⇧] to switch tabs forward and backward. Adding `-B`/`-G` gives you ⌘\`/⌘⇧\` to switch windows forward and backward. Adding `-G`/`-R` gives you ⌘Tab/⌘⇧Tab to switch applications forward and backward. Adding `-FB`/`-LG` gives you ⌘[/⌘] to navigate forwards and backwards in a browser. Adding a star to `TW*G` gives you ⌘Tab Tab to switch 2 applications.
 
@@ -207,7 +207,7 @@ Use `TW-` and a direction for tabbing. Adding `-F`/`-L` gives you ⌘⇧[/⌘⇧
 
 ## Computer Powerups Dictionary
 
-This dictionary was designed for running commands on a Mac. Copy the [`computer-powerups.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/computer-powerups.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
+This dictionary was designed for running commands on a Mac. Copy the [`computer-powerups.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/computer-powerups.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
 
 * Tab and Space keys `"STA*PB": "{#Tab}{#space}",`
 * Mac Character Viewer `"KHA*RZ": "{#Control_L(Super_L(space))}",`
@@ -237,7 +237,7 @@ This dictionary was designed for running commands on a Mac. Copy the [`computer-
 
 ## Punctuation Dictionary
 
-Copy the [`punctuation.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/punctuation.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
+Copy the [`punctuation.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/punctuation.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
 
 * . `TP-PL` =&gt; `F-PL` (<strong>f</strong>u<strong>ll</strong> sto<strong>p</strong>, spaced)
 * . `P-P` (decimal <strong>p</strong>oint, unspaced)
@@ -300,7 +300,7 @@ Copy the [`punctuation.json`](https://github.com/dimonster/plover-dictionaries/r
 
 ### Punctuation Powerups Dictionary
 
-- [`punctuation-powerups.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/punctuation-powerups.json) contains additional punctuation briefs such as:
+- [`punctuation-powerups.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/punctuation-powerups.json) contains additional punctuation briefs such as:
     - pairs of punctuation (`"PWRABGS": "{^}<>{#Left}{^}"`),
     - smart/curly quotation marks (`"TP-L/TP-L": "{^’}"`), and
     - punctuation that carries capitalisation  (`"KW-GS": "{~|“^}"`).
@@ -311,7 +311,7 @@ Copy the [`punctuation.json`](https://github.com/dimonster/plover-dictionaries/r
 
 This dictionary uses common briefs for punctuation, but with translations that suppress surrounding spaces (before and after the punctuation) for more precise input. This might be handy for programming, for example.
 
-To use the following briefs, copy the [`unspaced-punctuation.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/unspaced-punctuation.json) file into your dictionary folder and add it to your Plover config:
+To use the following briefs, copy the [`unspaced-punctuation.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/unspaced-punctuation.json) file into your dictionary folder and add it to your Plover config:
 
 * `EPB/TKA*RB`: –
 * `EPL/TKA*RB`: —
@@ -384,10 +384,10 @@ Similarly with single quotation marks (not included in this dictionary):
 
 ## Symbols Dictionaries
 
-- [`symbols.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols.json) contains common symbols, such as degrees (`"SPWO*L/TKEGS": "°"`) and trademark (`"SPWO*L/TRAEUD/PHARBG": "{^}™"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"TRAEUD/PHARBG": "trademark",` and `"TKEGS": "degrees"`).
-- [`symbols-briefs.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols-briefs.json) contains briefs for symbols, such as `"TK*EGS": "°"`.
-- [`symbols-currency.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols-currency.json) contains briefs for currency symbols, such as cent (`"SPWO*L/KREPBT": "¢"`) and dollar (`"SPWO*L/TKHRAR": "$"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"KREPBT": "cent"` and `"TKHRAR": "dollar"`).
-- [`symbols-currency-culled.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols-currency-culled.json) contains only these currency symbols:
+- [`symbols.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/symbols.json) contains common symbols, such as degrees (`"SPWO*L/TKEGS": "°"`) and trademark (`"SPWO*L/TRAEUD/PHARBG": "{^}™"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"TRAEUD/PHARBG": "trademark",` and `"TKEGS": "degrees"`).
+- [`symbols-briefs.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/symbols-briefs.json) contains briefs for symbols, such as `"TK*EGS": "°"`.
+- [`symbols-currency.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/symbols-currency.json) contains briefs for currency symbols, such as cent (`"SPWO*L/KREPBT": "¢"`) and dollar (`"SPWO*L/TKHRAR": "$"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"KREPBT": "cent"` and `"TKHRAR": "dollar"`).
+- [`symbols-currency-culled.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/symbols-currency-culled.json) contains only these currency symbols:
 
 ```json
 "SPWO*L/KREPBT": "¢",
@@ -401,7 +401,7 @@ Similarly with single quotation marks (not included in this dictionary):
 
 ## Currency Dictionaries
 
-[`currency.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/currency.json) contains briefs for currency words, such as AUD (`"*AUD": "AUD",`) and dollar (`"SWEUS/TPRAEPBG": "Swiss franc",`), a currency formatting stroke (`"K*RPBS": "{*($c)}",` so you can stroke `34/P-P/5/K*RPBS` to write $34.50), as well as briefs:
+[`currency.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/currency.json) contains briefs for currency words, such as AUD (`"*AUD": "AUD",`) and dollar (`"SWEUS/TPRAEPBG": "Swiss franc",`), a currency formatting stroke (`"K*RPBS": "{*($c)}",` so you can stroke `34/P-P/5/K*RPBS` to write $34.50), as well as briefs:
 
 * `"TKHRAR": "dollar",`
 * `"TKHRARS": "dollars",`
@@ -414,7 +414,7 @@ Similarly with single quotation marks (not included in this dictionary):
 
 You might also like the related symbols currency dictionary:
 
-- [`symbols-currency.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols-currency.json) contains briefs for currency symbols, such as cent (`"SPWO*L/KREPBT": "¢"`) and dollar (`"SPWO*L/TKHRAR": "$"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"KREPBT": "cent"` and `"TKHRAR": "dollar"`).
+- [`symbols-currency.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/symbols-currency.json) contains briefs for currency symbols, such as cent (`"SPWO*L/KREPBT": "¢"`) and dollar (`"SPWO*L/TKHRAR": "$"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"KREPBT": "cent"` and `"TKHRAR": "dollar"`).
 
 
 
@@ -422,9 +422,9 @@ You might also like the related symbols currency dictionary:
 
 There are two Australian English companion dictionaries, each intended to be used in combination with the default Plover dictionary. You probably only need to use ONE of these.
 
-One overrides the default briefs with Australian variations, and also includes Australian prefixes, suffixes, alternative spellings, and vocabulary.  To use this dictionary, copy the [`dict-en-AU.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict-en-AU.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary so that it overrides default Plover briefs.
+One overrides the default briefs with Australian variations, and also includes Australian prefixes, suffixes, alternative spellings, and vocabulary.  To use this dictionary, copy the [`dict-en-AU.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict-en-AU.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary so that it overrides default Plover briefs.
 
-The other dictionary, [`dict-en-AU-with-extra-stroke.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict-en-AU-with-extra-stroke.json), uses a kind of suffix stroke, `/A*U`, after every default Plover theory English brief to translate the word to Australian English. For example, to write the American spelling of "empathize", you would stroke `*EPL/THAOEUS`. Then, to write "empathise" you would add `/A*U`. That is, this dictionary’s entry for "empathise" is `"*EPL/THAOEUS/A*U": "empathise",`. To use this dictionary, copy the [`dict-en-AU-with-extra-stroke.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict-en-AU-with-extra-stroke.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary.
+The other dictionary, [`dict-en-AU-with-extra-stroke.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict-en-AU-with-extra-stroke.json), uses a kind of suffix stroke, `/A*U`, after every default Plover theory English brief to translate the word to Australian English. For example, to write the American spelling of "empathize", you would stroke `*EPL/THAOEUS`. Then, to write "empathise" you would add `/A*U`. That is, this dictionary’s entry for "empathise" is `"*EPL/THAOEUS/A*U": "empathise",`. To use this dictionary, copy the [`dict-en-AU-with-extra-stroke.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict-en-AU-with-extra-stroke.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary.
 
 
 
@@ -498,7 +498,7 @@ The `*EG` brief for "e.g." is overridden by the "eing" suffix for the Australian
 
 ## Vim Dictionary
 
-Copy the [`vim.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/vim.json) file into your dictionary folder and add it to your Plover config to use the following briefs. Note, most strokes use `STPR` to indicate vim (`SR` => `V`):
+Copy the [`vim.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/vim.json) file into your dictionary folder and add it to your Plover config to use the following briefs. Note, most strokes use `STPR` to indicate vim (`SR` => `V`):
 
 * `"SREUPL"`: Phonetic brief for "vim".
 * `"SR*EUPL"`: Restore brief for "victim" using additional star.
@@ -581,7 +581,7 @@ Copy the [`vim.json`](https://github.com/dimonster/plover-dictionaries/raw/maste
     - `"STKPW*RBL": "{#Control_L(z)}",`
 
 * `"RO*RB"` to hit Return, Escape, and O for leaving cursor inside a function after writing a pair of brackets.
-* `"TPH*EG"` to move to the next markdown header and move that heading’s line to the top of the window using [vim-markdown](https://github.com/dimonster/vim-markdown)
+* `"TPH*EG"` to move to the next markdown header and move that heading’s line to the top of the window using [vim-markdown](https://github.com/didoesdigital/vim-markdown)
 * `"SROEUPBD": "{^}ys{^}",` and `"SRO*EUPBD": "{^}yS{^}",` for yank surround using [vim-surround](https://github.com/tpope/vim-surround)
 `"KHRO*D/SPWAO*UT"` to use `cdo` and `s###g | w` substitute with a write between each substitution.
 * `"STPREG"` and `STPR*EG` to go to next and previous errors (using `:cn` and `:cp`).
@@ -590,7 +590,7 @@ Copy the [`vim.json`](https://github.com/dimonster/plover-dictionaries/raw/maste
 
 ## Git Dictionary
 
-Copy the [`git.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/git.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
+Copy the [`git.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/git.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
 
 * "git" `TKPWEUT`
 * "add" `AD`
@@ -630,7 +630,7 @@ Copy the [`git.json`](https://github.com/dimonster/plover-dictionaries/raw/maste
 
 ## Ruby Dictionary
 
-Copy the [`ruby.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/ruby.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
+Copy the [`ruby.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/ruby.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
 
 * "%>" `*ERB/KHRO*EZ` (<strong>ERB close</strong>ing tag)
 * "<%=" `*ERB/KPEBG` (<strong>ERB</strong> e<strong>xec</strong>ute tag)
@@ -670,28 +670,28 @@ Copy the [`ruby.json`](https://github.com/dimonster/plover-dictionaries/raw/mast
 
 ## Technical Dictionaries
 
-- Copy the [`html.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/html.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"HR*EF": "href",`.
-- Copy the [`css-alignment.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/css-alignment.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"TPHREBGS": "flex",`.
-- Copy the [`css-declarations.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/css-declarations.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"KA*LG": "calc",`.
-- Copy the [`css-media-object.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/css-media-object.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"*EUPBLG": "img",`.
-- Copy the [`javascript.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/javascript.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"TKPWET/EL/*EPLT/PWEU/EUD": "getElementById",`.
-- Copy the [`react.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/react.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"TH-P/SET/STA*ET/PR*EPBS": "{>}this.setState()",`.
-- Copy the [`python.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/python.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"PAOEU/S*FR": "python -m SimpleHTTPServer",`.
-- Copy the [`ux-design.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/ux-design.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"AOUBLT": "usability",`.
-- Copy the [`sketch-app.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/sketch-app.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"SK*EFP/PHR-P": "{#Alt_L(Super_L(Up))}",` to move layers.
-- Copy the [`code.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/code.json) file into your dictionary folder and add it to your Plover config to use various briefs relating to coding and the command line.
+- Copy the [`html.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/html.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"HR*EF": "href",`.
+- Copy the [`css-alignment.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/css-alignment.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"TPHREBGS": "flex",`.
+- Copy the [`css-declarations.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/css-declarations.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"KA*LG": "calc",`.
+- Copy the [`css-media-object.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/css-media-object.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"*EUPBLG": "img",`.
+- Copy the [`javascript.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/javascript.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"TKPWET/EL/*EPLT/PWEU/EUD": "getElementById",`.
+- Copy the [`react.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/react.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"TH-P/SET/STA*ET/PR*EPBS": "{>}this.setState()",`.
+- Copy the [`python.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/python.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"PAOEU/S*FR": "python -m SimpleHTTPServer",`.
+- Copy the [`ux-design.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/ux-design.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"AOUBLT": "usability",`.
+- Copy the [`sketch-app.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/sketch-app.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"SK*EFP/PHR-P": "{#Alt_L(Super_L(Up))}",` to move layers.
+- Copy the [`code.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/code.json) file into your dictionary folder and add it to your Plover config to use various briefs relating to coding and the command line.
 
 
 
 ## Common Words Dictionary
 
-This dictionary consists of common words already available in the default Plover dictionary. If you need only the common words for some reason, copy the [`common-words.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/common-words.json) file into your dictionary folder and add it to your Plover config to use the briefs for a thousand or so common English words.
+This dictionary consists of common words already available in the default Plover dictionary. If you need only the common words for some reason, copy the [`common-words.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/common-words.json) file into your dictionary folder and add it to your Plover config to use the briefs for a thousand or so common English words.
 
 
 
 # Contributing
 
-If you notice a misstroke, please mention it. This will help future stenographers learning from Typey Type for Stenographers have a better experience learning stenography. The easiest way to help is to [create a new issue](https://github.com/dimonster/steno-dictionaries/issues/new) for each misstroke or set of misstrokes you find.
+If you notice a misstroke, please mention it. This will help future stenographers learning from Typey Type for Stenographers have a better experience learning stenography. The easiest way to help is to [create a new issue](https://github.com/didoesdigital/steno-dictionaries/issues/new) for each misstroke or set of misstrokes you find.
 
 
 
