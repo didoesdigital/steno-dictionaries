@@ -1,8 +1,42 @@
-# Plover Dictionaries
+# Steno Dictionaries
 
-[Plover](http://stenoknight.com/wiki/FAQ#What_is_Plover.3F) steno dictionaries in JSON format.
+This repository contains Di’s stenography dictionaries used by [Typey Type for Stenographers](https://didoesdigital.com/typey-type/). The dictionaries are in JSON format and use [Plover](http://stenoknight.com/wiki/FAQ#What_is_Plover.3F) theory.
 
-## Table of Contents
+[Typey Type’s dictionary](https://didoesdigital.com/typey-type/dictionaries/typey-type/typey-type/) is generated from this subset of this repo’s dictionaries:
+
+- `abbreviations.json`
+- `briefs.json`
+- `condensed-strokes.json`
+- `currency.json`
+- `dict.json`
+- `dict-en-AU-phonetic.json`
+- `dict-en-AU-vocab.json`
+- `dict-en-AU-with-extra-stroke.json`
+- `nouns.json`
+- `numbers.json`
+- `numbers-powerups.json`
+- `pronouns.json`
+- `punctuation-di.json`
+- `punctuation-powerups.json`
+- `punctuation-unspaced.json`
+- `symbols.json`
+- `symbols-briefs.json`
+- `symbols-currency.json`
+- `top-10000-english-words.json`
+- `top-10000-project-gutenberg-words.json`
+- `top-level-domains.json`
+
+The majority of Typey Type’s dictionary is from `dict.json`. It follows [Plover's default `main.json` dictionary](https://github.com/openstenoproject/plover/blob/master/plover/assets/main.json) with misstrokes removed from the top 10,000 words. You can use this dictionary instead of Plover’s.
+
+**The aim is to remove all the misstrokes from `dict.json` to give new stenographers greater confidence in learning new briefs.** The first step is to remove all the misstrokes for the *shortest* available brief for every word. If there’s a misstroke in a longer word, it is less likely to be suggested by Typey Type or dictionary look up tools.
+
+If you notice any misstrokes, see the Contributing guide below.
+
+
+
+# Dictionaries
+
+Here are all the dictionaries included:
 
 * [abbreviations.json](dictionaries/abbreviations.json)
 * [apps.json](dictionaries/apps.json)
@@ -57,8 +91,8 @@
 * [tabbing.json](dictionaries/tabbing.json)
 * [top-100-words.json](dictionaries/top-100-words.json)
 * [top-1000-words.json](dictionaries/top-1000-words.json)
-* [top-10000-english-words.json](dictionaries/top-10000-english-words.json)
 * [top-10000-project-gutenberg-words.json](dictionaries/top-10000-project-gutenberg-words.json)
+* [top-10000-english-words.json](dictionaries/top-10000-english-words.json)
 * [top-level-domains.json](dictionaries/top-level-domains.json)
 * [ux-design.json](dictionaries/ux-design.json)
 * [vim.json](dictionaries/vim.json)
@@ -66,20 +100,66 @@
 
 
 
-## Main Dictionary
-
-Based on [Plover's default `main.json` dictionary](https://github.com/openstenoproject/plover/blob/master/plover/assets/main.json), this repo contains:
+## English Dictionaries
 
 - A main [`dict.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict.json) dictionary, containing many English words using briefs and phonetic strokes, but contains fewer misstrokes.
-- A [`google-1000-english.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/google-1000-english.json) dictionary, including 1000 popular English words by N-grams; credit goes to [Josh Kaufman's typing word list from Google's Trillion Word Corpus](https://github.com/first20hours/google-10000-english). This might be a good training dictionary.
-- A [`minimal-plover-dict.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/minimal-plover-dict.json) dictionary, using the main `dict.json` minus all the excess strokes and misstrokes for translations that already exist in their shortest form in the `google-1000-english.json` dictionary. This is a good standalone dictionary.
-- A [`plover-dict-minus-google-1000-english-words.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/minimal-plover-dict.json) dictionary, using the main `dict.json` minus the `google-1000-english.json` dictionary. Use this together with `google-1000-english.json`.
+- A [`top-10000-project-gutenberg-words.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/top-10000-project-gutenberg-words.json) dictionary, containing 10,000 common words from [Project Gutenberg](https://www.gutenberg.org/). This is a great starter dictionary.
+- A [`google-10000-english.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/google-10000-english.json) dictionary, including 10,000 popular English words by N-grams; credit goes to [Josh Kaufman's typing word list from Google's Trillion Word Corpus](https://github.com/first20hours/google-10000-english).
+
+
+
+## Plover dictionaries
+
+The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plover app itself as well as managing spacing and casing in Plover:
+
+- `"TPHR*URB": "{}",`: [Cancels formatting of next word](https://github.com/openstenoproject/plover/wiki/Dictionary-Format#canceling-formatting-of-next-word)
+- `"#: {*+}`: repeats the previous stroke
+- `"#*: {*}`: toggles the asterisk key on the previous stroke
+- `"S-P: {^ ^}`: produces a space
+- `"KPA: {-|}`: forces the first letter of the next word to be uppercase
+- `"HRO*ER: {&gt;}`: forces the first letter of the next word to be lowercase
+- ~~`"{^ ^}`: inserts space without affecting case~~
+- ~~`"{^}`: suppresses a space without affecting case~~
+- `"TK*LS: {^^}`: removes a space without affecting case
+- `"KPA*Z: {*-|}`: retrospectively capitalise/uppercase first letter
+- `"KPA*EUZ: {*&gt;}`: retrospectively lowercase first letter
+- `"KPA*EZ: {*&lt;}`: retrospectively uppercase all letters
+- `"AFPS: {*?}`: retrospectively inserts a space
+- `"TK-FPS: {*!}`: retrospectively remove space
+- `"KPA*E: {&lt;}`: forces the next letter to be uppercase
+- `"KPA*EU: {^}{&lt;}`: suppresses a space and forces the next letter to be uppercase
+- `"KPA*L: {&lt;}`: uppercases the next word
+- `"KW-GS: {~|\"^}`: carries the capital letter across the next quotation mark
+- `"KR-GS: {^~|\"}`: carries the capital letter across the next quotation mark
+- `"PREPB: {~|(^}`: carries the capital letter across the next parenthesis
+- `"PR*EPB: {^~|)}`: carries the capital letter across the next parenthesis
+- `"HRO*ER: {MODE:LOWER}`: switches to lowercase mode so all letters are lowercase
+- `"K-BGS: {MODE:CAMEL}`: switches to camelCase mode so spaces are suppressed and subsequent words are capitalised
+- `"KA*PS: {MODE:CAPS}`: switches to all caps or uppercase mode so all letters are uppercase
+- `"KHRAO*ER: {MODE:CLEAR}`: clears all mode settings
+- `"KPHA*PLD: {MODE:SET_SPACE:, }`: sets a custom space mode that replaces all spaces with spaces (normal spacing—you can swap the space character for any character)
+- `"SPAO*EUPBL: {MODE:LOWER} {MODE:SET_SPACE:-}`: switches to lowercase mode and sets the spaces to hyphens for a kind of “spinal case”
+- `"STPHA*EUBG: {MODE:SNAKE}`: switches to snake case mode so all spaces are replaces with underscores
+- `"TAO*EULT: {MODE:TITLE}`: switches to title case mode so each word is capitalised
+- `"TPHO*EFP: {MODE:SET_SPACE:}`: sets to a custom space mode that replaces all spaces with nothing, suppressing spaces
+- `"R*EFT: {MODE:RESET}`: resets all case and spacing modes
+- `"R*EFTZ: {MODE:RESET_CASE}`: resets case modes
+- `"R*EFTZ: {MODE:RESET_SPACE}`: resets spacing modes
+- `"TKUPT": "{PLOVER:ADD_TRANSLATION}",`: opens Plover’s add translation window
+- `"PHRAOBG": "{PLOVER:LOOKUP}",`: opens Plover’s add translation window
+- `"PHREUG": "{PLOVER:CONFIGURE}",`: opens Plover’s configuration
+- `"PHREUT/PHREUT": "{PLOVER:QUIT}",`: quits Plover’s
+- `"PHROEUBGS": "{PLOVER:FOCUS}",`: brings Plover to the front (window focus)
+- `"PHROF": "{PLOVER:SUSPEND}",`: disables Plover’s steno behaviour
+- `"PHROLG": "{PLOVER:TOGGLE}",`: toggles Plover’s steno behaviour between on and off
+- `"PHROPB": "{PLOVER:RESUME}",`: enables Plover’s steno behaviour
 
 
 
 ## Vocabulary Dictionaries
 
 - [`nouns.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/nouns.json) contains a few hundred additional words.
+- [`pronouns.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/pronouns.json) contains a few hundred pronouns.
 - [`condensed-strokes.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/condensed-strokes.json) contains a combinations of existing strokes in the main Plover dictionary so that they appear in searches when you look up strokes. These words can already be written using the default Plover dictionary and prefix/suffix strokes or punctuation strokes. It can be useful for improving dictionary lookups, but is not needed to write the words.
 
 
@@ -92,9 +172,10 @@ Based on [Plover's default `main.json` dictionary](https://github.com/openstenop
 - A [`fingerspelling-RBGS.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/fingerspelling-RBGS.json) dictionary, using fingerspelled letters on the left hand and `-RBGS` on the right hand.
 
 
-## Navigation Dictionary
 
-This dictionary lets you navigate and edit text efficiently on a Mac. You can move the cursor by letter, word, or line, select while doing so, and also backspace or forward delete by character, word, or line. You can also switch tabs, windows, and apps.
+## Navigation and Tabbing Dictionaries
+
+This dictionary lets you navigate and edit text efficiently on a Mac. You can move the cursor by letter, word, or line, select while doing so, and also backspace or forward delete by character, word, or line.
 
 To use the following briefs, copy the [`navigation.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/navigation.json) file into your dictionary folder and add it to your Plover config:
 
@@ -117,6 +198,8 @@ Use `KPHR-` for Command + Option (⌘⌥) movements (usually for navigating tabs
 Use `SP-B` to space up/forward and `SP-P` to space down/backward. That is, in the browser use the former stroke to page up and the latter to page down (this is using ⇧Space).
 
 Use `THRAB` for ⌥ ⇓ and `THRAP` for ⌥ ⇑.
+
+The complementary [`tabbing.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/navigation.json) dictionary also lets you switch tabs, windows, and apps.
 
 Use `TW-` and a direction for tabbing. Adding `-F`/`-L` gives you ⌘⇧[/⌘⇧] to switch tabs forward and backward. Adding `-B`/`-G` gives you ⌘\`/⌘⇧\` to switch windows forward and backward. Adding `-G`/`-R` gives you ⌘Tab/⌘⇧Tab to switch applications forward and backward. Adding `-FB`/`-LG` gives you ⌘[/⌘] to navigate forwards and backwards in a browser. Adding a star to `TW*G` gives you ⌘Tab Tab to switch 2 applications.
 
@@ -219,7 +302,7 @@ Copy the [`punctuation.json`](https://github.com/dimonster/plover-dictionaries/r
 
 - [`punctuation-powerups.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/punctuation-powerups.json) contains additional punctuation briefs such as:
     - pairs of punctuation (`"PWRABGS": "{^}<>{#Left}{^}"`),
-    - smart/curly quotation marks (`"TP-L": "{^’}"`), and
+    - smart/curly quotation marks (`"TP-L/TP-L": "{^’}"`), and
     - punctuation that carries capitalisation  (`"KW-GS": "{~|“^}"`).
 
 
@@ -334,40 +417,53 @@ You might also like the related symbols currency dictionary:
 - [`symbols-currency.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols-currency.json) contains briefs for currency symbols, such as cent (`"SPWO*L/KREPBT": "¢"`) and dollar (`"SPWO*L/TKHRAR": "$"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"KREPBT": "cent"` and `"TKHRAR": "dollar"`).
 
 
+
 ## Australian English Dictionaries
 
-There are two Australian English companion dictionaries, each intended to be used in combination with the default Plover dictionary.
+There are two Australian English companion dictionaries, each intended to be used in combination with the default Plover dictionary. You probably only need to use ONE of these.
 
 One overrides the default briefs with Australian variations, and also includes Australian prefixes, suffixes, alternative spellings, and vocabulary.  To use this dictionary, copy the [`dict-en-AU.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict-en-AU.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary so that it overrides default Plover briefs.
 
-The other dictionary uses a kind of suffix stroke, `/A*U`, after every default brief to translate the word to Australian English. For example, to write "empathize", you would stroke `*EPL/THAOEUS`. Then, to write "empathise" you would add `/A*U`. That is, this dictionary's entry for "empathise" is `"*EPL/THAOEUS/A*U": "empathise",`. To use this dictionary, copy the [`dict-en-AU-with-extra-stroke.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict-en-AU-with-extra-stroke.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary.
-
+The other dictionary, [`dict-en-AU-with-extra-stroke.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict-en-AU-with-extra-stroke.json), uses a kind of suffix stroke, `/A*U`, after every default Plover theory English brief to translate the word to Australian English. For example, to write the American spelling of "empathize", you would stroke `*EPL/THAOEUS`. Then, to write "empathise" you would add `/A*U`. That is, this dictionary’s entry for "empathise" is `"*EPL/THAOEUS/A*U": "empathise",`. To use this dictionary, copy the [`dict-en-AU-with-extra-stroke.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict-en-AU-with-extra-stroke.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary.
 
 
 
 ### Notes on Design of and Changes in the Australian English Dictionary
 
-These notes concern the main Australian English dictionary, [`dict-en-AU.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict-en-AU.json):
-
-- Briefs primarily form the Australian spelling, while longer phonetic strokes may form the US spelling on demand.
-- `A*ER`strokes the "aero" prefix for the Australian spelling of aeroplane
+- `A*ER` strokes the "aero" prefix for the Australian spelling of aeroplane
 - `*EG` strokes the "eing" suffix for words such as "ageing"
 - `*LG` strokes the "ling" suffix for words such as "labelling"
 - `*LD` strokes the "led" suffix for words such as "labelled"
 - `*EPLT` strokes the "ement" suffix for words such as "judgement", "acknowledgement", "lodgement" and "abridgement"
 - `O*UR` strokes the "our" suffix for words such as "humour"
 - `KWRO*R` strokes the "iour" suffix for words such as "behaviour"
-- Add "U" to `O*R` or `TPHOR` strokes for "nour" endings in words such as "honour"
-- Add "U" to `O*R` or `TKOR` strokes for "dour" endings in words such as "candour"
-- Add "U" to `O*R` or `KHROR` strokes for "our" endings in words such as "colour"
+- Add "U" to `O*R` or `TPHOR` strokes for "nour" endings in words such as "honour" e.g. `"HOPB/TPHOUR": "honour",`
+- Add "U" to `O*R` or `TKOR` strokes for "dour" endings in words such as "candour" e.g. `"KAPBD/O*UR": "candour",`
+- Add "U" to `O*R` or `KHROR` strokes for "our" endings in words such as "colour" e.g. `"KHROUR": "colour",`
+
 - For words such as "practice" and "practise", the basic rule is that the noun form uses the "c" spelling while the verb uses the "s" spelling. Therefore, translations have been included for producing both.
-  - For example, Australian briefs for "defense" with an "s" will use `S` in the brief itself, while Australian briefs for "defence" with a "c" will drop the `S`, eg, `"TKEFS": "defense"`, `"TKE/TPEPB": "defence"`.
-  - As another example, drop the `S` or use `KRE` to spell licence with a "c", eg: `"HR-PB": "licence"`, `"HR-PBS": "license",`
+    - For example, Australian briefs for "defense" with an "s" will use `S` in the brief itself, while Australian briefs for "defence" with a "c" will drop the `S`, eg, `"TKEFS": "defense"`, `"TKE/TPEPB": "defence"`.
+    - As another example, drop the `S` or use `KRE` to spell licence with a "c", eg: `"HR-PB": "licence"`, `"HR-PBS": "license",`
 - Use "AE" in strokes for Australian "ae" spellings such as "encyclopaedia":
-  - The Australian spelling is used in words stroked with `AE` where it would normally use the long "e" sound stroke `AOE`
-  - Briefs form the Australian spelling, eg, "KAOEUPL/RA": "chimaera",
-  - Words starting with "ae" can be stroked with the prefix `A` such as `"A/AOE/O*PB": "aeon",`
-  - The Australian spelling of "gynaecological" uses briefs and phonetic strokes beginning with `TKPWAOEUPB` => "gyne", while the US spelling uses strokes beginning with `SKWREUPB` => "jyn"
+    - The Australian spelling is used in words stroked with `AE` where it would normally use the long "e" sound stroke `AOE`
+    - Briefs form the Australian spelling, eg, "KAOEUPL/RA": "chimaera",
+    - Words starting with "ae" can be stroked with the prefix `A` such as `"A/AOE/O*PB": "aeon",`
+    - The Australian spelling of "gynaecological" uses briefs and phonetic strokes beginning with `TKPWAOEUPB` => "gyne", while the US spelling uses strokes beginning with `SKWREUPB` => "jyn"
+
+
+
+### Notes on Design of and Changes in the Australian English with Extra Strokes Dictionary
+
+- `A*ER/A*U` strokes the "aero" prefix for the Australian spelling of aeroplane
+- `*EG/A*U` strokes the "eing" suffix for words such as "ageing"
+- `*LG/A*U` strokes the "ling" suffix for words such as "labelling"
+- `*LD/A*U` strokes the "led" suffix for words such as "labelled"
+- `*EPLT/A*U` strokes the "ement" suffix for words such as "judgement", "acknowledgement", "lodgement" and "abridgement"
+- `O*UR/A*U` strokes the "our" suffix for words such as "humour"
+- `KWRO*R/A*U` strokes the "iour" suffix for words such as "behaviour"
+- Add "U" to `O*R/A*U` or `TPHOR/A*U` strokes for "nour" endings in words such as "honour" e.g. `"HOPB/TPHOUR/A*U": "honour",`
+- Add "U" to `O*R/A*U` or `TKOR/A*U` strokes for "dour" endings in words such as "candour" e.g. `"KAPBD/O*UR/A*U": "candour",`
+- Add "U" to `O*R/A*U` or `KHROR/A*U` strokes for "our" endings in words such as "colour" e.g. `"KHROUR/A*U": "colour",`
 
 
 
@@ -397,8 +493,6 @@ The brief for "programme" is overridden by "pram", requiring a new brief for "pr
 The `*EG` brief for "e.g." is overridden by the "eing" suffix for the Australian spelling of "ageing", requiring a new brief for "e.g.":
 
     +"AOE/SKWRAO*E": "e.g.",
-
-
 
 
 
@@ -494,8 +588,6 @@ Copy the [`vim.json`](https://github.com/dimonster/plover-dictionaries/raw/maste
 
 
 
-
-
 ## Git Dictionary
 
 Copy the [`git.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/git.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
@@ -533,8 +625,6 @@ Copy the [`git.json`](https://github.com/dimonster/plover-dictionaries/raw/maste
 * "gitignore" `TKPWEUT/EUG`
 * "mergetool" `PHERPBLGT`
 * "checkout" `KHEBGT`
-
-
 
 
 
@@ -593,8 +683,36 @@ Copy the [`ruby.json`](https://github.com/dimonster/plover-dictionaries/raw/mast
 
 
 
-
-
 ## Common Words Dictionary
 
 This dictionary consists of common words already available in the default Plover dictionary. If you need only the common words for some reason, copy the [`common-words.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/common-words.json) file into your dictionary folder and add it to your Plover config to use the briefs for a thousand or so common English words.
+
+
+
+# Contributing
+
+If you notice a misstroke, please mention it. This will help future stenographers learning from Typey Type for Stenographers have a better experience learning stenography. The easiest way to help is to [create a new issue](https://github.com/dimonster/steno-dictionaries/issues/new) for each misstroke or set of misstrokes you find.
+
+
+
+## Better briefs
+
+When proposing better briefs, here are some suggestions:
+
+- Check your dictionary for similar strokes. There might be unexpected conflicts around your preferred brief.
+- Check your dictionary for similar word beginnings and endings. There might be a set of relevant strokes that suggest a better brief. There might also be similar words that need new briefs at the same time to be consistent.
+- Check for potential conflicts or word boundary errors, especially when using strokes used for prefixes or suffixes.
+- Ask the [community](http://www.openstenoproject.org/community/) for suggestions.
+
+
+
+# Code of Conduct
+
+This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [typeytype@didoesdigital.com](mailto:typeytype@didoesdigital.com).
+
+
+
+# License
+
+GPLv2+. See [license](LICENSE) for details.
+
