@@ -706,6 +706,23 @@ When proposing better briefs, here are some suggestions:
 
 
 
+## Looking for misstrokes
+
+- Words containing "b" with a stroke that is missing P or W is probably a misstroke. You can search for that with a regex like one of these:
+
+```
+/.*P[^W]\+[AOEU*-]\+.*": ".*b.*"
+/.*[^P]W\+[AOEU*-]\+.*": ".*b.*"
+```
+
+- Strokes containing `OEU` that aren't used for "oi" sounds like "boy" or "oil" are probably a misstroke:
+
+```
+/[^A]OEU.*": "[^o][^iy]\+",
+```
+
+
+
 # Code of Conduct
 
 This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [typeytype@didoesdigital.com](mailto:typeytype@didoesdigital.com).
