@@ -5,6 +5,9 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+# To check what is being ignored in a folder, run this:
+#   git check-ignore -nv `ls`
+
 # Use ! to negate the pattern:
 # *.dll
 # !myfile.dll
@@ -142,5 +145,11 @@ node_modules
 \~*.docx
 
 
-# Site Specific #
+# Project Specific #
 #################
+
+personal.json
+custom-uncategorised.json
+custom-uncategorized.json
+custom_uncategorised.json
+custom_uncategorized.json
