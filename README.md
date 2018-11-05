@@ -747,6 +747,21 @@ This dictionary consists of common words already available in the default Plover
 
 
 
+## Preferences Dictionary
+
+This dictionary [`preferences.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/preferences.json) has some theory preferences. If you prefer all the choices in this dictionary, make sure your Plover config is in the right order so that this dictionary overrides the main dictionary. If you want parts of this dictionary you will need to add the entries to your own dictionary.
+
+### `R*EV` as rev-, `REF` as ref- or rev-
+
+Literally every `R*EF/` word starts with rev- whereas `REF/` has a pretty even split between ref- and rev- words. Therefore, this dictionary overrides the default `REF` and `R*EF` entries with these:
+
+```
+"REF": "ref",
+"R*EF": "rev",
+```
+
+
+
 # Contributing
 
 If you notice a misstroke, please mention it. This will help future stenographers learning from Typey Type for Stenographers have a better experience learning stenography. The easiest way to help is to [create a new issue](https://github.com/didoesdigital/steno-dictionaries/issues/new) for each misstroke or set of misstrokes you find.
