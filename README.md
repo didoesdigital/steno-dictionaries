@@ -15,7 +15,7 @@ This repository contains Di’s stenography dictionaries used by [Typey Type for
 - `nouns.json`
 - `numbers.json`
 - `numbers-powerups.json`
-- `pronouns.json`
+- `proper-nouns.json`
 - `punctuation-di.json`
 - `punctuation-powerups.json`
 - `punctuation-unspaced.json`
@@ -74,7 +74,7 @@ Here are all the dictionaries included:
 * [numbers.json](dictionaries/numbers.json)
 * [plover-powerups.json](dictionaries/plover-powerups.json)
 * [plover-use.json](dictionaries/plover-use.json)
-* [pronouns.json](dictionaries/pronouns.json)
+* [proper-nouns.json](dictionaries/proper-nouns.json)
 * [punctuation-di.json](dictionaries/punctuation-di.json)
 * [punctuation-powerups.json](dictionaries/punctuation-powerups.json)
 * [punctuation-unspaced.json](dictionaries/punctuation-unspaced.json)
@@ -159,7 +159,7 @@ The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plove
 ## Vocabulary Dictionaries
 
 - [`nouns.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/nouns.json) contains a few hundred additional words.
-- [`pronouns.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/pronouns.json) contains a few hundred pronouns.
+- [`proper-nouns.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/proper-nouns.json) contains a few hundred proper nouns.
 - [`condensed-strokes.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/condensed-strokes.json) contains a combinations of existing strokes in the main Plover dictionary so that they appear in searches when you look up strokes. These words can already be written using the default Plover dictionary and prefix/suffix strokes or punctuation strokes. It can be useful for improving dictionary lookups, but is not needed to write the words.
 
 
