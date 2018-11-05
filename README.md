@@ -496,6 +496,44 @@ The `*EG` brief for "e.g." is overridden by the "eing" suffix for the Australian
 
 
 
+## Geography
+
+### United States Geography Dictionary
+
+Copy the [`geography-united-states.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/geography-united-states.json) file into your dictionary folder and add it to your Plover config to use these briefs:
+
+- `"HAFRP/SHAOEUR": "Hampshire"`
+- `"NU/HAFRP/SHAOEUR": "New Hampshire"`
+
+
+
+### Canadian Geography Dictionary
+
+Copy the [`geography-canada.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/geography-canada.json) file into your dictionary folder and add it to your Plover config to use these briefs:
+
+- `"KPWR*`": "British Columbia" (mnemonic here is "BC" on the left side)
+- `"A*B`": "Alberta" (may conflict with lots of entries that otherwise begin with A*B)
+- `"S*BG`": "Saskatchewan" (this one conflicts with South Carolina; one of them would have to be assigned the double stroke)
+- `"SK*`": "Saskatchewan" (for "SK" more directly; I missed this one the first time around)
+- `"PH*B`": "Manitoba" (for "MB")
+- `"O*PBT`": "Ontario" (for "Ont."; "O*N" is mapped to the "-on" suffix, but "O*NT" is mapped to "on the" which is already "O-NT" without the star)
+- `"A*UPB`": "Ontario" (for "ON" but using the "AU" as a substitute)
+- `"KW*BG`": "Quebec" (for "QC")
+- `"TPH*B`": "New Brunswick" (for "NB")
+- `"TPH*S`": "Nova Scotia" (for "NS")
+- `"P*E`": "Prince Edward Island" (for "PE"; "P*EU" is taken by "pi")
+- `"PAO*E`": "P.E.I." (because enough people pronounce it that way)
+- `"TPH*F`": "Newfoundland" (for "NF")
+- `"TPH-FLD`": "Newfoundland" (for "Nfld.")
+- `"TPH*FL`": "Newfoundland and Labrador" (for "NF"+"L")
+- `"TPH*L`": "Newfoundland and Labrador" (for "NL")
+
+— Brief suggestions by [joezeng](https://github.com/joezeng)
+
+
+
+
+
 ## Vim Dictionary
 
 Copy the [`vim.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/vim.json) file into your dictionary folder and add it to your Plover config to use the following briefs. Note, most strokes use `STPR` to indicate vim (`SR` => `V`):
@@ -683,9 +721,44 @@ Copy the [`ruby.json`](https://github.com/didoesdigital/steno-dictionaries/raw/m
 
 
 
+## Medical and Chemical Dictionaries
+
+- Copy the [`medical-suffixes.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/medical-suffixes.json) file into your dictionary folder and add it to your Plover config to use extra suffixes for medical words.
+- Copy the [`medical-chemical.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/medical-chemical.json) file into your dictionary folder and add it to your Plover config to use briefs for medical and chemical words.
+
+
+
+## Versioning Briefs Dictionary
+
+These are evolving briefs that need to be updated whenever their details change:
+
+```
+"PHROFR/SR*ERGS": "weekly-v4.0.0.dev8+8.ge062cda6",
+"PHROFR/STKR*ERGS": "4.0.0.20180620",
+```
+
+`"PHROFR/SR*ERGS"` and `"PHROFR/STKR*ERGS"` can be changed every time you update Plover itself or the dictionary.
+
+
+
 ## Common Words Dictionary
 
 This dictionary consists of common words already available in the default Plover dictionary. If you need only the common words for some reason, copy the [`common-words.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/common-words.json) file into your dictionary folder and add it to your Plover config to use the briefs for a thousand or so common English words.
+
+
+
+## Preferences Dictionary
+
+This dictionary [`preferences.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/preferences.json) has some theory preferences. If you prefer all the choices in this dictionary, make sure your Plover config is in the right order so that this dictionary overrides the main dictionary. If you want parts of this dictionary you will need to add the entries to your own dictionary.
+
+### `R*EV` as rev-, `REF` as ref- or rev-
+
+Literally every `R*EF/` word starts with rev- whereas `REF/` has a pretty even split between ref- and rev- words. Therefore, this dictionary overrides the default `REF` and `R*EF` entries with these:
+
+```
+"REF": "ref",
+"R*EF": "rev",
+```
 
 
 
