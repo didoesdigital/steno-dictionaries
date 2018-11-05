@@ -728,6 +728,18 @@ Copy the [`ruby.json`](https://github.com/didoesdigital/steno-dictionaries/raw/m
 
 
 
+## Versioning Briefs Dictionary
+
+These are evolving briefs that need to be updated whenever their details change:
+
+```
+"PHROFR/SR*ERGS": "weekly-v4.0.0.dev8+8.ge062cda6",
+"PHROFR/STKR*ERGS": "4.0.0.20180620",
+```
+
+`"PHROFR/SR*ERGS"` and `"PHROFR/STKR*ERGS"` can be changed every time you update Plover itself or the dictionary.
+
+
 
 ## Common Words Dictionary
 
