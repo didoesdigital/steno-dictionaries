@@ -683,6 +683,14 @@ Copy the [`ruby.json`](https://github.com/didoesdigital/steno-dictionaries/raw/m
 
 
 
+## Medical and Chemical Dictionaries
+
+- Copy the [`medical-suffixes.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/medical-suffixes.json) file into your dictionary folder and add it to your Plover config to use extra suffixes for medical words.
+- Copy the [`medical-chemical.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/medical-chemical.json) file into your dictionary folder and add it to your Plover config to use briefs for medical and chemical words.
+
+
+
+
 ## Common Words Dictionary
 
 This dictionary consists of common words already available in the default Plover dictionary. If you need only the common words for some reason, copy the [`common-words.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/common-words.json) file into your dictionary folder and add it to your Plover config to use the briefs for a thousand or so common English words.
