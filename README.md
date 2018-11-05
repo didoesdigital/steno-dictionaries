@@ -496,6 +496,35 @@ The `*EG` brief for "e.g." is overridden by the "eing" suffix for the Australian
 
 
 
+## Geography
+
+### Canadian Geography Dictionary
+
+Copy the [`geography-canada.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/geography-canada.json) file into your dictionary folder and add it to your Plover config to use these briefs:
+
+- `"KPWR*`": "British Columbia" (mnemonic here is "BC" on the left side)
+- `"A*B`": "Alberta" (may conflict with lots of entries that otherwise begin with A*B)
+- `"S*BG`": "Saskatchewan" (this one conflicts with South Carolina; one of them would have to be assigned the double stroke)
+- `"SK*`": "Saskatchewan" (for "SK" more directly; I missed this one the first time around)
+- `"PH*B`": "Manitoba" (for "MB")
+- `"O*PBT`": "Ontario" (for "Ont."; "O*N" is mapped to the "-on" suffix, but "O*NT" is mapped to "on the" which is already "O-NT" without the star)
+- `"A*UPB`": "Ontario" (for "ON" but using the "AU" as a substitute)
+- `"KW*BG`": "Quebec" (for "QC")
+- `"TPH*B`": "New Brunswick" (for "NB")
+- `"TPH*S`": "Nova Scotia" (for "NS")
+- `"P*E`": "Prince Edward Island" (for "PE"; "P*EU" is taken by "pi")
+- `"PAO*E`": "P.E.I." (because enough people pronounce it that way)
+- `"TPH*F`": "Newfoundland" (for "NF")
+- `"TPH-FLD`": "Newfoundland" (for "Nfld.")
+- `"TPH*FL`": "Newfoundland and Labrador" (for "NF"+"L")
+- `"TPH*L`": "Newfoundland and Labrador" (for "NL")
+
+— Brief suggestions by [joezeng](https://github.com/joezeng)
+
+
+
+
+
 ## Vim Dictionary
 
 Copy the [`vim.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/vim.json) file into your dictionary folder and add it to your Plover config to use the following briefs. Note, most strokes use `STPR` to indicate vim (`SR` => `V`):
