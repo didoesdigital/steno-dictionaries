@@ -1,4 +1,6 @@
 {
+"RAOE/SULT": "result",
+"RAOE/S*ULT": "result",
 "TRAFBG/-D": "trafficked",
 "PW*EUF/WABG/-D": "bivouacked",
 "TPROL/EUBG/-D": "frolicked",
