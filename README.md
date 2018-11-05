@@ -498,6 +498,15 @@ The `*EG` brief for "e.g." is overridden by the "eing" suffix for the Australian
 
 ## Geography
 
+### United States Geography Dictionary
+
+Copy the [`geography-united-states.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/geography-united-states.json) file into your dictionary folder and add it to your Plover config to use these briefs:
+
+- `"HAFRP/SHAOEUR": "Hampshire"`
+- `"NU/HAFRP/SHAOEUR": "New Hampshire"`
+
+
+
 ### Canadian Geography Dictionary
 
 Copy the [`geography-canada.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/geography-canada.json) file into your dictionary folder and add it to your Plover config to use these briefs:
