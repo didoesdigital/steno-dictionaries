@@ -794,6 +794,30 @@ This dictionary [`preferences-TD-as-ded.json`](https://github.com/didoesdigital/
 
 
 
+## Preferences: Briefs folding in "of"
+
+This dictionary [`preferences-briefs-folding-of.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/preferences-briefs-folding-of.json) uses briefs that fold in "F" for the word "of".
+
+```
+"TPAUFL": "fall of",
+"TPAUFLT": "fall of the",
+"RAOEUFT": "right of",
+"RAOEUFTS": "rights of",
+"SPAOEF": "speak of",
+"SPAO*EF": "perceive",
+"SPAOEFG": "speaking of",
+"SPAO*EFG": "perceiving",
+```
+
+Note:
+
+- "SPAOEF": "speak of", (this used to be "perceive", so)
+- "SPAO*EF": "perceive", (fix that with an asterisk)
+- "SPAOEFG": "speaking of", (this used to be "perceiving", so)
+- "SPAO*EFG": "perceiving", (fix that with an asterisk)
+
+
+
 # Contributing
 
 If you notice a misstroke, please mention it. This will help future stenographers learning from Typey Type for Stenographers have a better experience learning stenography. The easiest way to help is to [create a new issue](https://github.com/didoesdigital/steno-dictionaries/issues/new) for each misstroke or set of misstrokes you find.
