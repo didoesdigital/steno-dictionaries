@@ -1,4 +1,5 @@
 {
+"TPR*RBL": "{#Control_L(bracketright)}",
 "STPR*EU": "{>}{^i^}",
 "STPRO*RB": "{^}{#Return}{#Escape}{^}O",
 "RO*RB": "{^}{#Return}{#Escape}{^}O",
