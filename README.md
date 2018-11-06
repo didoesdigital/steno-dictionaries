@@ -751,13 +751,45 @@ This dictionary consists of common words already available in the default Plover
 
 This dictionary [`preferences.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/preferences.json) has some theory preferences. If you prefer all the choices in this dictionary, make sure your Plover config is in the right order so that this dictionary overrides the main dictionary. If you want parts of this dictionary you will need to add the entries to your own dictionary.
 
-### `R*EV` as rev-, `REF` as ref- or rev-
+```
+"PRO/POEFL": "proposal",
+"TPAU/RAEU": "foray",
+"EUPB/ST*EUPBGT": "instinct",
+"EUT/TEUF": "iterative",
+"EURT/TEUF": "iterative",
+"O*EUPBD/KREUPBL": "endocrinal",
+"PHOPBT/TPHOUS": "monotonous",
+"KHAOUZ": "chews",
+"ABGS": "action",
+"AEBGS": "axe",
+"A*BGS": "axe",
+```
 
 Literally every `R*EF/` word starts with rev- whereas `REF/` has a pretty even split between ref- and rev- words. Therefore, this dictionary overrides the default `REF` and `R*EF` entries with these:
 
 ```
 "REF": "ref",
 "R*EF": "rev",
+```
+
+
+
+## Preferences: TD as -ded Dictionary
+
+This dictionary [`preferences-TD-as-ded.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/preferences-TD-as-ded.json) uses -TD as "-ded"
+
+```
+"AEUTD": "aided",
+"AUFR/KROUTD": "overcrowded",
+"EBGS/KHRAOUTD": "excluded",
+"KHRAOEUTD": "collided",
+"PHAOEUPBTD": "minded",
+"RARTD": "regarded",
+"SKETD": "scheduled",
+"SOUPBTD": "sounded",
+"SPOPBTD": "responded",
+"SPWEPBTD": "intended",
+"SR*ELTD": "veldt",
 ```
 
 
