@@ -752,6 +752,7 @@ This dictionary consists of common words already available in the default Plover
 This dictionary [`preferences.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/preferences.json) has some theory preferences. If you prefer all the choices in this dictionary, make sure your Plover config is in the right order so that this dictionary overrides the main dictionary. If you want parts of this dictionary you will need to add the entries to your own dictionary.
 
 ```
+"HRO*ET/TO": "loath{^ ^}to",
 "PRO/POEFL": "proposal",
 "TPAU/RAEU": "foray",
 "EUPB/ST*EUPBGT": "instinct",
@@ -764,6 +765,8 @@ This dictionary [`preferences.json`](https://github.com/didoesdigital/steno-dict
 "AEBGS": "axe",
 "A*BGS": "axe",
 ```
+
+"loath{^ ^}to" is meant to distinguish between ["loathe" and "loath to"](https://en.oxforddictionaries.com/definition/loath).
 
 Literally every `R*EF/` word starts with rev- whereas `REF/` has a pretty even split between ref- and rev- words. Therefore, this dictionary overrides the default `REF` and `R*EF` entries with these:
 
