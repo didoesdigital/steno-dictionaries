@@ -30,7 +30,7 @@ The majority of Typey Type’s dictionary is from `dict.json`. It follows [Plove
 
 **The aim is to remove all the misstrokes from `dict.json` to give new stenographers greater confidence in learning new briefs.** The first step is to remove all the misstrokes for the *shortest* available brief for every word. If there’s a misstroke in a longer word, it is less likely to be suggested by Typey Type or dictionary look up tools.
 
-If you notice any misstrokes, see the Contributing guide below.
+If you notice any misstrokes, see the [Contributing guide](#contributing) below.
 
 
 
@@ -693,7 +693,7 @@ This dictionary consists of common words already available in the default Plover
 
 # Contributing
 
-If you notice a misstroke, please mention it. This will help future stenographers learning from Typey Type for Stenographers have a better experience learning stenography. The easiest way to help is to [create a new issue](https://github.com/didoesdigital/steno-dictionaries/issues/new) for each misstroke or set of misstrokes you find.
+If you notice a misstroke, please mention it. This will help future stenographers learning from Typey Type for Stenographers have a better experience learning stenography. You can use the [Typey Type feedback form](https://docs.google.com/forms/d/e/1FAIpQLSeevsX2oYEvnDHd3y8weg5_7-T8QZsF93ElAo28JO9Tmog-7Q/viewform?usp=sf_link) or [create a new issue](https://github.com/didoesdigital/steno-dictionaries/issues/new) for each misstroke or set of misstrokes you find. Please make a note of the dictionary, misstroke entry, and expected or suggested strokes.
 
 
 
