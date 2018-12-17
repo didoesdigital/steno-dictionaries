@@ -725,6 +725,103 @@ When proposing better briefs, here are some suggestions:
 
 
 
+## Plover’s dictionary
+
+Plover’s [issue 400](https://github.com/openstenoproject/plover/issues/400) exists to report suggestions for changing the default dictionary.
+
+Typey Type aims to:
+
+- [Keep in sync with Plover](https://github.com/didoesdigital/steno-dictionaries/issues/1).
+- [Avoid getting ahead of issue 400](https://github.com/didoesdigital/steno-dictionaries/pull/2).
+- [Remove prominent misstrokes to give new stenographers greater confidence in learning new briefs](https://github.com/didoesdigital/steno-dictionaries/issues/3).
+
+### “Access” and “excess”
+
+As noted in [this comment on issue 400](https://github.com/openstenoproject/plover/issues/400#issuecomment-394204080), there are conflicts and inconsistencies around these briefs:
+
+- `"KPESZ": "excess",` 
+- `"KPES": "access",`
+- `"KPES/S*EUF": "excessive",`
+- `"KPES/-BL": "accessible",`
+- `"SEBLT": "accessibility",`
+- `"KPES/REUS": "accessories",`
+- `"SESZ/PAOL": "cesspool",`
+
+It looks to me like:
+
+- "acc-" briefs are generally stroked "A/K…" or sometimes "SE…" while
+- "exce-" briefs are generally stroked "KPE…", or "EBGS/" in long form,
+- words with a double 's' are sometimes stroked with "SZ", and
+- the "SES/PAOL" brief for "cesspool" could be used instead of "SESZ/PAOL",
+
+So I'd suggest:
+
+- "KPES" could be "excess" rather than "access".
+- We could create a new brief for "access" using "SESZ".
+- We could include briefs that use suffix strokes like "SESZ/-BL" for "accessible".
+- We could change "accessory" to "SESZ/REU".
+- We could remove "SESZ/PAOL", to avoid word boundaries errors when trying to write "access pool" e.g. "To access pool facilities…", which might otherwise produce "To cesspool facilities…" if `"SESZ"` were "access".
+
+The main briefs might then be:
+
+```JSON
+"SESZ": "access",
+"SESZ/REU": "accessory",
+"SEBL": "accessible",
+"SEBLT": "accessibility",
+"KPES": "excess",
+"KPES/S*EUF": "excessive",
+"SES/PAOL": "cesspool",
+```
+
+Altogether:
+
+```JSON
+"SESZ": "access",
+"SESZ/-BL": "accessible",
+"SESZ/-BLT": "accessibility",
+"SEBL": "accessible",
+"SEBLT": "accessibility",
+"EUPB/SESZ/-BL": "inaccessible",
+"EUPB/SESZ/-BLT": "inaccessibility",
+"SESZ/REU": "accessory",
+"SESZ/REUS": "accessories",
+"SESZ/RAOEUZ": "accessorize",
+"KPES": "excess",
+"KPES/S*EUF": "excessive",
+"SES/PAOL": "cesspool",
+```
+
+Removals:
+
+```diff
+-"SESZ/PAOL": "cesspool",
+-"KPES": "access",
+-"KPES/-BL": "accessible",
+-"KPES/REUS": "accessories",
+-"KPES/TO": "access to",
+```
+
+If these changes are merged in Plover’s default dictionary, we can restore these to [briefs.json]:
+
+```
+"KPES": "excess",
+"KPESZ": "excess",
+"KP*ES": "excess",
+"SESZ": "access",
+"SESZ/-BL": "accessible",
+"SESZ/-BLT": "accessibility",
+"SEBL": "accessible",
+"SEBLT": "accessibility",
+"SEUBLT": "accessibility",
+```
+
+### “Honour”
+
+Default Plover does not have an entry for `"HO*URPB": "honour"`, so the only way to stroke this entry in Typey Type is to use the [Australian English dictionary](https://github.com/didoesdigital/steno-dictionaries#australian-english-dictionaries) or fingerspell. [If "honour" gets added upstream in Plover, then great, and this entry can be re-changed to "HO*URPB": "honour".](https://github.com/didoesdigital/steno-dictionaries/pull/14#issuecomment-446552793).
+
+
+
 # Code of Conduct
 
 This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [typeytype@didoesdigital.com](mailto:typeytype@didoesdigital.com).
