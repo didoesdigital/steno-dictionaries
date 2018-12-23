@@ -1175,7 +1175,7 @@
 "POURS": "powers",
 "POS/ES/-D": "possessed",
 "THROEPB": "thrown",
-"EFD": "evidence",
+"*EFD": "evidence",
 "STKAPBT": "distant",
 "PHAOEUBG/*L": "Michael",
 "PROG": "progress",
