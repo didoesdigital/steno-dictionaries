@@ -6,6 +6,12 @@
 "SK*EFP/STPH-B": "{#Super_L(Control_L(Down))}",
 "SK*EFP/PHR-P": "{#Alt_L(Super_L(Up))}",
 "SK*EFP/PHR-B": "{#Alt_L(Super_L(Down))}",
+"SKEP": "{#Super_L(Control_L(Up))}",
+"SKEG": "{#Super_L(Control_L(Right))}",
+"SKER": "{#Super_L(Control_L(Left))}",
+"SKEB": "{#Super_L(Control_L(Down))}",
 "A*ERPLT": "{#Super_L(apostrophe)}",
+"SPHR-P": "{#Alt_L(Super_L(Up))}",
+"SPHR-B": "{#Alt_L(Super_L(Down))}",
 "WUZ/WUZ": "{#}"
 }
