@@ -16,7 +16,6 @@ This repository contains Di’s stenography dictionaries used by [Typey Type for
 - `numbers.json`
 - `numbers-powerups.json`
 - `proper-nouns.json`
-- `punctuation-di.json`
 - `punctuation-powerups.json`
 - `punctuation-unspaced.json`
 - `symbols.json`
