@@ -1,6 +1,8 @@
 {
 "SPWR": "{inter^}",
 "SPR": "{super^}",
+"APB/TAOEU": "{anti^}",
+"APB/TEU": "{anti^}",
 "SAOUPS": "{super^}",
 "KWRUPBD": "{under^}",
 "UPBDZ": "{under^}",
