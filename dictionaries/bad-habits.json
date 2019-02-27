@@ -1,4 +1,13 @@
 {
+"SPWR": "{inter^}",
+"SPR": "{super^}",
+"SAOUPS": "{super^}",
+"KWRUPBD": "{under^}",
+"UPBDZ": "{under^}",
+"TKEUS": "{dis^}",
+"KRO": "{co-^}",
+"KWRUP": "{up^}",
+"KWROUT": "{out^}",
 "TA/TPAOEG": "fatigue",
 "TPHA/TEPBT/EUF": "inattentive",
 "EUPB/A/TAPBT/EUF": "inattentive",
