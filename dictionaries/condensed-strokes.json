@@ -1,4 +1,7 @@
 {
+"EFRPB/AES": "everyone's",
+"EFRPB/ELS/AES": "everyone else's",
+"EFRPB/ELS": "everyone else",
 "TPHEUG/ELS": "anything else",
 "SOPL/PWO*ED": "some body",
 "AOEFP/OER": "each other",
