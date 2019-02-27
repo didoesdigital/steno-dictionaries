@@ -1,4 +1,7 @@
 {
+"-SZ": "{^s}",
+"-Z": "{^s}",
+"*S": "{^s}",
 "SPWR": "{inter^}",
 "SPR": "{super^}",
 "APB/TAOEU": "{anti^}",
