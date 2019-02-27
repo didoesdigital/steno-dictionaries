@@ -25,6 +25,8 @@
 "SR*EUPL": "victim",
 "SR*F": "{^}{#Escape}{^}:w{#Return}",
 "SREUPL": "{^}vim",
+"SREUPL/SREUPL": "vim",
+"SREUPL/SREUPL/SREUPL": "Vim",
 "STPR*": "{>}{^h^}",
 "STPR*B": "{>}{#Control_L(f)}",
 "STPR*F": "{^}{#Escape}{^}:w{#Return}",
