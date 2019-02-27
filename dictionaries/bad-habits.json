@@ -1,4 +1,13 @@
 {
+"KOPBT/PHRAEUGS": "contemplation",
+"KOPB/TEPL/PHRAEUGS": "contemplation",
+"KOPB/TEPL/PHRAEUT": "contemplate",
+"KAUPBT/PHRAEUT": "contemplate",
+"KAUPBT/PHRAEUTD": "contemplated",
+"KAUPB/TPHRAEUTD": "contemplate",
+"KAUPB/TEPL/-D": "contemplated",
+"KAUPB/TEPL/PHRAEUGS": "contemplation",
+"KAUPB/TEPL/PHRAEUT": "contemplate",
 "TKPWHRAOPL/PH*EU": "gloomy",
 "TKPWHRAOPL/PH*EU/*PBS": "gloominess",
 "TKPWHRAOPL/PH*EU/HREU": "gloomily",
