@@ -11,6 +11,7 @@
 "PWRA*BG": "{^}<{^}",
 "PWRABG": "{^}>{^}",
 "PWRABGS": "{^}<>{#Left}{^}",
+"PWRA*BGS": "<>",
 "SKW*BGS": "{^}''{#Left}{^}",
 "TKW*BGS": "{^}\"\"{#Left}{^}",
 "TPR-BGT/-S": "\\{\\}",
