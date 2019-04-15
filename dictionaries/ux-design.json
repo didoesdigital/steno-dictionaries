@@ -51,7 +51,7 @@
 "TKPWAOG/*L": "Google",
 "A*EPL/A*EPL": "Apple",
 "APL/SO*PB": "Amazon",
-"KROPL": ".com",
+"KROPL": "{^.com}",
 "TKORG": ".org",
 "AL/TPA": "alpha",
 "PWOEUT": "beta",
