@@ -1,4 +1,8 @@
 {
+"TPALT": "fault",
+"TPAL/TEU": "faulty",
+"TPALT/TEU": "faulty",
+"TPALT/TEU/*PBS": "faultiness",
 "KRAOEUF": "drive",
 "KRAES/-D": "ceased",
 "KRAES/-G": "ceasing",
