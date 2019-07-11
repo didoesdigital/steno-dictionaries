@@ -145,7 +145,7 @@ The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plove
 - `"R*EFTZ: {MODE:RESET_CASE}`: resets case modes
 - `"R*EFTZ: {MODE:RESET_SPACE}`: resets spacing modes
 - `"TKUPT": "{PLOVER:ADD_TRANSLATION}",`: opens Plover’s add translation window
-- `"PHRAOBG": "{PLOVER:LOOKUP}",`: opens Plover’s add translation window
+- `"PHRAOBG": "{PLOVER:LOOKUP}",`: opens Plover’s lookup window
 - `"PHREUG": "{PLOVER:CONFIGURE}",`: opens Plover’s configuration
 - `"PHREUT/PHREUT": "{PLOVER:QUIT}",`: quits Plover’s
 - `"PHROEUBGS": "{PLOVER:FOCUS}",`: brings Plover to the front (window focus)
