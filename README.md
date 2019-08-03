@@ -27,6 +27,9 @@ This repository contains Di’s stenography dictionaries used by [Typey Type for
 
 The majority of Typey Type’s dictionary is from `dict.json`. It follows [Plover's default `main.json` dictionary](https://github.com/openstenoproject/plover/blob/master/plover/assets/main.json) with misstrokes removed from the top 10,000 words. You can use this dictionary instead of Plover’s.
 
+> A misstroke is like a "chord typo". It's when you mean to write one chord, but stroke another. Often, dictionaries have misstroke entries that are added when a stenographer frequently misstrokes an entry. For example, take the stroke TKPWAOD (meaning GAOD) which translates to good. Sometimes the stenographer may miss a key, so they could have a misstroke entry TKPAOD which would also translate to good. Then they are protected from these typos in regular writing. There are many misstroke entries in the default dictionary, and you must try to make sense of results when you look up words, instead of blindly accepting the shortest stroke.
+— [Plover project glossary](https://github.com/openstenoproject/plover/wiki/Glossary#misstroke)
+
 **The aim is to remove all the misstrokes from `dict.json` to give new stenographers greater confidence in learning new briefs.** The first step is to remove all the misstrokes for the *shortest* available brief for every word. If there’s a misstroke in a longer word, it is less likely to be suggested by Typey Type or dictionary look up tools.
 
 If you notice any misstrokes, see the [Contributing guide](#contributing) below.
@@ -35,7 +38,7 @@ If you notice any misstrokes, see the [Contributing guide](#contributing) below.
 
 # Dictionaries
 
-Here are all the dictionaries included:
+Read about each dictionary before using them. For example, you don't need more than 1 fingerspelling dictionary. Here are all the dictionaries included:
 
 * [abbreviations.json](dictionaries/abbreviations.json)
 * [apps.json](dictionaries/apps.json)
@@ -65,6 +68,7 @@ Here are all the dictionaries included:
 * [lorem.json](dictionaries/lorem.json)
 * [markdown.json](dictionaries/markdown.json)
 * [medical-suffixes.json](dictionaries/medical-suffixes.json)
+* [misstrokes.json](dictionaries/misstrokes.json)
 * [modifiers-single-stroke.json](dictionaries/modifiers-single-stroke.json)
 * [modifiers.json](dictionaries/modifiers.json)
 * [navigation.json](dictionaries/navigation.json)
@@ -104,6 +108,13 @@ Here are all the dictionaries included:
 - A main [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict.json) dictionary, containing many English words using briefs and phonetic strokes, but contains fewer misstrokes.
 - A [`top-10000-project-gutenberg-words.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/top-10000-project-gutenberg-words.json) dictionary, containing 10,000 common words from [Project Gutenberg](https://www.gutenberg.org/). This is a great starter dictionary.
 - A [`google-10000-english.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/google-10000-english.json) dictionary, including 10,000 popular English words by N-grams; credit goes to [Josh Kaufman's typing word list from Google's Trillion Word Corpus](https://github.com/first20hours/google-10000-english).
+
+
+
+## Misstrokes and bad habits
+
+- The [`misstrokes.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/misstrokes.json) dictionary is an automated dictionary created from entries deleted out of [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict.json) that haven't been moved to other dictionaries.
+- The [`bad-habits.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/bad-habits.json) dictionary is a hand-created dictionary that contains misstrokes (particularly ones you might want to keep). It also contains strokes that are not exactly misstrokes but for some reason are not "preferred" to hide them from Typey Type or stroke look up tools. Finally, it also includes some hints for correcting misstroked prefixes and suffixes, such as `"SAUP": "SAUB sub^ misstroke"`, which will produce the output `SAUB sub^ misstroke` to let you know you need to stroke `SAUB` to write `sub` as a prefix whenever you incorrectly stroke `SAUP`.
 
 
 
@@ -716,7 +727,7 @@ When proposing better briefs, here are some suggestions:
 /.*[^P]W\+[AOEU*-]\+.*": ".*b.*"
 ```
 
-- Strokes containing `OEU` that aren't used for "oi" sounds like "boy" or "oil" are probably a misstroke:
+- Strokes containing `OEU` that aren't used for "oi" sounds like "boy" or "oil" are probably a misstroke or a brief:
 
 ```
 /[^A]OEU.*": "[^o][^iy]\+",
