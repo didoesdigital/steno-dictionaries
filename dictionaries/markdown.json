@@ -16,6 +16,7 @@
 "PH*FPLSZ": "{^***}",
 "PH*LG": "[](){#Left Left Left}{^}",
 "PH*PBLG": "![](){#Left Left Left}{^}",
+"PWREPBS": "[](){#Left Left Left}{^}",
 "PH-FPL": "{~|*^}",
 "PH-FPLS": "{~|**^}",
 "PH-FPLSZ": "{~|***^}",
