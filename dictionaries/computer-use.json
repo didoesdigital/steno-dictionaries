@@ -1,4 +1,5 @@
 {
+"STRAO*EUBG": "{#super(shift(x))}",
 "STKPWAO*PL": "{#Super_L(Shift_L(equal))}",
 "KHR-P": "{#Control_L(Up)}",
 "KHR-B": "{#Control_L(Down)}",
