@@ -1,4 +1,5 @@
 {
+"PAO*EUPS": "||{#left}",
 "R-B/TPH*FPB": "rbenv",
 "RAEUBG/TK-B/ROL": "rake db:rollback",
 "RAEUBG/TK-B/SAEUD": "rake db:seed",
