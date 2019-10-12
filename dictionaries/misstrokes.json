@@ -2677,6 +2677,8 @@
 "TPREPBLDZ": "friends",
 "TPREPBSD": "friends",
 "TPROPT": "front",
+"TPULT/*ER": "filter",
+"TPULT/*ER/-D": "filtered",
 "TPURP": "purpose",
 "TPURS": "further",
 "TPW": "go",
