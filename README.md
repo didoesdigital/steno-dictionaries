@@ -705,6 +705,8 @@ This dictionary consists of common words already available in the default Plover
 
 If you notice a misstroke, please mention it. This will help future stenographers learning from Typey Type for Stenographers have a better experience learning stenography. You can use the [Typey Type feedback form](https://docs.google.com/forms/d/e/1FAIpQLSeevsX2oYEvnDHd3y8weg5_7-T8QZsF93ElAo28JO9Tmog-7Q/viewform?usp=sf_link) or [create a new issue](https://github.com/didoesdigital/steno-dictionaries/issues/new) for each misstroke or set of misstrokes you find. Please make a note of the dictionary, misstroke entry, and expected or suggested strokes.
 
+See the [CONTRIBUTING](./CONTRIBUTING.md) guidelines to learn more.
+
 
 
 ## Better briefs
