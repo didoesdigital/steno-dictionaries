@@ -21,7 +21,6 @@ This repository contains Di’s stenography dictionaries used by [Typey Type for
 - `symbols.json`
 - `symbols-briefs.json`
 - `symbols-currency.json`
-- `top-10000-english-words.json`
 - `top-10000-project-gutenberg-words.json`
 - `top-level-domains.json`
 
@@ -95,7 +94,6 @@ Read about each dictionary before using them. For example, you don't need more t
 * [top-100-words.json](dictionaries/top-100-words.json)
 * [top-1000-words.json](dictionaries/top-1000-words.json)
 * [top-10000-project-gutenberg-words.json](dictionaries/top-10000-project-gutenberg-words.json)
-* [top-10000-english-words.json](dictionaries/top-10000-english-words.json)
 * [top-level-domains.json](dictionaries/top-level-domains.json)
 * [ux-design.json](dictionaries/ux-design.json)
 * [vim.json](dictionaries/vim.json)
@@ -106,8 +104,9 @@ Read about each dictionary before using them. For example, you don't need more t
 ## English Dictionaries
 
 - A main [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict.json) dictionary, containing many English words using briefs and phonetic strokes, but contains fewer misstrokes.
-- A [`top-10000-project-gutenberg-words.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/top-10000-project-gutenberg-words.json) dictionary, containing 10,000 common words from [Project Gutenberg](https://www.gutenberg.org/). This is a great starter dictionary.
-- A [`google-10000-english.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/google-10000-english.json) dictionary, including 10,000 popular English words by N-grams; credit goes to [Josh Kaufman's typing word list from Google's Trillion Word Corpus](https://github.com/first20hours/google-10000-english).
+- A [`top-10000-project-gutenberg-words.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/top-10000-project-gutenberg-words.json) dictionary, containing 10,000 common words from [Project Gutenberg](https://www.gutenberg.org/). This is a great starter dictionary. The [`top-100-words.json`](dictionaries/top-100-words.json) and [`top-1000-words.json`](dictionaries/top-1000-words.json) dictionaries are subsets of this dictionary.
+
+Previously, this project contained a `google-10000-english.json` dictionary, including 10,000 popular English words by N-grams. That's now been retired. You can still find it in the [repo’s git history](https://github.com/didoesdigital/steno-dictionaries/blob/39d3c19da3d41cd57061821795e5438c747775e2/dictionaries/top-10000-english-words.json) or [Typey Type’s community lessons spreadsheet](https://docs.google.com/spreadsheets/d/1AlO2SSUwuv3yrz7RI9ix_z1Efbiu_j50c_ibGYwdsgc/edit). Credit goes to [Josh Kaufman's typing word list from Google's Trillion Word Corpus](https://github.com/first20hours/google-10000-english).
 
 
 
