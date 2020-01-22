@@ -2,27 +2,29 @@
 
 This repository contains Di’s stenography dictionaries used by [Typey Type for Stenographers](https://didoesdigital.com/typey-type/). The dictionaries are in JSON format and use [Plover](http://stenoknight.com/wiki/FAQ#What_is_Plover.3F) theory.
 
+# Typey Type’s dictionary
+
 [Typey Type’s dictionary](https://didoesdigital.com/typey-type/dictionaries/typey-type/typey-type/) is generated from this subset of this repo’s dictionaries:
 
-- `abbreviations.json`
-- `briefs.json`
-- `condensed-strokes.json`
-- `currency.json`
-- `dict.json`
-- `dict-en-AU-phonetic.json`
-- `dict-en-AU-vocab.json`
-- `dict-en-AU-with-extra-stroke.json`
-- `nouns.json`
-- `numbers.json`
-- `numbers-powerups.json`
-- `proper-nouns.json`
-- `punctuation-powerups.json`
-- `punctuation-unspaced.json`
-- `symbols.json`
-- `symbols-briefs.json`
-- `symbols-currency.json`
-- `top-10000-project-gutenberg-words.json`
-- `top-level-domains.json`
+- [`abbreviations.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/abbreviations.json)
+- [`briefs.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/briefs.json)
+- [`condensed-strokes.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/condensed-strokes.json)
+- [`currency.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/currency.json)
+- [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/dict.json)
+- [`dict-en-AU-phonetic.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/dict-en-AU-phonetic.json)
+- [`dict-en-AU-vocab.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/dict-en-AU-vocab.json)
+- [`dict-en-AU-with-extra-stroke.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/dict-en-AU-with-extra-stroke.json)
+- [`nouns.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/nouns.json)
+- [`numbers.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/numbers.json)
+- [`numbers-powerups.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/numbers-powerups.json)
+- [`proper-nouns.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/proper-nouns.json)
+- [`punctuation-powerups.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/punctuation-powerups.json)
+- [`punctuation-unspaced.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/punctuation-unspaced.json)
+- [`symbols.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/symbols.json)
+- [`symbols-briefs.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/symbols-briefs.json)
+- [`symbols-currency.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/symbols-currency.json)
+- [`top-10000-project-gutenberg-words.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/top-10000-project-gutenberg-words.json)
+- [`top-level-domains.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/top-level-domains.json)
 
 The majority of Typey Type’s dictionary is from `dict.json`. It follows [Plover's default `main.json` dictionary](https://github.com/openstenoproject/plover/blob/master/plover/assets/main.json) with misstrokes removed from the top 10,000 words. You can use this dictionary instead of Plover’s.
 
