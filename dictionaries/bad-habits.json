@@ -153,6 +153,8 @@
 "KWROUT": "{out^}",
 "TA/TPAOEG": "fatigue",
 "TPHA/TEPBT/EUF": "inattentive",
+"EBGS/TAPBGS": "expansion",
+"EBGS/KPAPBGS": "expansion",
 "EUPB/A/TAPBT/EUF": "inattentive",
 "EUPB/A/TAEPBGS": "inattention",
 "KOPBT/PHRAEUGS": "contemplation",
