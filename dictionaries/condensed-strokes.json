@@ -1,4 +1,8 @@
 {
+"SKHRAOUDZ": "excludes",
+"SKHRAOUGSZ": "exclusions",
+"SKHRAOUD/-S": "excludes",
+"SKHRAOUGS/-S": "exclusions",
 "SEUFL/*EU/SAEUGS": "civilisation",
 "HEPBLGD": "hedged",
 "TPH-TS/-D": "noticed",
