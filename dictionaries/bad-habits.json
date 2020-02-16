@@ -639,6 +639,8 @@
 "STAOES": "disease",
 "HREULG": "likely",
 "UPB/HRAOEUL": "unlikely",
+"UPB/SERPBLT": "uncertainty",
+"UPB/SERPT": "uncertainty",
 "SKEUGS": "decision",
 "TPHAT/TPHAT": "Nat",
 "KRERBG": "correct",
