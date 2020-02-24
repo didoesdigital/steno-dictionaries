@@ -2,6 +2,38 @@
 
 This repository contains Di’s stenography dictionaries used by [Typey Type for Stenographers](https://didoesdigital.com/typey-type/). The dictionaries are in JSON format and use [Plover](http://stenoknight.com/wiki/FAQ#What_is_Plover.3F) theory.
 
+
+
+# How to use these dictionaries
+
+If you want to use the dictionaries in this repo instead of Plover's, you have 2 main options. 
+
+The first option is that you can download each individual dictionary you want and add it to your own collection of dictionaries and turn each on in your Plover config as you need. Over time, there will be new entries in these dictionaries, so you may wish to download them again or look at the history for each file and decide what new entries you want to add manually.
+
+The second option is to clone the repository and turn on each dictionary you want in your Plover config as you need. Over time, when there are new entries, you can "pull" the latest changes.
+
+
+
+## Which dictionaries to use
+
+You will likely only want some of the dictionaries in this repo. You can read more about each elsewhere on this page. I recommend at a minimum:
+
+- 1 large dictionary for vocabulary, such as [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/dict.json).
+- 1 fingerspelling dictionary, such as [`fingerspelling.json`](dictionaries/fingerspelling.json).
+- 1 numbers dictionary, such as [`numbers.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/numbers.json).
+- 1 punctuation dictionary, such as [`punctuation.json`](dictionaries/punctuation.json).
+
+I would also suggest dictionaries to operate Plover and your computer, such as:
+
+- [`plover-use.json`](dictionaries/plover-use.json).
+- [`computer-use.json`](dictionaries/computer-use.json).
+- [`navigation.json`](dictionaries/navigation.json).
+- [`tabbing.json`](dictionaries/tabbing.json).
+- [`modifiers-single-stroke.json`](dictionaries/modifiers-single-stroke.json).
+
+Finally, I would also suggest adding `condensed-strokes.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)).
+
+
 # Typey Type’s dictionary
 
 [Typey Type’s dictionary](https://didoesdigital.com/typey-type/dictionaries/typey-type/typey-type/) is generated from this subset of this repo’s dictionaries:
@@ -59,6 +91,7 @@ Read about each dictionary before using them. For example, you don't need more t
 * [dict-en-AU-with-extra-stroke.json](dictionaries/dict-en-AU-with-extra-stroke.json)
 * [dict.json](dictionaries/dict.json)
 * [emoji.json](dictionaries/emoji.json)
+* [fingerspelling.json](dictionaries/fingerspelling.json)
 * [fingerspelling-FPLT.json](dictionaries/fingerspelling-FPLT.json)
 * [fingerspelling-powerups.json](dictionaries/fingerspelling-powerups.json)
 * [fingerspelling-RBGS.json](dictionaries/fingerspelling-RBGS.json)
@@ -106,7 +139,7 @@ Read about each dictionary before using them. For example, you don't need more t
 ## English Dictionaries
 
 - A main [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict.json) dictionary, containing many English words using briefs and phonetic strokes, but contains fewer misstrokes.
-- A [`top-10000-project-gutenberg-words.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/top-10000-project-gutenberg-words.json) dictionary, containing 10,000 common words from [Project Gutenberg](https://www.gutenberg.org/). This is a great starter dictionary. The [`top-100-words.json`](dictionaries/top-100-words.json) and [`top-1000-words.json`](dictionaries/top-1000-words.json) dictionaries are subsets of this dictionary.
+- A [`top-10000-project-gutenberg-words.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/top-10000-project-gutenberg-words.json) dictionary, containing 10,000 common words from [Project Gutenberg](https://www.gutenberg.org/). This is a great starter dictionary. The [`top-100-words.json`](dictionaries/top-100-words.json) and [`top-1000-words.json`](dictionaries/top-1000-words.json) dictionaries are subsets of this dictionary. If you're using `dict.json`, you won't need `top-10000-project-gutenberg-words.json`. You may want to use `condensed-strokes.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)).
 
 Previously, this project contained a `google-10000-english.json` dictionary, including 10,000 popular English words by N-grams. That's now been retired. You can still find it in the [repo’s git history](https://github.com/didoesdigital/steno-dictionaries/blob/39d3c19da3d41cd57061821795e5438c747775e2/dictionaries/top-10000-english-words.json) or [Typey Type’s community lessons spreadsheet](https://docs.google.com/spreadsheets/d/1AlO2SSUwuv3yrz7RI9ix_z1Efbiu_j50c_ibGYwdsgc/edit). Credit goes to [Josh Kaufman's typing word list from Google's Trillion Word Corpus](https://github.com/first20hours/google-10000-english).
 
