@@ -35,6 +35,7 @@
 "TPAO*EUPBDZ": "{#Control_L(Alt_L(Super_L(Shift_L(f))))}",
 "TPAO*EURZ": "{#F8}",
 "KRO*EPLZ": "{#Control_L(Alt_L(Super_L(Shift_L(c))))}",
+"SPO*Z": "{#Control_L(Alt_L(Super_L(Shift_L(i))))}",
 "SPO*FZ": "{#Control_L(Alt_L(Super_L(Shift_L(i))))}",
 "SHRA*BGZ": "{#Control_L(Alt_L(Super_L(Shift_L(l))))}",
 "TKA*RBZ": "{#Control_L(Alt_L(Super_L(Shift_L(d))))}",
