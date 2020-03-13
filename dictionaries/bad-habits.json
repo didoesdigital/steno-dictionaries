@@ -1,4 +1,11 @@
 {
+"TKROEU": "destroy",
+"TKROEUD": "destroyed",
+"TKROEUG": "destroying",
+"STROEU": "destroy",
+"STROEUD": "destroyed",
+"STROEUG": "destroying",
+"STROEUR": "destroyer",
 "HRAPBL": "language",
 "SEURB": "circumstance",
 "SKWREB/RAEUGS": "generation",
