@@ -31,7 +31,7 @@ I would also suggest dictionaries to operate Plover and your computer, such as:
 - [`tabbing.json`](dictionaries/tabbing.json).
 - [`modifiers-single-stroke.json`](dictionaries/modifiers-single-stroke.json).
 
-Finally, I would also suggest adding `condensed-strokes.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)), but it can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174) in rare situations so you may want to add it to your Plover config in a certain order so that it is overwritten by the other dictionaries.
+Finally, I would also suggest adding `condensed-strokes.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)), but it can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174) in rare fingerspelling situations.
 
 
 # Typey Type’s dictionary
@@ -73,23 +73,23 @@ If you notice any misstrokes, see the [Contributing guide](#contributing) below.
 
 Read about each dictionary before using them. For example, you don't need more than 1 fingerspelling dictionary. Here are all the dictionaries included:
 
-* [abbreviations.json](dictionaries/abbreviations.json)
+* [abbreviations.json](dictionaries/abbreviations.json)†
 * [apps.json](dictionaries/apps.json)
 * [bad-habits.json](dictionaries/bad-habits.json)
 * [briefs.json](dictionaries/briefs.json)
-* [code.json](dictionaries/code.json)
+* [code.json](dictionaries/code.json)†
 * [computer-powerups.json](dictionaries/computer-powerups.json)
 * [computer-use.json](dictionaries/computer-use.json)
 * [css-alignment.json](dictionaries/css-alignment.json)
 * [css-declarations.json](dictionaries/css-declarations.json)
 * [css-media-object.json](dictionaries/css-media-object.json)
-* [condensed-strokes.json](dictionaries/condensed-strokes.json)
-* [currency.json](dictionaries/currency.json)
+* [condensed-strokes.json](dictionaries/condensed-strokes.json)†
+* [currency.json](dictionaries/currency.json)†
 * [di-spectacle-v1.json](dictionaries/di-spectacle-v1.json)
 * [dict-en-AU-phonetic.json](dictionaries/dict-en-AU-phonetic.json)
 * [dict-en-AU-vocab.json](dictionaries/dict-en-AU-vocab.json)
-* [dict-en-AU-with-extra-stroke.json](dictionaries/dict-en-AU-with-extra-stroke.json)
-* [dict.json](dictionaries/dict.json)
+* [dict-en-AU-with-extra-stroke.json](dictionaries/dict-en-AU-with-extra-stroke.json)†
+* [dict.json](dictionaries/dict.json)†
 * [emoji.json](dictionaries/emoji.json)
 * [fingerspelling.json](dictionaries/fingerspelling.json)
 * [fingerspelling-FPLT.json](dictionaries/fingerspelling-FPLT.json)
@@ -102,11 +102,11 @@ Read about each dictionary before using them. For example, you don't need more t
 * [lorem.json](dictionaries/lorem.json)
 * [markdown.json](dictionaries/markdown.json)
 * [medical-suffixes.json](dictionaries/medical-suffixes.json)
-* [misstrokes.json](dictionaries/misstrokes.json)
+* [misstrokes.json](dictionaries/misstrokes.json)†
 * [modifiers-single-stroke.json](dictionaries/modifiers-single-stroke.json)
 * [modifiers.json](dictionaries/modifiers.json)
 * [navigation.json](dictionaries/navigation.json)
-* [nouns.json](dictionaries/nouns.json)
+* [nouns.json](dictionaries/nouns.json)†
 * [numbers-powerups.json](dictionaries/numbers-powerups.json)
 * [numbers.json](dictionaries/numbers.json)
 * [plover-powerups.json](dictionaries/plover-powerups.json)
@@ -127,12 +127,14 @@ Read about each dictionary before using them. For example, you don't need more t
 * [symbols.json](dictionaries/symbols.json)
 * [tabbing.json](dictionaries/tabbing.json)
 * [top-100-words.json](dictionaries/top-100-words.json)
-* [top-1000-words.json](dictionaries/top-1000-words.json)
-* [top-10000-project-gutenberg-words.json](dictionaries/top-10000-project-gutenberg-words.json)
+* [top-1000-words.json](dictionaries/top-1000-words.json)†
+* [top-10000-project-gutenberg-words.json](dictionaries/top-10000-project-gutenberg-words.json)†
 * [top-level-domains.json](dictionaries/top-level-domains.json)
 * [ux-design.json](dictionaries/ux-design.json)
 * [vim.json](dictionaries/vim.json)
 * [voiceover.json](dictionaries/voiceover.json)
+
+† This dictionary contains fingerspelling entries for writing words. In rare situations, the fingerspelled entries can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174).
 
 
 
