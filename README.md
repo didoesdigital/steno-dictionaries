@@ -85,6 +85,7 @@ Read about each dictionary before using them. For example, you don't need more t
 * [css-media-object.json](dictionaries/css-media-object.json)
 * [condensed-strokes.json](dictionaries/condensed-strokes.json)†
 * [currency.json](dictionaries/currency.json)†
+* [di-briefs.json](dictionaries/di-briefs.json)
 * [di-spectacle-v1.json](dictionaries/di-spectacle-v1.json)
 * [dict-en-AU-phonetic.json](dictionaries/dict-en-AU-phonetic.json)
 * [dict-en-AU-vocab.json](dictionaries/dict-en-AU-vocab.json)
@@ -734,6 +735,12 @@ Copy the [`ruby.json`](https://github.com/didoesdigital/steno-dictionaries/raw/m
 ## Common Words Dictionary
 
 This dictionary consists of common words already available in the default Plover dictionary. If you need only the common words for some reason, copy the [`common-words.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/common-words.json) file into your dictionary folder and add it to your Plover config to use the briefs for a thousand or so common English words.
+
+
+
+## Di's dictionaries
+
+I’ve started marking my custom dictionaries with `di-` or `-di` in the filename. For example, `di-briefs.json` contains my own personal briefs while `briefs.json` contains briefs extracted from `dict.json` that exist in the core Plover dictionary.
 
 
 
