@@ -15,6 +15,7 @@
 "O*EURPLT": "{#Super_L(backslash)}",
 "O*EURPBLT": "{#Super_L(Shift_L(backslash))}",
 "PHRA*EU": "{#AudioPlay}",
+"PA*US": "{#AudioPause}",
 "SROPL": "{#AudioRaiseVolume}",
 "SRO*PL": "{#AudioLowerVolume}",
 "TPH*EGT": "{#AudioNext}",
