@@ -372,6 +372,9 @@
 "KRER/K-L": "clerical",
 "KRERBG": "correct",
 "KRO": "{co-^}",
+"KUB/PWAORD": "cupboard",
+"KUP/PWORD": "cupboard",
+"KUP/PWORDZ": "cupboards",
 "KUPB/SEUL": "council",
 "KURT/KWROUS": "courteous",
 "KW-B": "{,}",
@@ -1037,6 +1040,7 @@
 "WOR/THEU/*PBS": "worthiness",
 "WORBG/PHEPB/SH-P": "workmanship",
 "WROPBG/KWROEL": "bronchiole",
+"WUP/PWORD": "cupboard",
 "WUPBT": "wasn't",
 "WUZ/WUZ": "{#}"
 }
