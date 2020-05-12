@@ -86,6 +86,7 @@ Read about each dictionary before using them. For example, you don't need more t
 * [condensed-strokes.json](dictionaries/condensed-strokes.json)†
 * [currency.json](dictionaries/currency.json)†
 * [di-briefs.json](dictionaries/di-briefs.json)
+* [di-nouns.json](dictionaries/di-nouns.json)
 * [di-spectacle-v1.json](dictionaries/di-spectacle-v1.json)
 * [dict-en-AU-phonetic.json](dictionaries/dict-en-AU-phonetic.json)
 * [dict-en-AU-vocab.json](dictionaries/dict-en-AU-vocab.json)
@@ -740,7 +741,7 @@ This dictionary consists of common words already available in the default Plover
 
 ## Di's dictionaries
 
-I’ve started marking my custom dictionaries with `di-` or `-di` in the filename. For example, `di-briefs.json` contains my own personal briefs while `briefs.json` contains briefs extracted from `dict.json` that exist in the core Plover dictionary.
+I’ve started marking my custom dictionaries with `di-` or `-di` in the filename. For example, `di-briefs.json` contains my own personal briefs while `briefs.json` contains briefs extracted from `dict.json` that exist in the core Plover dictionary. Ditto with `di-nouns.json` and `nouns.json`.
 
 
 
