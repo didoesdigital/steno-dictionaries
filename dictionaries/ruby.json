@@ -43,5 +43,14 @@
 "TPHRARB/PWR-BGT/ROEUR": "flash[:error]",
 "TPHRARB/PWR-BGT/SKES": "flash[:success]",
 "TPHRARB/PWR-BGT/TPH-TS": "flash[:notice]",
+"HAOEPTS": "https",
+"KHR-PB/STREUPBG/PREPB/#T-/#A/#A/PR*EPB": ":string(255)",
+"KHR-PB/TKAEUT/TK-LS/TAOEUPL": ":datetime",
+"P-P/H*PLT/RUPBD/SAEUF": ".html_safe",
+"P-P/R*/STREUP": ".rstrip",
+"PHAOEU/SKW-L/2": "mysql2",
+"RUPBD/HR*EUPBGS/P-P/H*PLT/P-P/ERB": "_links.html.erb",
+"SKWROFPB": "json",
+"TPH*FPB": "env",
 "WUZ/WUZ": "{#}"
 }
