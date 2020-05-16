@@ -99,8 +99,11 @@ Read about each dictionary before using them. For example, you don't need more t
 * [fingerspelling-RBGS.json](dictionaries/fingerspelling-RBGS.json)
 * [fingerspelling-right-hand.json](dictionaries/fingerspelling-right-hand.json)
 * [git.json](dictionaries/git.json)
+* [haxe.json](dictionaries/haxe.json)
 * [html.json](dictionaries/html.json)
+* [human-resources.json](dictionaries/human-resources.json)
 * [javascript.json](dictionaries/javascript.json)
+* [jquery.json](dictionaries/jquery.json)
 * [lorem.json](dictionaries/lorem.json)
 * [markdown.json](dictionaries/markdown.json)
 * [medical-suffixes.json](dictionaries/medical-suffixes.json)
@@ -720,11 +723,13 @@ Copy the [`ruby.json`](https://github.com/didoesdigital/steno-dictionaries/raw/m
 
 ## Technical Dictionaries
 
+- Copy the [`haxe.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/haxe.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"OEP/TK-LS/TP*/HR*/P-P": "openfl."`.
 - Copy the [`html.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/html.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"HR*EF": "href",`.
 - Copy the [`css-alignment.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/css-alignment.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"TPHREBGS": "flex",`.
 - Copy the [`css-declarations.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/css-declarations.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"KA*LG": "calc",`.
 - Copy the [`css-media-object.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/css-media-object.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"*EUPBLG": "img",`.
 - Copy the [`javascript.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/javascript.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"TKPWET/EL/*EPLT/PWEU/EUD": "getElementById",`.
+- Copy the [`jquery.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/jquery.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"HRO*ER/SKWR*/KWAO*ER": "jquery"`.
 - Copy the [`react.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/react.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"TH-P/SET/STA*ET/PR*EPBS": "{>}this.setState()",`.
 - Copy the [`python.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/python.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"PAOEU/S*FR": "python -m SimpleHTTPServer",`.
 - Copy the [`ux-design.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/ux-design.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"AOUBLT": "usability",`.
@@ -732,6 +737,9 @@ Copy the [`ruby.json`](https://github.com/didoesdigital/steno-dictionaries/raw/m
 - Copy the [`code.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/code.json) file into your dictionary folder and add it to your Plover config to use various briefs relating to coding and the command line.
 
 
+## Other Collection Dictionaries
+
+* [human-resources.json](dictionaries/human-resources.json)
 
 ## Common Words Dictionary
 
