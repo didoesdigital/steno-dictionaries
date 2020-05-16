@@ -1,0 +1,19 @@
+{
+"TK-PL/TK-LS/PREPB/TKOBG/*PLT/PR*EPB": "$(document)",
+"P-P/RED/TKEU/TK-LS/PREPB": ".ready(",
+"TPUBGS/TK-LS/PREPB/PR*EPB/TPR-BGT": "function(){",
+"OEU/OEU/SKWR*/KPA*/KWAOER/REU": "///jQuery",
+"TK-PL/TK-LS/PREPB/KW-GS/HAERB/STOEUPB/KR-GS/PR*EPB": "$(\"#steno\")",
+"P-P/H*PLT/TK-LS/PREPB/KW-GS/HEL/HROE/WORLD/KR-GS/PR*EPB/SKWR*RBGS": ".html(\"Hello/world\");",
+"TP-PL/TK-LS/PREPB/KW-GS/AEU/KR-GS/PR*EPB": "$(/\"a\"/)",
+"P-P/KHREUBG/TK-LS/PREPB": ".click(",
+"TPUBGS/PREPB/AOE/SREPBT/PR*EPB/TPR-BGT": "function(/event/)/{",
+"KAUPB/SOEL/P-P/HROG/TK-LS/PREPB": "console.log(",
+"KW-GS/KPA*/SUBG/SES/SKHRAPL/KR-GS/PR*EPB/SKWR*RBGS": "\"Success!\"/);",
+"AOE/SREPBT": "event",
+"P-P/PRE/SREPBT/KPA*/TKE/TPAULT/TK-LS/PREPB/PR*EPB/SKWR*RBGS": ".preventDefault();",
+"TK-PL/PREPB/TH/PR*EPB": "$(/this/)",
+"P-P/HAOEUD/TK-LS/PREPB/KW-GS/SHROE/KR-GS/PR*EPB/SKWR*RBGS": ".hide(/\"slow\"/);",
+"TPR*BGT/PR*EPB/SKWR*RBGS": "});",
+"WUZ/WUZ": "{#}"
+}
