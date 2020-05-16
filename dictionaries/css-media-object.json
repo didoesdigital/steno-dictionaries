@@ -10,5 +10,18 @@
 "*EUPBLG": "img",
 "STKPWHRAEU": "display",
 "PWHROBG": "block",
+"OEU/STA*R/S-P/-T/PHO*EUD/OB/SKWREBGT/S-P/STA*R/OEU": "/* the media object */",
+"P-P/PHO*EUD/TPR-BGT/PHARPB/KHR-PB/#SO/P*/KP*/SKWR*RBGS/TPR*BGT": ".media {margin:10px;}",
+"P-P/PHO*EUD/KW-BG/S-P/P-P/PW*/TK*/TPR-BGT": ".media, .bd {",
+"AUFR/TPHROE/KHR-PB/HEUD/TKEPB/SKWR*RBGS": "overflow:hidden;",
+"R*UPBD/AUFR/TPHROE/KHR-PB/SREUBL/SKWR*RBGS/SAO*PL/KHR-PB/#S/TPR*BGT": "_overflow:visible; zoom:1;}",
+"P-P/PHO*EUD/S-P/P-P/*EUP/PH*/TKPW*/TPR-BGT": ".media .img {",
+"TPHROET/KHR-PB/HREFT/SKWR*RBGS": "float:left;",
+"PHARPB/H-PB/RAOEUT/KHR-PB/#SO/P*/KP*/SKWR*RBGS/TPR*BGT": "margin-right: 10px;}",
+"P-P/PHO*EUD/S-P/P-P/*EU/PH*/TKPW*/S-P/*EU/PH*/TKPW*/TPR-BGT": ".media .img img{",
+"STKPWHRAEU/KHR-PB/PWHROBG/SKWR*RBGS/TP*BGT": "display:block;}",
+"P-P/PHO*EUD/S-P/P-P/*EU/PH*/TKPW*/*EP/KP*/T*/TPR-BGT": ".media .imgExt{",
+"TPHROET/KHR-PB/RAOEUT/SKWR*RBGS": "float:right;",
+"PHARPB/H-PB/HEFT/#SO/*P/KP*/SKWR*RBGS/TR*BGT/O": "margin-left: 10px;}",
 "WUZ/WUZ": "{#}"
 }
