@@ -61,5 +61,6 @@
 "AD/AOEPBT/HREUFPB/*ER": "addEventListener",
 "RE/PHOF/EFPBT/HREUFPB/*ER": "removeEventListener",
 "RE/PHOF/AOEPBT/HREUFPB/*ER": "removeEventListener",
+"S-P/TPRO*E": "=>",
 "WUZ/WUZ": "{#}"
 }
