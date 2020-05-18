@@ -7,6 +7,8 @@
 "KRAOET/KAUPB/T*EURPB": "createContainer",
 "KRAOET/HR*EPLT": "createElement",
 "KRAOET/PO*RLT": "createPortal",
+"KRAOET/K*EGT": "createContext",
+"KEGT/KPA*/TAOEUP": "contextType",
 "AUPB/R*ERPBD": "onRender",
 "AOUZ/REF": "useRef",
 "AOUZ/STAEUT": "useState",
