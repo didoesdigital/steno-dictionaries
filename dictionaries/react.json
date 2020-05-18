@@ -44,6 +44,7 @@
 "KPOEPBT/TKEUD/A*UD": "{>}componentDidUpdate",
 "KPOEPBT/TKEUD/A*UD/PR*EPBS": "{>}componentDidUpdate()",
 "KPOEPBT/TKEUD/AUD/PR*EPBS": "{>}componentDidUpdate()",
+"KPOEPBT/WEUL/UPB/PHO*UPBT": "{>}componentWillUnmount",
 "KPOEPBT/WEUL/UPB/PHO*UPBT/PR*EPBS": "{>}componentWillUnmount()",
 "TKPWET/TKRAOEUFD/STAEUT/TPR/PRO*PS": "{>}getDerivedStateFromProps",
 "TKPWET/TKRAOEUFD/STAEUT/TPR/PROPS/PR*EPBS": "{>}getDerivedStateFromProps()",
