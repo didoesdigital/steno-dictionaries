@@ -43,5 +43,13 @@
 "PWHR-T/PW*ULT/-D": "- Bulleted",
 "S*P/T*P/A*P/SKPH*/STA*R/R*P": "STA\\*R",
 "TPHAO*EUPBL/KH-FG/KOED/KH-FG": "inline `code`",
+"S-P/-6RB": "######",
+"S-P/1-RB": "#",
+"S-P/2-RB": "##",
+"S-P/3-RB": "###",
+"S-P/4-RB": "####",
+"S-P/5RB": "#####",
+"S-P/HRAO*UL": "====================",
+"S-P/HRAOUL": "--------------------",
 "WUZ/WUZ": "{#}"
 }
