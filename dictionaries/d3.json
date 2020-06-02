@@ -49,6 +49,7 @@
 "SKWAORT/SKWAORT": "sqrt",
 "SPOEPBT": "exponent",
 "SPWER/PHRAEUT": "interpolate",
+"STK*": "d",
 "STPHRERT": "invert",
 "STPHRERT/EBGS/TEPBT": "invertExtent",
 "TEUBG": "tick",
