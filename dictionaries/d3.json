@@ -10,6 +10,7 @@
 "HAOEUR/ARBG/K-L": "hierarchical",
 "HAOEUR/ARBG/KWREU": "hierarchy",
 "HR*EUPBG": "link",
+"HR*EUPBG/SO*PBL": "linkHorizontal",
 "HR*EUPBGS": "links",
 "HREF": "leave",
 "HREFS": "leaves",
