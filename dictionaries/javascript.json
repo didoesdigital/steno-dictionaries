@@ -3,6 +3,7 @@
 "*E/S*/HREUPBT": "eslint",
 "A*F/TK-LS/PREUPBT": "afterprint",
 "A*UBGS/TK-LS/KHREUBG": "auxclick",
+"A/RA*EU": "Array",
 "AD/AOEPBT/HREUFPB/*ER": "addEventListener",
 "AD/EFPBT/HREUFPB/*ER": "addEventListener",
 "APB/PHAEUGS/TK-LS/EPBD": "animationend",
