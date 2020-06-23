@@ -117,6 +117,7 @@
 "PW-FR/TK-LS/PREUPBT": "beforeprint",
 "PW-FR/TK-LS/UPB/HRAOD": "beforeunload",
 "R-D/STAEUT/KHA*EPBG": "ReadyStateChange",
+"R-D/STAEUT/KHA*EUPBG": "readystatechange",
 "R-D/STAEUT/KHAEUPBG": "readystatechange",
 "R-D/TK-LS/STAEUT/TK-LS/KHAEUPBG": "readystatechange",
 "RAEUT/KHA*EUPBG": "ratechange",
