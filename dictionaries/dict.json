@@ -5081,7 +5081,7 @@
 "AERT/SKHROZ": "arteriosclerosis",
 "AERT/TPABGT": "artifact",
 "AES": "{^'s}",
-"AES/ES": "'s",
+"AES/ES": "{^'s}",
 "AES/ES/SAEU": "{^'s essay}",
 "AES/THET/EUBG": "aesthetic",
 "AES/THET/EUBG/HREU": "aesthetically",
