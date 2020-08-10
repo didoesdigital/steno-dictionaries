@@ -97,6 +97,7 @@
 "S-P/KPOEPBT/TKEUD/AUD": "componentDidUpdate",
 "S-P/KPOEPBT/WEUL/UPB/PHO*UPBT": "componentWillUnmount",
 "S-P/TKPWET/TKRAOEUFD/STAEUT/TPR/RO*EUR": "getDerivedStateFromError",
+"S-P/TKPWET/TKRAOEUFD/STAEUT/TPR/PRO*PS": "getDerivedStateFromProps",
 "WUZ/WUZ": "{#}"
 }
 
