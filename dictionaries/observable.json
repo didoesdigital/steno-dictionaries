@@ -1,5 +1,10 @@
 {
 "OEBL": "observable",
 "OEBL/OEBL": "Observable",
+"OEBL/KOED/TP*EPBS": "{^}~~~\n\n{^~~~^}{#Up}{^}",
+"OEBL/KOED/TPEPBS/-S": "{^}~~~\n\n{^~~~^}{#Up}{^}",
+"OEBL/KOED/TPEPBS/SKWR-S": "{^}~~~js\n\n{^~~~^}{#Up}{^}",
+"OEBL/KOED/TPEPBS/KR*S": "{^}~~~css\n\n{^~~~^}{#Up}{^}",
+"OEBL/KOED/TPEPBS/H*PLT": "{^}~~~html\n\n{^~~~^}{#Up}{^}",
 "WUZ/WUZ": "{#}"
 }
