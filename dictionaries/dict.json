@@ -134209,6 +134209,7 @@
 "TUT/TOERL": "tutorial",
 "TUT/TORL": "tutorial",
 "TW*EUBGS": "'twixt",
+"TW*EUBGTS": "{~|'^}twixt",
 "TW*EUPB": "within it",
 "TW*EUPBG": "twink",
 "TW*EUPBG/*L": "twinkle",
