@@ -19,7 +19,6 @@
 "TKPWEUT/KPHEUT/H-PBS/SR*": "git commit -v",
 "TKPWEUT/KPHEUT/H-PBS/SR*/TK-RB/APLD": "git commit -v --amend",
 "TKPWEUT/PHERPBLG": "git merge",
-"TKPWEUT/PURB/O*RPBLG/PHAFRT": "push origin master",
 "TKPWEUT/ST*TS": "git status",
 "TKPWEUT/TKEUF/TK-RB/KAERBD": "git diff --cached",
 "TKPW*EUT/TKEUF": "git diff",
