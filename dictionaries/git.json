@@ -35,7 +35,7 @@
 "TKPWH*TD": "{^}git commit -v --amend{#Return}{^}i{^}{-|}",
 "TKPWEUT/PURB/O*RPBLG/PHAFRT": "git push origin master",
 "TKPWEUT/PURB/TPORS": "git push --force-with-lease",
-"PUL/TK*RB RE/PWAEUS": "pull --rebase",
+"PUL/H-PBZ/RE/PWAEUS": "pull --rebase",
 "PURB/O*RPBLG/PHAFRT": "push origin master",
 "KHEBG/SKWROUT/H*PB/PW*/HOT/TK-LS/TPEUBGS": "checkout -b hotfix",
 "TKPW*OUT": "{^}git checkout",
