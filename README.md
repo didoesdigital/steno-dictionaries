@@ -254,11 +254,12 @@ Use `THRAB` for ⌥ ⇓ and `THRAP` for ⌥ ⇑.
 The complementary [`tabbing.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/navigation.json) dictionary also lets you switch tabs, windows, and apps.
 
 Use `TW-` and a direction for tabbing.
-- Adding `-F`/`-L` gives you ⌘⇧[ / ⌘⇧] to switch tabs forward and backward.
-- Adding `-B`/`-P` gives you ⌘\` / ⌘⇧\` to switch windows forward and backward.
-- Adding `-G`/`-R` gives you ⌘Tab / ⌘⇧Tab to switch applications forward and backward.
-- Adding `-FB`/`-LG` gives you ⌘[ / ⌘] to navigate forwards and backwards in a browser.
-- Adding a star to `TW*G` gives you ⌘Tab Tab to switch 2 applications.
+
+- Adding `-F`/`-L` gives you <kbd>⌘</kbd><kbd>⇧</kbd><kbd>[</kbd> / <kbd>⌘</kbd><kbd>⇧</kbd><kbd>]</kbd> to switch tabs forward and backward.
+- Adding `-B`/`-P` gives you <kbd>⌘</kbd><kbd>\`</kbd> / <kbd>⌘</kbd><kbd>⇧</kbd><kbd>\`</kbd> to switch windows forward and backward.
+- Adding `-G`/`-R` gives you <kbd>⌘</kbd><kbd>Tab</kbd> / <kbd>⌘</kbd><kbd>⇧</kbd><kbd>Tab</kbd> to switch applications forward and backward.
+- Adding `-FB`/`-LG` gives you <kbd>⌘</kbd><kbd>[</kbd> / <kbd>⌘</kbd><kbd>]</kbd> to navigate forwards and backwards in a browser.
+- Adding a star to `TW*G` gives you <kbd>⌘</kbd><kbd>Tab</kbd><kbd>Tab</kbd> to switch 2 applications.
 
 
 
