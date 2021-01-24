@@ -31,7 +31,7 @@ I would also suggest dictionaries to operate Plover and your computer, such as:
 - [`tabbing.json`](dictionaries/tabbing.json).
 - [`modifiers-single-stroke.json`](dictionaries/modifiers-single-stroke.json).
 
-Finally, I would also suggest adding `condensed-strokes.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)), but it can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174) in rare fingerspelling situations.
+Finally, I would also suggest adding `condensed-strokes.json` and `condensed-strokes-fingerspelled.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)), but they can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174) in rare fingerspelling situations.
 
 
 # Typey Type’s dictionary
@@ -41,6 +41,7 @@ Finally, I would also suggest adding `condensed-strokes.json` to improve lookups
 - [`abbreviations.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/abbreviations.json)
 - [`briefs.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/briefs.json)
 - [`condensed-strokes.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/condensed-strokes.json)
+- [`condensed-strokes-fingerspelled.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/condensed-strokes-fingerspelled.json)
 - [`currency.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/currency.json)
 - [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/dict.json)
 - [`dict-en-AU-phonetic.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/dict-en-AU-phonetic.json)
@@ -84,6 +85,7 @@ Read about each dictionary before using them. For example, you don't need more t
 * [css-declarations.json](dictionaries/css-declarations.json)
 * [css-media-object.json](dictionaries/css-media-object.json)
 * [condensed-strokes.json](dictionaries/condensed-strokes.json)†
+* [condensed-strokes-fingerspelled.json](dictionaries/condensed-strokes-fingerspelled.json)†
 * [currency.json](dictionaries/currency.json)†
 * [di-briefs.json](dictionaries/di-briefs.json)
 * [di-nouns.json](dictionaries/di-nouns.json)
@@ -147,7 +149,7 @@ Read about each dictionary before using them. For example, you don't need more t
 ## English Dictionaries
 
 - A main [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict.json) dictionary, containing many English words using briefs and phonetic strokes, but contains fewer misstrokes.
-- A [`top-10000-project-gutenberg-words.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/top-10000-project-gutenberg-words.json) dictionary, containing 10,000 common words from [Project Gutenberg](https://www.gutenberg.org/). This is a great starter dictionary. The [`top-100-words.json`](dictionaries/top-100-words.json) and [`top-1000-words.json`](dictionaries/top-1000-words.json) dictionaries are subsets of this dictionary. If you're using `dict.json`, you won't need `top-10000-project-gutenberg-words.json`. You may want to use `condensed-strokes.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)).
+- A [`top-10000-project-gutenberg-words.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/top-10000-project-gutenberg-words.json) dictionary, containing 10,000 common words from [Project Gutenberg](https://www.gutenberg.org/). This is a great starter dictionary. The [`top-100-words.json`](dictionaries/top-100-words.json) and [`top-1000-words.json`](dictionaries/top-1000-words.json) dictionaries are subsets of this dictionary. If you're using `dict.json`, you won't need `top-10000-project-gutenberg-words.json`. You may want to use `condensed-strokes.json` and `condensed-strokes-fingerspelled.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)).
 
 Previously, this project contained a `google-10000-english.json` dictionary, including 10,000 popular English words by N-grams. That's now been retired. You can still find it in the [repo’s git history](https://github.com/didoesdigital/steno-dictionaries/blob/39d3c19da3d41cd57061821795e5438c747775e2/dictionaries/top-10000-english-words.json) or [Typey Type’s community lessons spreadsheet](https://docs.google.com/spreadsheets/d/1AlO2SSUwuv3yrz7RI9ix_z1Efbiu_j50c_ibGYwdsgc/edit). Credit goes to [Josh Kaufman's typing word list from Google's Trillion Word Corpus](https://github.com/first20hours/google-10000-english).
 
@@ -213,6 +215,7 @@ The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plove
 - [`nouns.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/nouns.json) contains a few hundred additional words.
 - [`proper-nouns.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/proper-nouns.json) contains a few hundred proper nouns.
 - [`condensed-strokes.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/condensed-strokes.json) contains a combinations of existing strokes in the main Plover dictionary so that they appear in searches when you look up strokes. These words can already be written using the default Plover dictionary and prefix/suffix strokes or punctuation strokes. It can be useful for improving dictionary lookups, but is not needed to write the words. It can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174) in rare situations so you may want to add it to your Plover config in a certain order so that it is overwritten by the other dictionaries.
+- [`condensed-strokes-fingerspelled.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/condensed-strokes-fingerspelled.json) contains fingerspellings for words that are neither contained in the default Plover dictionary, nor able to be composed using default Plover dictionary strokes. It can be useful for improving dictionary lookups to confirm that there is no known Plover stroke for a word.
 
 
 
