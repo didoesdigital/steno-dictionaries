@@ -89,6 +89,7 @@
 "KR*/O*/TPH*/TPH*/*E/KP*/*EU/O*/TPH*": "connexion",
 "KR*/TP*/TP-PL": "cf.",
 "KR*/TP-PL": "c.",
+"KR*P/A*/R*/A*/PW*/A*/S*": "Carabas",
 "KR*P/H*/*E/A*/P*/S*/*EU/TK*/*E": "Cheapside",
 "KR*P/H*/A*/PH*/PW*/*E/R*/HR*/A*/KWR*/TPH*/*E": "Chamberlayne",
 "KR*P/H*/A*/T*/S*/W*/O*/R*/T*/H*": "Chatsworth",
@@ -218,6 +219,7 @@
 "T*/AE": "t'",
 "T*/H*/*EU/*E/SR*/*EU/S*/H*": "thievish",
 "T*/H*/AE": "th'",
+"T*/H*/R*/O*/-PBT": "thro'",
 "T*/W*/*E/HR*/SR*/*E/PH*/O*/TPH*/T*/H*": "twelvemonth",
 "T*P/*EU/S*": "Tis",
 "T*P/*U": "Tu",
@@ -280,5 +282,5 @@
 "W*P/*E/S*/T*/*E/R*/H*/A*/PH*": "Westerham",
 "W*P/*EU/HR*/TP*/*U/HR*/HR*/KWR*": "Wilfully",
 "W*P/*EU/KR*/K*/H*/A*/PH*": "Wickham",
-"W*P/A*/R*/W*/*EU/KR*/K*": "Warwick",
+"W*P/A*/R*/W*/*EU/KR*/K*": "Warwick"
 }
