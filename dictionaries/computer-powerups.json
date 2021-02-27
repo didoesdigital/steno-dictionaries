@@ -40,6 +40,7 @@
 "KRO*EPLZ": "{#Control_L(Alt_L(Super_L(Shift_L(c))))}",
 "SPO*Z": "{#Control_L(Alt_L(Super_L(Shift_L(i))))}",
 "SPO*FZ": "{#Control_L(Alt_L(Super_L(Shift_L(i))))}",
+"TPA*Z": "{#Control_L(Alt_L(Super_L(Shift_L(g))))}",
 "SHRA*BGZ": "{#Control_L(Alt_L(Super_L(Shift_L(l))))}",
 "TKA*RBZ": "{#Control_L(Alt_L(Super_L(Shift_L(d))))}",
 "SR*LZ": "{#Control_L(Alt_L(Super_L(Shift_L(v))))}",
