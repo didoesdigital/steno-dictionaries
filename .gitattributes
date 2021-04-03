@@ -1,0 +1,2 @@
+# Ensure that Github reports that this repo contains JSON.
+*.json linguist-detectable
