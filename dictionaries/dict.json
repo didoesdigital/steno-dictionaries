@@ -129934,7 +129934,7 @@
 "TPOE/TPHOE/TKPWRAF": "phonograph",
 "TPOE/TPHOL/SKWR*EUS": "phonologist",
 "TPOE/TPHOLG": "phonology",
-"TPOEB": "phobe",
+"TPOEB": "{^phobe}",
 "TPOEB/-S": "phobias",
 "TPOEB/EUBG": "phobic",
 "TPOEB/EUS/TEU": "{^phobicity}",
