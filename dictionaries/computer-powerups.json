@@ -52,6 +52,7 @@
 "PHRO*EFRZ": "{#Control_L(Alt_L(Super_L(Shift_L(p))))}",
 "SK*EFPZ": "{#Control_L(Alt_L(Super_L(Shift_L(k))))}",
 "TAO*UPBZ": "{#Control_L(Alt_L(Super_L(Shift_L(n))))}",
+"SAO*PLZ": "{#Control_L(Alt_L(Super_L(Shift_L(z))))}",
 "PR*EFZ": "{#Control_L(Alt_L(Super_L(Shift_L(F1))))}",
 "SP*P": "{#Control_L(Alt_L(Super_L(Shift_L(F2))))}",
 "SP*B": "{#Control_L(Alt_L(Super_L(Shift_L(F3))))}",
