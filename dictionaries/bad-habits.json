@@ -40,6 +40,7 @@
 "-RGS": "{,}",
 "-SZ": "{^s}",
 "11/*T": "11th",
+"2*": "{>}{&t}",
 "A*ES": "{^'s}",
 "A*FL": "Alph",
 "A*L/PHAOEU/TEU": "Almighty",
