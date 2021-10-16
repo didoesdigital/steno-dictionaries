@@ -132,6 +132,8 @@
 "PHRAOURL/SA*EUGS": "pluralization",
 "PHRUG/*EUPB": "plugin",
 "PO*L/TPOPB/EUBG": "polyphonic",
+"POP/O*EFR": "popover",
+"POP/O*EFRS": "popovers",
 "PRA/PET": "parapet",
 "PRAOEU/ER": "prier",
 "PWA*ET": "bate",
