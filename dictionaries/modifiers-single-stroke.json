@@ -87,7 +87,7 @@
 "KR-8": "{^}{#Control_L(F8)}{^}",
 "KR-9": "{^}{#Control_L(F9)}{^}",
 "10-RG": "{^}{#Control_L(F10)}{^}",
-"11-RG": "{^}{#Control_L(F11)}{^}",
+"1K-RG": "{^}{#Control_L(F11)}{^}",
 "12-RG": "{^}{#Control_L(F12)}{^}",
 "A*RBL": "{#Control_L(a)}",
 "PW*RBL": "{#Control_L(b)}",
