@@ -55,6 +55,7 @@
 "PR*EFZ": "{#Control_L(Alt_L(Super_L(Shift_L(F1))))}",
 "SP*P": "{#Control_L(Alt_L(Super_L(Shift_L(F2))))}",
 "SP*B": "{#Control_L(Alt_L(Super_L(Shift_L(F3))))}",
+"TKRA*FTSDZ": "{#Control_L(Alt_L(Super_L(Shift_L(F6))))}",
 "PWAO*BGZ": "{#Control_L(Alt_L(Shift_L(o)))}",
 "SKR*PB": "{#Super_L(Shift_L(4))}",
 "SKR*RPB": "{#Super_L(Control_L(Shift_L(4)))}",
