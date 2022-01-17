@@ -4,5 +4,7 @@
 "PAOEU/S*FR": "python -m SimpleHTTPServer",
 "PAOEU/TPH*FPB": "pyenv",
 "PEUP/STPHAUL": "pip install",
+"TO/P*EU": "to py",
+"TWO/P*EU": "two py",
 "WUZ/WUZ": "{#}"
 }
