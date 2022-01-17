@@ -479,6 +479,22 @@ You might also like the related symbols currency dictionary:
 
 
 
+## Numbers Dictionaries
+
+- [`numbers.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/numbers.json) contains the numbers entries from Plover
+- [`numbers-powerups.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/numbers-powerups.json) contains extra entries like:
+    ```
+    "THOEUB": "{^,000}",
+    "THOUZ": "{^000}",
+    "THO*UZ": "{,^000}",
+    ```
+
+Conflicts:
+
+- [`numbers-powerups.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/numbers-powerups.json) adds `"K-PL": "km",` and `"K*PL": "{^km}",`, which conflicts with `"K*PL": "kilometer"` added in a more recent version of Plover.
+
+
+
 ## Australian English Dictionaries
 
 There are used to be two Australian English companion dictionaries, each intended to be used in combination with the default Plover dictionary. There's now only 1.
