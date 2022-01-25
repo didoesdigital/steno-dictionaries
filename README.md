@@ -273,8 +273,17 @@ This dictionary was designed for running commands on a Mac. Copy the [`computer-
 * Tab and Space keys `"STA*PB": "{#Tab}{#space}",`
 * Mac Character Viewer `"KHA*RZ": "{#Control_L(Super_L(space))}",`
 * Shift Return key (⇧↵) `"STP*R": "{#Shift_L(Return)}",`
-* Command backslash (⌘/) `"O*EURPLT": "{#Super_L(backslash)}",`
-* Command Shift backslash (⌘⇧/) `"O*EURPBLT": "{#Super_L(Shift_L(backslash))}",`
+* Command slash (⌘/) `"KPHOEU": "{#Super_L(slash)}{^}",`
+    * to show keyboard shortcuts in many apps
+    * to comment out code
+    * to show cursor in iTerm
+    * to show quick action command search in Figma
+* Command Shift slash (⌘⇧/) `"KPHO*EU": "{#Super_L(Shift_L(slash))}",` — kind of like ⌘?
+    * to show help
+* Command backslash (⌘\) `"O*EURPLT": "{#Super_L(backslash)}",`
+    * to show 1Password
+* Command Shift backslash (⌘⇧\) `"O*EURPBLT": "{#Super_L(Shift_L(backslash))}",` — kind of like ⌘|
+    * to emoji reply on Slack
 * Audio play `"PHRA*EU": "{#AudioPlay}",`
 * Audio raise volume `"SROPL": "{#AudioRaiseVolume}",`
 * Audio lower volume `"SRO*PL": "{#AudioLowerVolume}",`

@@ -14,7 +14,7 @@
 "R-RB": "{#Shift_L(Return)}",
 "R*RB": "{#Shift_L(Return)}",
 "KPHOEU": "{#Super_L(slash)}{^}",
-"KPHO*EU": "{#Super_L(backslash)}",
+"KPHO*EU": "{#Super_L(Shift_L(slash))}",
 "O*EURPLT": "{#Super_L(backslash)}",
 "O*EURPBLT": "{#Super_L(Shift_L(backslash))}",
 "PHRA*EU": "{#AudioPlay}",
