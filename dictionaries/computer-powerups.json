@@ -64,5 +64,16 @@
 "SKR*PB": "{#Super_L(Shift_L(4))}",
 "SKR*RPB": "{#Super_L(Control_L(Shift_L(4)))}",
 "TKPWAO*LG": "!g{#Return}",
+"KPH": "{#Control_L(Alt_L(Super_L(Shift_L(8))))}",
+"KPHRAO": "{#Control_L(Alt_L(Super_L(Shift_L(8))))}",
+"KPHREUBG": "{#Control_L(Alt_L(Super_L(Shift_L(8))))}",
+"SPH": "{#Control_L(Alt_L(Super_L(Shift_L(7))))}",
+"STKRAO": "{#Control_L(Alt_L(Super_L(Shift_L(0))))}",
+"STP": "{#Control_L(Alt_L(Super_L(Shift_L(5))))}",
+"STPHREUBG": "{#Control_L(Alt_L(Super_L(Shift_L(7))))}",
+"THRA": "{#Control_L(Alt_L(Super_L(Shift_L(6))))}",
+"THRA*": "{#Control_L(Alt_L(Super_L(Shift_L(6))))}",
+"TKRAO": "{#Control_L(Alt_L(Super_L(Shift_L(9))))}",
+"TKRAOD": "{#Control_L(Alt_L(Super_L(Shift_L(0))))}",
 "WUZ/WUZ": "{#}"
 }

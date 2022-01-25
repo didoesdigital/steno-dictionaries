@@ -303,6 +303,23 @@ This dictionary was designed for running commands on a Mac. Copy the [`computer-
 * Screenshot selected area as a file `"SKR*PB": "{#Super_L(Shift_L(4))}",`
 * Screenshot selected area and copy to clipboard `"SKR*RPB": "{#Super_L(Control_L(Shift_L(4)))}",`
 
+There are a handful of weird entries mapped to hard-to-hit QWERTY shortcuts like `"{#Control_L(Alt_L(Super_L(Shift_L(i))))}",` that are used by other applications, such as [Alfred](https://www.alfredapp.com/) and [Keymou](https://manytricks.com/keymou/), to map to the shortcuts to other behaviours.
+
+### Mouse keys via keymou:
+
+These outlines are designed to be used with [Keymou](https://manytricks.com/keymou/) to operate the mouse via keys or add keyboard modifiers to mouse behaviour. They tend to use left-hand only steno keys because I use the mouse with my right hand.
+
+* ⌘ click to select multiple items individually: `"KPH": "{#Control_L(Alt_L(Super_L(Shift_L(8))))}",`
+* ⌘ click to select multiple items individually: `"KPHRAO": "{#Control_L(Alt_L(Super_L(Shift_L(8))))}",`
+* ⌘ click to select multiple items individually: `"KPHREUBG": "{#Control_L(Alt_L(Super_L(Shift_L(8))))}",`
+* ⇧ click to select multiple items in a row: `"SPH": "{#Control_L(Alt_L(Super_L(Shift_L(7))))}",`
+* ⇧ click to select multiple items in a row: `"STPHREUBG": "{#Control_L(Alt_L(Super_L(Shift_L(7))))}",`
+* ⌥ click to select alternative options e.g. expanded WIFI details: `"THRA": "{#Control_L(Alt_L(Super_L(Shift_L(6))))}",`
+* ⌥ click to select alternative options e.g. expanded WIFI details: `"THRA*": "{#Control_L(Alt_L(Super_L(Shift_L(6))))}",`
+* Press and hold ⇧ for Shift + drag to move elements in a straight line: `"STP": "{#Control_L(Alt_L(Super_L(Shift_L(5))))}",`
+* Press and hold ⌥ for Option + drag to duplicate elements: `"TKRAO": "{#Control_L(Alt_L(Super_L(Shift_L(9))))}",`
+* Release mouse button: `"TKRAOD": "{#Control_L(Alt_L(Super_L(Shift_L(0))))}",`
+* Release mouse button: `"STKRAO": "{#Control_L(Alt_L(Super_L(Shift_L(0))))}",`
 
 
 ## Punctuation Dictionary
