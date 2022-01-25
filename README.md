@@ -371,7 +371,8 @@ Copy the [`punctuation.json`](https://github.com/didoesdigital/steno-dictionarie
 ### Punctuation Powerups Dictionary
 
 - [`punctuation-powerups.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/punctuation-powerups.json) contains additional punctuation briefs such as:
-    - pairs of punctuation (`"PWRABGS": "{^}<>{#Left}{^}"`),
+    - suppressed space pairs of punctuation (`"PWRABGS": "{^}<>{#Left}{^}"`),
+    - spaces pairs of punctuation (`"STP-PLS": "''{#Left}{^}"`),
     - smart/curly quotation marks (`"TP-L/TP-L": "{^’}"`), and
     - punctuation that carries capitalisation  (`"KW-GS": "{~|“^}"`).
 
