@@ -23,6 +23,7 @@
 "STPR-BGTS": "{ }\\{\\}{#Left}{^}",
 "STPR*BGTS": "{ }\\{\\}{#Left}{^}",
 "SPWR*BGTS": "{^ ^}[]{#Left}{^}",
+"SPREPB": "{^ (^}",
 "H-F/KH-FG": "{?} {`}{-|}",
 "TKHR-FRLGS": "{^``^}{#Left}{^}",
 "STKHR-FRLGS": "{^ ``^}{#Left}{^}",
