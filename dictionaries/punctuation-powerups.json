@@ -9,6 +9,7 @@
 "PWR-BGT/-S": "{~|[]}",
 "PWR-BGTS": "{~|[]}{#Left}",
 "PWR*BGTS": "{^[]^}",
+"PWRA*BGTS": "{^[]^}{#left}{^}",
 "PWRA*BG": "{^}<{^}",
 "PWRABG": "{^}>{^}",
 "PWRABGS": "{^}<>{#Left}{^}",
