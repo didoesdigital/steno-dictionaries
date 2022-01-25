@@ -130,6 +130,7 @@
 "S/TPHAPB": "isNaN",
 "SET/EUPBT/SRAL": "setInterval",
 "SET/TAOEUPL/SKWROUT": "setTimeout",
+"KHRO*G": "{^}console.log(){#Left}{^}",
 "SKHRO*G": "console.log(\"\"){#Left}{#Left}{^}",
 "SKHROG": "console.log(){#Left}{^}",
 "SKP*Z": "&&",
