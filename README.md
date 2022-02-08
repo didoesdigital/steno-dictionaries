@@ -342,7 +342,6 @@ Copy the [`punctuation.json`](https://github.com/didoesdigital/steno-dictionarie
 * : `KHR-PB` =&gt; `KL-N` (<strong>c</strong>o<strong>l</strong>o<strong>n</strong>, unspaced)
 * - `H-PB` =&gt; `H-PB` (<strong>h</strong>yphe<strong>n</strong>), unspaced
 * -- `TK-RB` =&gt; `D-SH` (<strong>d</strong>a<strong>sh</strong>)
-* - `PH*PBS` =&gt; `M-NS` (<strong>m</strong>i<strong>n</strong>u<strong>s</strong>, spaced)
 * + `PHR*US` => `PL*US` (<strong>plus</strong>)
 * = `KWA*LS` =&gt; `QA*LS` (unspaced e<strong>q</strong>u<strong>als</strong>)
 * = `KW-L` =&gt; `Q-L` (spaced e<strong>q</strong>ua<strong>l</strong>s)
@@ -383,6 +382,10 @@ Copy the [`punctuation.json`](https://github.com/didoesdigital/steno-dictionarie
 * <strong>Cap</strong>ital with a space `KPA`
 * <strong>Cap</strong>ital without a space `KPA*`
 
+Note: I've prefer this entry for minus from Plover's original dictionary but it's since been replaced by "mountains" so it does not live in the punctuation dictionary:
+
+* - `PH*PBS` =&gt; `M-NS` (<strong>m</strong>i<strong>n</strong>u<strong>s</strong>, spaced)
+
 
 
 ### Punctuation Powerups Dictionary
@@ -399,7 +402,7 @@ Copy the [`punctuation.json`](https://github.com/didoesdigital/steno-dictionarie
 
 This dictionary uses common briefs for punctuation, but with translations that suppress surrounding spaces (before and after the punctuation) for more precise input. This might be handy for programming, for example.
 
-To use the following briefs, copy the [`unspaced-punctuation.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/unspaced-punctuation.json) file into your dictionary folder and add it to your Plover config:
+To use the following briefs, copy the [`punctuation-unspaced.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/punctuation-unspaced.json) file into your dictionary folder and add it to your Plover config:
 
 * `EPB/TKA*RB`: –
 * `EPL/TKA*RB`: —
@@ -425,7 +428,6 @@ To use the following briefs, copy the [`unspaced-punctuation.json`](https://gith
 * `R*UPBD`: _
 * `RUPBD`: _
 * `H-PB`: -
-* `PH*PBS`: -
 * `TK-RB`: --
 * `OEU`: /
 * `SPWHRAERB`: \
@@ -447,6 +449,10 @@ To use the following briefs, copy the [`unspaced-punctuation.json`](https://gith
 * `HAERB`: #
 * `PERS`: %
 * `PHR*US`: +
+
+Note: I prefer this entry for “minus” from Plover's original dictionary, which has since been replaced by "mountains", but I include it in punctuation-powerups and punctuation-unspaced:
+
+* `PH*PBS`: - =&gt; `M-NS` (<strong>m</strong>i<strong>n</strong>u<strong>s</strong>, spaced)
 
 There is an additional stroke for an unspaced double quotation mark combining the opening and closing double quotation mark briefs:
 
