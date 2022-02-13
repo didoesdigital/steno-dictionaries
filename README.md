@@ -956,3 +956,9 @@ This project and everyone participating in it is governed by the [Code of Conduc
 
 GPLv2+. See [license](LICENSE) for details.
 
+## Related repos
+
+- [Typey Type](https://github.com/didoesdigital/typey-type)
+- [Typey Type data](https://github.com/didoesdigital/typey-type-data)
+- [Stenoboard diagram SVG to React](https://github.com/didoesdigital/typey-type-stenoboard-diagram-svg-to-react)
+
