@@ -365,7 +365,7 @@ Copy the [`punctuation.json`](https://github.com/didoesdigital/steno-dictionarie
 * @ `KWRAT` =&gt; `YAT` (<strong>at</strong>-sign
 * `#` `HAERB` =&gt; `HAESH` (<strong>hash</strong>)
 * $ `TK-PL` =&gt; `D-M` (<strong>d</strong>ollar <strong>m</strong>ark)
-* % `PERS` (<strong>perce</strong>nt)
+* % `P*ERS` (<strong>perce</strong>nt)
 * ^ `KR-RT` =&gt; `C-RT` (<strong>c</strong>a<strong>r</strong>e<strong>t</strong>)
 * &amp; `SP-PBD` =&gt; `SP-ND` (am<strong>p</strong>er<strong>sand</strong>)
 * _ `R*UPBD` or `RUPBD` =&gt; `RUND` (<strong>und</strong>e<strong>r</strong>score)
