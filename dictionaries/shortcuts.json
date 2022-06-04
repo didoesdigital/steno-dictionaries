@@ -1,7 +1,7 @@
 {
-"STA*RT": "{#alt(shift(s))}",
-"SRAO*EUZ": "{#alt(shift(r))}",
-"HR*FPB": "{#alt(shift(o))}",
+"STA*RT": "{#control(option(s))}",
+"SRAO*EUZ": "{#control(option(r))}",
+"HR*FPB": "{#control(option(o))}",
 "S*RB/KR*R": "zshrc",
 "SREUPL/KR*R": "vimrc",
 "HAOEPLT/5*": "<!DOCTYPE html>{#Return}{^}<html{^ ^}lang=\"en\">{#Return}{^}<head>{#Return}{^}{^ ^}{^ ^}<meta{^ ^}charset=\"utf-8\"{^ ^}/>{#Return}{^}{^ ^}{^ ^}<title></title>{#Return}{^}{^ ^}{^ ^}<link{^ ^}rel=\"stylesheet\"{^ ^}href=\"css/main.css\"{^ ^}type=\"text/css\"{^ ^}/>{#Return}{^}</head>{#Return}{^}{#Return}{^}<body>{#Return}{^}{#Return}{^}{^ ^}{^ ^}<h1></h1>{#Return}{^}{^ ^}{^ ^}<p></p>{#Return}{^}{#Return}{^}</body>{#Return}{^}</html>",
