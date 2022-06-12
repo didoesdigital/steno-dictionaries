@@ -2,7 +2,7 @@
 "PHO*EUD": "media",
 "OB/SKWREBGT": "object",
 "PHARPB": "margin",
-"P-BGS": "px",
+"P-BGS": "{&px}",
 "AUFR/TPHROE": "overflow",
 "HEUD/-PB": "hidden",
 "SREUBL": "visible",
