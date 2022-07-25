@@ -801,10 +801,6 @@ Copy the [`ruby.json`](https://github.com/didoesdigital/steno-dictionaries/raw/m
 
 * [human-resources.json](dictionaries/human-resources.json)
 
-## Common Words Dictionary
-
-This dictionary consists of common words already available in the default Plover dictionary. If you need only the common words for some reason, copy the [`common-words.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/common-words.json) file into your dictionary folder and add it to your Plover config to use the briefs for a thousand or so common English words.
-
 
 
 ## Di's dictionaries
