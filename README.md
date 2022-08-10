@@ -340,12 +340,12 @@ Copy the [`punctuation.json`](https://github.com/didoesdigital/steno-dictionarie
 * ; `SKWR*RBGS` or `STPH*FPLT` (semi-colon, spaced)
 * : `STPH-FPLT` (colon, spaced)
 * : `KHR-PB` =&gt; `KL-N` (<strong>c</strong>o<strong>l</strong>o<strong>n</strong>, unspaced)
-* - `H-PB` =&gt; `H-PB` (<strong>h</strong>yphe<strong>n</strong>), unspaced
+* \- `H-PB` =&gt; `H-PB` (<strong>h</strong>yphe<strong>n</strong>), unspaced
 * -- `TK-RB` =&gt; `D-SH` (<strong>d</strong>a<strong>sh</strong>)
-* + `PHR*US` => `PL*US` (<strong>plus</strong>)
+* \+ `PHR*US` => `PL*US` (<strong>plus</strong>)
 * = `KWA*LS` =&gt; `QA*LS` (unspaced e<strong>q</strong>u<strong>als</strong>)
 * = `KW-L` =&gt; `Q-L` (spaced e<strong>q</strong>ua<strong>l</strong>s)
-* * `STA*R` (<strong>star</strong>)
+* \* `STA*R` (<strong>star</strong>)
 * &lt; `AEPBGT` or `AEPBG` =&gt; `ANGT` (opening <strong>ang</strong>le bracke<strong>t</strong>)
 * &gt; `A*EPBGT` or `A*EPBG` =&gt; `A*NGT` (closing <strong>ang</strong>le bracke<strong>t</strong>)
 * &lt; `HR*PB` =&gt; `L*N` (<strong>l</strong>ess tha<strong>n</strong>)
