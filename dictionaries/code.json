@@ -1,4 +1,7 @@
 {
+"A*US": "aws",
+"A*US/A*US": "AWS",
+"A*US/A*US/A*US": "Amazon Web Services",
 "-SZ": "{^;^}",
 "UTS": "utc",
 "UTS/UTS": "UTC",
