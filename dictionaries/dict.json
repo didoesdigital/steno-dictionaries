@@ -72184,6 +72184,8 @@
 "PWR-BGS": "{]}",
 "PWR-BGT": "{[^}",
 "PWR-F": "##BRIEF##",
+"PWR-FS": "breakfast",
+"PWR-FT": "breakfast",
 "PWR-LT": "bright light",
 "PWR-LTS": "bright lights",
 "PWR-PL": "bathroom",
