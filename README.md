@@ -197,8 +197,8 @@ The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plove
 - `"TAO*EULT: {MODE:TITLE}`: switches to title case mode so each word is capitalised
 - `"TPHO*EFP: {MODE:SET_SPACE:}`: sets to a custom space mode that replaces all spaces with nothing, suppressing spaces
 - `"R*EFT: {MODE:RESET}`: resets all case and spacing modes
-- `"R*EFTZ: {MODE:RESET_CASE}`: resets case modes
-- `"R*EFTZ: {MODE:RESET_SPACE}`: resets spacing modes
+- `"R*EFDZ: {MODE:RESET_CASE}`: resets case modes
+- `"R*EFTS: {MODE:RESET_SPACE}`: resets spacing modes
 - `"TKUPT": "{PLOVER:ADD_TRANSLATION}",`: opens Plover’s add translation window
 - `"PHRAOBG": "{PLOVER:LOOKUP}",`: opens Plover’s lookup window
 - `"PHREUG": "{PLOVER:CONFIGURE}",`: opens Plover’s configuration
