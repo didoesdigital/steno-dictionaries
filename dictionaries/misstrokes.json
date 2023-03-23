@@ -2154,6 +2154,7 @@
 "PEURT": "spirit",
 "PH": "pH",
 "PH*/SP-S": "m",
+"PH*EUD": "{mid-^}",
 "PH*EULTD": "middle",
 "PH*EUS": "Miss{ }{-|}",
 "PH*EUS/RESZ": "mistress",
