@@ -158,7 +158,7 @@ Previously, this project contained a `google-10000-english.json` dictionary, inc
 ## Misstrokes and bad habits
 
 - The [`misstrokes.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/misstrokes.json) dictionary is an automated dictionary created from entries deleted out of [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict.json) that haven't been moved to other dictionaries.
-- The [`bad-habits.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/bad-habits.json) dictionary is a hand-created dictionary that contains misstrokes (particularly ones you might want to keep). It also contains strokes that are not exactly misstrokes but for some reason are not "preferred" to hide them from Typey Type or stroke look up tools. Finally, it also includes some hints for correcting misstroked prefixes and suffixes, such as `"SAUP": "SAUB sub^ misstroke"`, which will produce the output `SAUB sub^ misstroke` to let you know you need to stroke `SAUB` to write `sub` as a prefix whenever you incorrectly stroke `SAUP`.
+- The [`bad-habits.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/bad-habits.json) dictionary is a hand-created dictionary that contains misstrokes (particularly ones you might want to keep for auto-correct). It also contains strokes that are not exactly misstrokes but for some reason are not "preferred" to hide them from Typey Type or stroke look up tools.
 
 
 
