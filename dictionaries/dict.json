@@ -126869,7 +126869,7 @@
 "TPHAUGT/TEU": "naughty",
 "TPHAUGT/TEU/*PBS": "naughtiness",
 "TPHAULT": "no-fault",
-"TPHAUPB": "{non-^}",
+"TPHAUPB": "{non^}",
 "TPHAUPB/A/HRAOEUPB/-D": "nonaligned",
 "TPHAUPB/A/HRAOEUPBD": "nonaligned",
 "TPHAUPB/AOEPBT": "nonevent",
