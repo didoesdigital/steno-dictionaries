@@ -536,9 +536,23 @@ There are used to be two Australian English companion dictionaries, each intende
 
 [`dict-en-AU-with-extra-stroke.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict-en-AU-with-extra-stroke.json) uses a kind of suffix stroke, `/A*U`, after every default Plover theory English brief to translate the word to Australian English. For example, to write the American spelling of "empathize", you would stroke `*EPL/THAOEUS`. Then, to write "empathise" you would add `/A*U`. That is, this dictionary’s entry for "empathise" is `"*EPL/THAOEUS/A*U": "empathise",`. To use this dictionary, copy the [`dict-en-AU-with-extra-stroke.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict-en-AU-with-extra-stroke.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary.
 
+### Notes on Design of and Changes in the Australian English with Extra Strokes Dictionary
 
+- `A*ER/A*U` strokes the "aero" prefix for the Australian spelling of aeroplane
+- `*EG/A*U` strokes the "eing" suffix for words such as "ageing"
+- `*LG/A*U` strokes the "ling" suffix for words such as "labelling"
+- `*LD/A*U` strokes the "led" suffix for words such as "labelled"
+- `*EPLT/A*U` strokes the "ement" suffix for words such as "judgement", "acknowledgement", "lodgement" and "abridgement"
+- `O*UR/A*U` strokes the "our" suffix for words such as "humour"
+- `KWRO*R/A*U` strokes the "iour" suffix for words such as "behaviour"
+- Add "U" to `O*R/A*U` or `TPHOR/A*U` strokes for "nour" endings in words such as "honour" e.g. `"HOPB/TPHOUR/A*U": "honour",`
+- Add "U" to `O*R/A*U` or `TKOR/A*U` strokes for "dour" endings in words such as "candour" e.g. `"KAPBD/O*UR/A*U": "candour",`
+- Add "U" to `O*R/A*U` or `KHROR/A*U` strokes for "our" endings in words such as "colour" e.g. `"KHROUR/A*U": "colour",`
 
-### Notes on Design of and Changes in the Australian English Dictionary
+### Notes on Design of and Changes in the original, now-deleted Australian English Dictionary
+
+> **Warning**
+> The original dictionary this info describes has been removed. You can find it in the git history or follow the steps above to reproduce it.
 
 - `A*ER` strokes the "aero" prefix for the Australian spelling of aeroplane
 - `*EG` strokes the "eing" suffix for words such as "ageing"
@@ -559,21 +573,6 @@ There are used to be two Australian English companion dictionaries, each intende
     - Briefs form the Australian spelling, eg, "KAOEUPL/RA": "chimaera",
     - Words starting with "ae" can be stroked with the prefix `A` such as `"A/AOE/O*PB": "aeon",`
     - The Australian spelling of "gynaecological" uses briefs and phonetic strokes beginning with `TKPWAOEUPB` => "gyne", while the US spelling uses strokes beginning with `SKWREUPB` => "jyn"
-
-
-
-### Notes on Design of and Changes in the Australian English with Extra Strokes Dictionary
-
-- `A*ER/A*U` strokes the "aero" prefix for the Australian spelling of aeroplane
-- `*EG/A*U` strokes the "eing" suffix for words such as "ageing"
-- `*LG/A*U` strokes the "ling" suffix for words such as "labelling"
-- `*LD/A*U` strokes the "led" suffix for words such as "labelled"
-- `*EPLT/A*U` strokes the "ement" suffix for words such as "judgement", "acknowledgement", "lodgement" and "abridgement"
-- `O*UR/A*U` strokes the "our" suffix for words such as "humour"
-- `KWRO*R/A*U` strokes the "iour" suffix for words such as "behaviour"
-- Add "U" to `O*R/A*U` or `TPHOR/A*U` strokes for "nour" endings in words such as "honour" e.g. `"HOPB/TPHOUR/A*U": "honour",`
-- Add "U" to `O*R/A*U` or `TKOR/A*U` strokes for "dour" endings in words such as "candour" e.g. `"KAPBD/O*UR/A*U": "candour",`
-- Add "U" to `O*R/A*U` or `KHROR/A*U` strokes for "our" endings in words such as "colour" e.g. `"KHROUR/A*U": "colour",`
 
 
 
