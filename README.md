@@ -549,6 +549,15 @@ There are used to be two Australian English companion dictionaries, each intende
 - Add "U" to `O*R/A*U` or `TKOR/A*U` strokes for "dour" endings in words such as "candour" e.g. `"KAPBD/O*UR/A*U": "candour",`
 - Add "U" to `O*R/A*U` or `KHROR/A*U` strokes for "our" endings in words such as "colour" e.g. `"KHROUR/A*U": "colour",`
 
+* `"PRAPL": "program",` from Plover
+* `"PRAPL/A*U": "programme",` from Aussie extra strokes dictionary
+* `"PRA*RPL": "programme",` from Aussie vocab dictionary (this outline is not in Plover)
+* `"PRA*RPL/A*U": "programme",` from Aussie extra strokes dictionary
+* `"PRA*PL": "param",` from Plover
+* `"PRA*PL/A*U": "pram",` from Aussie extra strokes dictionary
+
+
+
 ### Notes on Design of and Changes in the original, now-deleted Australian English Dictionary
 
 > **Warning**
