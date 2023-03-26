@@ -1,5 +1,10 @@
 {
 "*UG": "ugg",
+"A/PWREUPBLG/*EPLT": "abridgement",
+"ABG/TPHOL/EPBLG/*EPLT": "acknowledgement",
+"ABG/TPHOL/EPBLG/*EPLT/-S": "acknowledgements",
+"ABG/TPHOPBLG/*EPLT": "acknowledgement",
+"ABG/TPHOPBLG/*EPLT/-S": "acknowledgements",
 "AL/KWRAOU/PHEUPB/KWRUPL": "aluminium",
 "AL/RAOEUT": "alright",
 "AOU/HRA/RAOU": "Uluru",
@@ -9,6 +14,7 @@
 "AUS/TRA*EUL": "Australia",
 "HAOPB": "hoon",
 "HOLT": "Holt",
+"HROPBLG/*EPLT": "lodgement",
 "HRAR/RA/KEUPB": "larrakin",
 "KAOBG/PWUR/RA": "kookaburra",
 "KAOL/PWA": "coolibah",
