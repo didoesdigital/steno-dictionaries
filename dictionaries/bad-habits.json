@@ -619,6 +619,7 @@
 "POS/TO*PB": "Boston",
 "POUPBZ": "pounds",
 "PR*RD": "{.}",
+"PR-D": "{. ^} {^}",
 "PRAEUPB/STORPL/-G": "brainstorming",
 "PRAEUPBLG/REUFPL": "plagiarism",
 "PRE/SEFBD": "preserved",

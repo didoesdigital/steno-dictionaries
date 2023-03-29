@@ -63124,7 +63124,7 @@
 "PR-BG": "PRK",
 "PR-BGS": "proximate",
 "PR-BGS/PHAEUGS": "proximation",
-"PR-D": "{. ^} {^}",
+"PR-D": ".",
 "PR-FP": "purchase",
 "PR-FP/*ER": "purchaser",
 "PR-FP/*ER/-S": "purchasers",
