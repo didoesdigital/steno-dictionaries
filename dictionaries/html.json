@@ -69,7 +69,7 @@
 "AEPBG/OEU/HED/A*EPBG": "</head>",
 "AEPBG/PWO*ED/A*EPBG": "<body>",
 "AEPBG/H*/#S/A*EPBG/KPA*/HEGD/SKHRAPL/AEPBG/OEU/H*/#S/A*EPBG": "<h1>Heading!</h1>",
-"AEPBG/P*/A*EPBG/HROR/EPL/EUP/SUPL/AEPBG/OEU/P*/A*EPBG": "<p>Lorem/ipsum</p>",
+"AEPBG/P*/A*EPBG/KPA*/HROR/EPL/EUP/SUPL/AEPBG/OEU/P*/A*EPBG": "<p>Lorem ipsum</p>",
 "AEPBG/OEU/PWO*ED/A*EPBG": "</body>",
 "AEPBG/OEU/H*PLT/A*EPBG": "</html>",
 "A/HREF/KWA*LS/KW-GS": "<a href=\"",
