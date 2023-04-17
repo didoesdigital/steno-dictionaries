@@ -85,7 +85,7 @@ Read about each dictionary before using them. For example, you don't need more t
 * [css-declarations.json](dictionaries/css-declarations.json)
 * [css-media-object.json](dictionaries/css-media-object.json)
 * [condensed-strokes.json](dictionaries/condensed-strokes.json)†
-* [condensed-strokes-fingerspelled.json](dictionaries/condensed-strokes-fingerspelled.json)†
+* [condensed-strokes-fingerspelled.json](dictionaries/condensed-strokes-fingerspelled.json)†‡
 * [currency.json](dictionaries/currency.json)†
 * [di-briefs.json](dictionaries/di-briefs.json)
 * [di-nouns.json](dictionaries/di-nouns.json)
@@ -143,6 +143,7 @@ Read about each dictionary before using them. For example, you don't need more t
 * [voiceover.json](dictionaries/voiceover.json)
 
 † This dictionary contains fingerspelling entries for writing words. In rare situations, the fingerspelled entries can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174).
+‡ This dictionary is used for Typey Type behaviour and not really for day-to-day steno usage.
 
 
 
@@ -708,6 +709,12 @@ Copy the [`vim.json`](https://github.com/didoesdigital/steno-dictionaries/raw/ma
 
 
 
+## Markdown
+
+- [`markdown.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/markdown.json) is based on Ted's [Markdown dictionary](http://www.openstenoproject.org/stenodict/dictionaries/markdown.html) with additional entries like fenced code blocks with languages specified, including `js`, `css`, `html`, `bash`, and `vim`.
+
+
+
 ## Git Dictionary
 
 Copy the [`git.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/git.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
@@ -805,13 +812,19 @@ Copy the [`ruby.json`](https://github.com/didoesdigital/steno-dictionaries/raw/m
 - Copy the [`code.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/code.json) file into your dictionary folder and add it to your Plover config to use various briefs relating to coding and the command line.
 
 
+
 ## Other Collection Dictionaries
 
 * [human-resources.json](dictionaries/human-resources.json)
 
 
 
-## Di's dictionaries
+## Medical Dictionaries
+
+- [medical-suffixes.json](dictionaries/medical-suffixes.json) is inspired by [Odds and Ends | The Plover Blog by Mirabai Knight](http://plover.stenoknight.com/2015/04/odds-and-ends.html)
+
+
+## Di's Dictionaries
 
 I’ve started marking my custom dictionaries with `di-` or `-di` in the filename. For example, `di-briefs.json` contains my own personal briefs while `briefs.json` contains briefs extracted from `dict.json` that exist in the core Plover dictionary. Ditto with `di-nouns.json` and `nouns.json` as well as `di-proper-nouns.json` and `proper-nouns.json`.
 
