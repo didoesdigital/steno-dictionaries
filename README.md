@@ -99,6 +99,8 @@ Read about each dictionary before using them. For example, you don't need more t
 * [vim.json](dictionaries/vim.json)
 * [voiceover.json](dictionaries/voiceover.json)
 
+† This dictionary contains fingerspelling entries for writing words. In rare situations, the fingerspelled entries can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174).
+
 ## English Dictionaries
 
 - A main [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict.json) dictionary, containing many English words using briefs and phonetic strokes, but contains fewer misstrokes.
