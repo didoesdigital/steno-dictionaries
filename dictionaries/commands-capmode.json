@@ -1,0 +1,8 @@
+{
+    "HRO*ER": "{>}",
+    "HRO*ERD": "{*>}",
+    "HRO*ERS": "{MODE:LOWER}",
+    "KPA*": "{<}",
+    "KPA*S": "{MODE:CAPS}",
+    "KPA*D": "{*-|}"
+}

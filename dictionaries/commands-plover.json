@@ -1,0 +1,9 @@
+{
+    "PHRO*F": "{PLOVER:SUSPEND}",
+    "PHRO*PB": "{PLOVER:RESUME}",
+    "PHROFBGS": "{PLOVER:FOCUS}",
+    "PHROFG": "{PLOVER:CONFIGURE}",
+    "PHROBGT": "{PLOVER:QUIT}",
+    "PHROLG": "{PLOVER:TOGGLE}",
+    "PHR*UP": "{PLOVER:LOOKUP}"
+}
