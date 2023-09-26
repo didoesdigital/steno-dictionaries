@@ -98,7 +98,6 @@ Read about each dictionary before using them. For example, you don't need more t
 * [symbol-currency-culled.json](dictionaries/symbol-currency-culled.json)
 * [symbols.json](dictionaries/symbols.json)
 * [tabbing.json](dictionaries/tabbing.json)
-* [top-100-words.json](dictionaries/top-100-words.json)
 * [top-level-domains.json](dictionaries/top-level-domains.json)
 * [ux-design.json](dictionaries/ux-design.json)
 * [vim.json](dictionaries/vim.json)
