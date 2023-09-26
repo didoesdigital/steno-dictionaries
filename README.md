@@ -162,14 +162,6 @@ The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plove
 - [`nouns.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/nouns.json) contains a few hundred additional words.
 - [`proper-nouns.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/proper-nouns.json) contains a few hundred proper nouns.
 - [`condensed-strokes.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/condensed-strokes.json) contains a combinations of existing strokes in the main Plover dictionary so that they appear in searches when you look up strokes. These words can already be written using the default Plover dictionary and prefix/suffix strokes or punctuation strokes. It can be useful for improving dictionary lookups, but is not needed to write the words. It can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174) in rare situations so you may want to add it to your Plover config in a certain order so that it is overwritten by the other dictionaries.
-- [`condensed-strokes-fingerspelled.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/condensed-strokes-fingerspelled.json) contains fingerspellings for words that are neither contained in the default Plover dictionary, nor able to be composed using default Plover dictionary strokes. It's less helpful but can also be used for dictionary lookups to confirm that there is no known Plover stroke for a word. It can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/pull/37#issuecomment-1243846921) in rare situations so you may want to exclude it or add it to your Plover config in a certain order so that it is overwritten by the other dictionaries.
-
-## Fingerspelling Dictionaries
-
-Based on [Plover's default `main.json` dictionary](https://github.com/openstenoproject/plover/blob/master/plover/assets/main.json), this repo contains 2 alternative fingerspelling dictionaries:
-
-- A [`fingerspelling-FPLT.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/fingerspelling-FPLT.json) dictionary, using fingerspelled letters on the left hand and `-FPLT` on the right hand.
-- A [`fingerspelling-RBGS.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/fingerspelling-RBGS.json) dictionary, using fingerspelled letters on the left hand and `-RBGS` on the right hand.
 
 ## Navigation and Tabbing Dictionaries
 
