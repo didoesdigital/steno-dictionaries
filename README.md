@@ -1,6 +1,6 @@
 # Steno Dictionaries
 
-This repository contains Monniasza’s stenography dictionaries used by [Typey Type for Stenographers](https://didoesdigital.com/typey-type/). The dictionaries are in JSON format and use [Plover](http://stenoknight.com/wiki/FAQ#What_is_Plover.3F) theory. These descend from Di's dictionaries, with Monniasza's individual changes applied.
+This repository contains Monniasza’s personal stenography dictionaries for private use. The dictionaries are in JSON format and use [Plover](http://stenoknight.com/wiki/FAQ#What_is_Plover.3F) theory. These descend from Di's dictionaries, with Monniasza's individual changes applied.
 These are not suited for use by anyone else, because these reflect Monniasza's individual habits, but they may provide insights for anyone else
 
 # How to use these dictionaries
