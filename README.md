@@ -105,9 +105,6 @@ Read about each dictionary before using them. For example, you don't need more t
 ## English Dictionaries
 
 - A main [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict.json) dictionary, containing many English words using briefs and phonetic strokes, but contains fewer misstrokes.
-- A [`top-10000-project-gutenberg-words.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/top-10000-project-gutenberg-words.json) dictionary, containing 10,000 common words from [Project Gutenberg](https://www.gutenberg.org/). This is a great starter dictionary. The [`top-100-words.json`](dictionaries/top-100-words.json) and [`top-1000-words.json`](dictionaries/top-1000-words.json) dictionaries are subsets of this dictionary. If you're using `dict.json`, you won't need `top-10000-project-gutenberg-words.json`. You may want to use `condensed-strokes.json` and `condensed-strokes-fingerspelled.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)).
-
-Previously, this project contained a `google-10000-english.json` dictionary, including 10,000 popular English words by N-grams. That's now been retired. You can still find it in the [repo’s git history](https://github.com/didoesdigital/steno-dictionaries/blob/39d3c19da3d41cd57061821795e5438c747775e2/dictionaries/top-10000-english-words.json) or [Typey Type’s community lessons spreadsheet](https://docs.google.com/spreadsheets/d/1AlO2SSUwuv3yrz7RI9ix_z1Efbiu_j50c_ibGYwdsgc/edit). Credit goes to [Josh Kaufman's typing word list from Google's Trillion Word Corpus](https://github.com/first20hours/google-10000-english).
 
 ## Misstrokes and bad habits
 
