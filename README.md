@@ -64,7 +64,6 @@ Read about each dictionary before using them. For example, you don't need more t
 * [dict.json](dictionaries/dict.json)†
 * [emoji.json](dictionaries/emoji.json)
 * [fingerspelling.json](dictionaries/fingerspelling.json)
-* [fingerspelling-FPLT.json](dictionaries/fingerspelling-FPLT.json)
 * [fingerspelling-powerups.json](dictionaries/fingerspelling-powerups.json)
 * [fingerspelling-RBGS.json](dictionaries/fingerspelling-RBGS.json)
 * [fingerspelling-right-hand.json](dictionaries/fingerspelling-right-hand.json)
