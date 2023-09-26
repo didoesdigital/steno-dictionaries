@@ -77,8 +77,6 @@ Read about each dictionary before using them. For example, you don't need more t
 * [modifiers.json](dictionaries/modifiers.json)
 * [navigation.json](dictionaries/navigation.json)
 * [nouns.json](dictionaries/nouns.json)†
-* [numbers-powerups.json](dictionaries/numbers-powerups.json)
-* [numbers.json](dictionaries/numbers.json)
 * [plover-powerups.json](dictionaries/plover-powerups.json)
 * [plover-use.json](dictionaries/plover-use.json)
 * [proper-nouns.json](dictionaries/proper-nouns.json)
