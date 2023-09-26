@@ -43,7 +43,6 @@ Read about each dictionary before using them. For example, you don't need more t
 
 * [abbreviations.json](dictionaries/abbreviations.json)†
 * [apps.json](dictionaries/apps.json)
-* [bad-habits.json](dictionaries/bad-habits.json)
 * [briefs.json](dictionaries/briefs.json)
 * [code.json](dictionaries/code.json)†
 * [computer-powerups.json](dictionaries/computer-powerups.json)
@@ -105,11 +104,6 @@ Read about each dictionary before using them. For example, you don't need more t
 ## English Dictionaries
 
 - A main [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict.json) dictionary, containing many English words using briefs and phonetic strokes, but contains fewer misstrokes.
-
-## Misstrokes and bad habits
-
-- The [`misstrokes.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/misstrokes.json) dictionary is an automated dictionary created from entries deleted out of [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict.json) that haven't been moved to other dictionaries.
-- The [`bad-habits.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/bad-habits.json) dictionary is a hand-created dictionary that contains misstrokes (particularly ones you might want to keep for auto-correct). It also contains strokes that are not exactly misstrokes but for some reason are not "preferred" to hide them from Typey Type or stroke look up tools.
 
 ## Plover dictionaries
 
