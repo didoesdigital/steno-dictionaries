@@ -99,7 +99,6 @@ Read about each dictionary before using them. For example, you don't need more t
 * [symbols.json](dictionaries/symbols.json)
 * [tabbing.json](dictionaries/tabbing.json)
 * [top-100-words.json](dictionaries/top-100-words.json)
-* [top-1000-words.json](dictionaries/top-1000-words.json)†
 * [top-10000-project-gutenberg-words.json](dictionaries/top-10000-project-gutenberg-words.json)†
 * [top-level-domains.json](dictionaries/top-level-domains.json)
 * [ux-design.json](dictionaries/ux-design.json)
