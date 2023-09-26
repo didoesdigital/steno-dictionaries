@@ -1,8 +1,7 @@
 # Steno Dictionaries
 
-This repository contains Di’s stenography dictionaries used by [Typey Type for Stenographers](https://didoesdigital.com/typey-type/). The dictionaries are in JSON format and use [Plover](http://stenoknight.com/wiki/FAQ#What_is_Plover.3F) theory.
-
-
+This repository contains Monniasza’s stenography dictionaries used by [Typey Type for Stenographers](https://didoesdigital.com/typey-type/). The dictionaries are in JSON format and use [Plover](http://stenoknight.com/wiki/FAQ#What_is_Plover.3F) theory. These descend from Di's dictionaries, with Monniasza's individual changes applied.
+These are not suited for use by anyone else, because these reflect Monniasza's individual habits, but they may provide insights for anyone else
 
 # How to use these dictionaries
 
@@ -11,8 +10,6 @@ If you want to use the dictionaries in this repo instead of Plover's, you have 2
 The first option is that you can download each individual dictionary you want and add it to your own collection of dictionaries and turn each on in your Plover config as you need. Over time, there will be new entries in these dictionaries, so you may wish to download them again or look at the history for each file and decide what new entries you want to add manually.
 
 The second option is to clone the repository and turn on each dictionary you want in your Plover config as you need. Over time, when there are new entries, you can "pull" the latest changes.
-
-
 
 ## Which dictionaries to use
 
@@ -33,42 +30,12 @@ I would also suggest dictionaries to operate Plover and your computer, such as:
 
 You *could* also add `condensed-strokes.json` and `condensed-strokes-fingerspelled.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)), but they can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174) in rare fingerspelling situations.
 
-
-# Typey Type’s dictionary
-
-[Typey Type’s dictionary](https://didoesdigital.com/typey-type/dictionaries/typey-type/typey-type/) is generated from this subset of this repo’s dictionaries:
-
-- [`abbreviations.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/abbreviations.json)
-- [`briefs.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/briefs.json)
-- [`condensed-strokes.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/condensed-strokes.json)
-- [`condensed-strokes-fingerspelled.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/condensed-strokes-fingerspelled.json)
-- [`currency.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/currency.json)
-- [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/dict.json)
-- [`dict-en-AU-phonetic.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/dict-en-AU-phonetic.json)
-- [`dict-en-AU-vocab.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/dict-en-AU-vocab.json)
-- [`dict-en-AU-with-extra-stroke.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/dict-en-AU-with-extra-stroke.json)
-- [`nouns.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/nouns.json)
-- [`numbers.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/numbers.json)
-- [`numbers-powerups.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/numbers-powerups.json)
-- [`proper-nouns.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/proper-nouns.json)
-- [`punctuation-powerups.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/punctuation-powerups.json)
-- [`punctuation-unspaced.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/punctuation-unspaced.json)
-- [`symbols.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/symbols.json)
-- [`symbols-briefs.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/symbols-briefs.json)
-- [`symbols-currency.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/symbols-currency.json)
-- [`top-10000-project-gutenberg-words.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/top-10000-project-gutenberg-words.json)
-- [`top-level-domains.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/top-level-domains.json)
-
-The majority of Typey Type’s dictionary is from `dict.json`. It follows [Plover's default `main.json` dictionary](https://github.com/openstenoproject/plover/blob/master/plover/assets/main.json) with misstrokes removed from the top 10,000 words. You can use this dictionary instead of Plover’s.
-
 > A misstroke is like a "chord typo". It's when you mean to write one chord, but stroke another. Often, dictionaries have misstroke entries that are added when a stenographer frequently misstrokes an entry. For example, take the stroke TKPWAOD (meaning GAOD) which translates to good. Sometimes the stenographer may miss a key, so they could have a misstroke entry TKPAOD which would also translate to good. Then they are protected from these typos in regular writing. There are many misstroke entries in the default dictionary, and you must try to make sense of results when you look up words, instead of blindly accepting the shortest stroke.
 — [Plover project glossary](https://github.com/openstenoproject/plover/wiki/Glossary#misstroke)
 
 **The aim is to remove all the misstrokes from `dict.json` to give new stenographers greater confidence in learning new briefs.** The first step is to remove all the misstrokes for the *shortest* available brief for every word. If there’s a misstroke in a longer word, it is less likely to be suggested by Typey Type or dictionary look up tools.
 
 If you notice any misstrokes, see the [Contributing guide](#contributing) below.
-
-
 
 # Dictionaries
 
@@ -145,8 +112,6 @@ Read about each dictionary before using them. For example, you don't need more t
 † This dictionary contains fingerspelling entries for writing words. In rare situations, the fingerspelled entries can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174).
 ‡ This dictionary is used for Typey Type behaviour and not really for day-to-day steno usage.
 
-
-
 ## English Dictionaries
 
 - A main [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict.json) dictionary, containing many English words using briefs and phonetic strokes, but contains fewer misstrokes.
@@ -154,14 +119,10 @@ Read about each dictionary before using them. For example, you don't need more t
 
 Previously, this project contained a `google-10000-english.json` dictionary, including 10,000 popular English words by N-grams. That's now been retired. You can still find it in the [repo’s git history](https://github.com/didoesdigital/steno-dictionaries/blob/39d3c19da3d41cd57061821795e5438c747775e2/dictionaries/top-10000-english-words.json) or [Typey Type’s community lessons spreadsheet](https://docs.google.com/spreadsheets/d/1AlO2SSUwuv3yrz7RI9ix_z1Efbiu_j50c_ibGYwdsgc/edit). Credit goes to [Josh Kaufman's typing word list from Google's Trillion Word Corpus](https://github.com/first20hours/google-10000-english).
 
-
-
 ## Misstrokes and bad habits
 
 - The [`misstrokes.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/misstrokes.json) dictionary is an automated dictionary created from entries deleted out of [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict.json) that haven't been moved to other dictionaries.
 - The [`bad-habits.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/bad-habits.json) dictionary is a hand-created dictionary that contains misstrokes (particularly ones you might want to keep for auto-correct). It also contains strokes that are not exactly misstrokes but for some reason are not "preferred" to hide them from Typey Type or stroke look up tools.
-
-
 
 ## Plover dictionaries
 
@@ -209,8 +170,6 @@ The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plove
 - `"PHROLG": "{PLOVER:TOGGLE}",`: toggles Plover’s steno behaviour between on and off
 - `"PHROPB": "{PLOVER:RESUME}",`: enables Plover’s steno behaviour
 
-
-
 ## Vocabulary Dictionaries
 
 - [`nouns.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/nouns.json) contains a few hundred additional words.
@@ -218,16 +177,12 @@ The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plove
 - [`condensed-strokes.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/condensed-strokes.json) contains a combinations of existing strokes in the main Plover dictionary so that they appear in searches when you look up strokes. These words can already be written using the default Plover dictionary and prefix/suffix strokes or punctuation strokes. It can be useful for improving dictionary lookups, but is not needed to write the words. It can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174) in rare situations so you may want to add it to your Plover config in a certain order so that it is overwritten by the other dictionaries.
 - [`condensed-strokes-fingerspelled.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/condensed-strokes-fingerspelled.json) contains fingerspellings for words that are neither contained in the default Plover dictionary, nor able to be composed using default Plover dictionary strokes. It's less helpful but can also be used for dictionary lookups to confirm that there is no known Plover stroke for a word. It can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/pull/37#issuecomment-1243846921) in rare situations so you may want to exclude it or add it to your Plover config in a certain order so that it is overwritten by the other dictionaries.
 
-
-
 ## Fingerspelling Dictionaries
 
 Based on [Plover's default `main.json` dictionary](https://github.com/openstenoproject/plover/blob/master/plover/assets/main.json), this repo contains 2 alternative fingerspelling dictionaries:
 
 - A [`fingerspelling-FPLT.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/fingerspelling-FPLT.json) dictionary, using fingerspelled letters on the left hand and `-FPLT` on the right hand.
 - A [`fingerspelling-RBGS.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/fingerspelling-RBGS.json) dictionary, using fingerspelled letters on the left hand and `-RBGS` on the right hand.
-
-
 
 ## Navigation and Tabbing Dictionaries
 
@@ -264,8 +219,6 @@ Use `TW-` and a direction for tabbing.
 - Adding `-G`/`-R` gives you <kbd>⌘</kbd><kbd>Tab</kbd> / <kbd>⌘</kbd><kbd>⇧</kbd><kbd>Tab</kbd> to switch applications forward and backward.
 - Adding `-FB`/`-LG` gives you <kbd>⌘</kbd><kbd>[</kbd> / <kbd>⌘</kbd><kbd>]</kbd> to navigate forwards and backwards in a browser.
 - Adding a star to `TW*G` gives you <kbd>⌘</kbd><kbd>Tab</kbd><kbd>Tab</kbd> to switch 2 applications.
-
-
 
 ## Computer Powerups Dictionary
 
@@ -387,8 +340,6 @@ Note: I've prefer this entry for minus from Plover's original dictionary but it'
 
 * - `PH*PBS` =&gt; `M-NS` (<strong>m</strong>i<strong>n</strong>u<strong>s</strong>, spaced)
 
-
-
 ### Punctuation Powerups Dictionary
 
 - [`punctuation-powerups.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/punctuation-powerups.json) contains additional punctuation briefs such as:
@@ -396,8 +347,6 @@ Note: I've prefer this entry for minus from Plover's original dictionary but it'
     - spaces pairs of punctuation (`"STP-PLS": "''{#Left}{^}"`),
     - smart/curly quotation marks (`"TP-L/TP-L": "{^’}"`), and
     - punctuation that carries capitalisation  (`"KW-GS": "{~|“^}"`).
-
-
 
 ## Unspaced Punctuation Dictionary
 
@@ -475,8 +424,6 @@ Similarly with single quotation marks (not included in this dictionary):
 "TP-L": "{^’}",
 ```
 
-
-
 ## Symbols Dictionaries
 
 - [`symbols.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/symbols.json) contains common symbols, such as degrees (`"SPWO*L/TKEGS": "°"`) and trademark (`"SPWO*L/TRAEUD/PHARBG": "{^}™"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"TRAEUD/PHARBG": "trademark",` and `"TKEGS": "degrees"`).
@@ -491,8 +438,6 @@ Similarly with single quotation marks (not included in this dictionary):
 "SPWO*L/POUPBD/STERLG": "£",
 "SPWO*L/KWREPB": "¥"
 ```
-
-
 
 ## Currency Dictionaries
 
@@ -511,8 +456,6 @@ You might also like the related symbols currency dictionary:
 
 - [`symbols-currency.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/symbols-currency.json) contains briefs for currency symbols, such as cent (`"SPWO*L/KREPBT": "¢"`) and dollar (`"SPWO*L/TKHRAR": "$"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"KREPBT": "cent"` and `"TKHRAR": "dollar"`).
 
-
-
 ## Numbers Dictionaries
 
 - [`numbers.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/numbers.json) contains the numbers entries from Plover
@@ -526,8 +469,6 @@ You might also like the related symbols currency dictionary:
 Conflicts:
 
 - [`numbers-powerups.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/numbers-powerups.json) adds `"K-PL": "km",` and `"K*PL": "{^km}",`, which conflicts with `"K*PL": "kilometer"` added in a more recent version of Plover.
-
-
 
 ## Australian English Dictionaries
 
@@ -557,8 +498,6 @@ There are used to be two Australian English companion dictionaries, each intende
 * `"PRA*PL": "param",` from Plover
 * `"PRA*PL/A*U": "pram",` from Aussie extra strokes dictionary
 
-
-
 ### Notes on Design of and Changes in the original, now-deleted Australian English Dictionary
 
 > **Warning**
@@ -584,8 +523,6 @@ There are used to be two Australian English companion dictionaries, each intende
     - Words starting with "ae" can be stroked with the prefix `A` such as `"A/AOE/O*PB": "aeon",`
     - The Australian spelling of "gynaecological" uses briefs and phonetic strokes beginning with `TKPWAOEUPB` => "gyne", while the US spelling uses strokes beginning with `SKWREUPB` => "jyn"
 
-
-
 ### Australian vocabulary
 
 New briefs have also been added for Australian [diminuitives](https://en.wikipedia.org/wiki/Diminutives_in_Australian_English), flora, fauna, [slang and more](https://en.wikipedia.org/wiki/Australian_English_vocabulary). For example:
@@ -600,8 +537,6 @@ New briefs have also been added for Australian [diminuitives](https://en.wikiped
 * `"RAO": "roo",`
 * `"PHABG/KAS": "Maccas",`
 
-
-
 ### Changed Briefs
 
 The brief for "programme" is overridden by "pram", requiring a new brief for "program":
@@ -612,8 +547,6 @@ The brief for "programme" is overridden by "pram", requiring a new brief for "pr
 The `*EG` brief for "e.g." is overridden by the "eing" suffix for the Australian spelling of "ageing", requiring a new brief for "e.g.":
 
     +"AOE/SKWRAO*E": "e.g.",
-
-
 
 ## Vim Dictionary
 
@@ -707,13 +640,9 @@ Copy the [`vim.json`](https://github.com/didoesdigital/steno-dictionaries/raw/ma
 * `"STPR*EU"` enter insert mode and suppress space.
 * `"TPR*RBL"` as a single-stroke brief to write `⌃]` to go to a tag definition
 
-
-
 ## Markdown
 
 - [`markdown.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/markdown.json) is based on Ted's [Markdown dictionary](http://www.openstenoproject.org/stenodict/dictionaries/markdown.html) with additional entries like fenced code blocks with languages specified, including `js`, `css`, `html`, `bash`, and `vim`.
-
-
 
 ## Git Dictionary
 
@@ -753,8 +682,6 @@ Copy the [`git.json`](https://github.com/didoesdigital/steno-dictionaries/raw/ma
 * "mergetool" `PHERPBLGT`
 * "checkout" `KHEBGT`
 
-
-
 ## Ruby Dictionary
 
 Copy the [`ruby.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/ruby.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
@@ -793,8 +720,6 @@ Copy the [`ruby.json`](https://github.com/didoesdigital/steno-dictionaries/raw/m
 * "flash[:success]" `TPHRARB/PWR-BGT/SKES`
 * "flash[:notice]" `TPHRARB/PWR-BGT/TPH-TS`
 
-
-
 ## Technical Dictionaries
 
 - Copy the [`haxe.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/haxe.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"OEP/TK-LS/TP*/HR*/P-P": "openfl."`.
@@ -811,32 +736,23 @@ Copy the [`ruby.json`](https://github.com/didoesdigital/steno-dictionaries/raw/m
 - Copy the [`sketch-app.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/sketch-app.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"SK*EFP/PHR-P": "{#Alt_L(Super_L(Up))}",` to move layers.
 - Copy the [`code.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/code.json) file into your dictionary folder and add it to your Plover config to use various briefs relating to coding and the command line.
 
-
-
 ## Other Collection Dictionaries
 
 * [human-resources.json](dictionaries/human-resources.json)
-
-
 
 ## Medical Dictionaries
 
 - [medical-suffixes.json](dictionaries/medical-suffixes.json) is inspired by [Odds and Ends | The Plover Blog by Mirabai Knight](http://plover.stenoknight.com/2015/04/odds-and-ends.html)
 
-
 ## Di's Dictionaries
 
 I’ve started marking my custom dictionaries with `di-` or `-di` in the filename. For example, `di-briefs.json` contains my own personal briefs while `briefs.json` contains briefs extracted from `dict.json` that exist in the core Plover dictionary. Ditto with `di-nouns.json` and `nouns.json` as well as `di-proper-nouns.json` and `proper-nouns.json`.
-
-
 
 # Contributing
 
 If you notice a misstroke, please mention it. This will help future stenographers learning from Typey Type for Stenographers have a better experience learning stenography. You can use the [Typey Type feedback form](https://docs.google.com/forms/d/e/1FAIpQLSeevsX2oYEvnDHd3y8weg5_7-T8QZsF93ElAo28JO9Tmog-7Q/viewform?usp=sf_link) or [create a new issue](https://github.com/didoesdigital/steno-dictionaries/issues/new) for each misstroke or set of misstrokes you find. Please make a note of the dictionary, misstroke entry, and expected or suggested strokes.
 
 See the [CONTRIBUTING](./CONTRIBUTING.md) guidelines to learn more.
-
-
 
 ## Better briefs
 
@@ -846,8 +762,6 @@ When proposing better briefs, here are some suggestions:
 - Check your dictionary for similar word beginnings and endings. There might be a set of relevant strokes that suggest a better brief. There might also be similar words that need new briefs at the same time to be consistent.
 - Check for potential conflicts or word boundary errors, especially when using strokes used for prefixes or suffixes.
 - Ask the [community](http://www.openstenoproject.org/community/) for suggestions.
-
-
 
 ## Looking for misstrokes
 
@@ -863,8 +777,6 @@ When proposing better briefs, here are some suggestions:
 ```
 /[^A]OEU.*": "[^o][^iy]\+",
 ```
-
-
 
 ## Plover’s dictionary
 
@@ -961,13 +873,9 @@ If these changes are merged in Plover’s default dictionary, we can restore the
 
 Default Plover does not have an entry for `"HO*URPB": "honour"`, so the only way to stroke this entry in Typey Type is to use the [Australian English dictionary](https://github.com/didoesdigital/steno-dictionaries#australian-english-dictionaries) or fingerspell. [If "honour" gets added upstream in Plover, then great, and this entry can be re-changed to "HO*URPB": "honour".](https://github.com/didoesdigital/steno-dictionaries/pull/14#issuecomment-446552793).
 
-
-
 # Code of Conduct
 
 This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [typeytype@didoesdigital.com](mailto:typeytype@didoesdigital.com).
-
-
 
 # License
 
@@ -978,4 +886,3 @@ GPLv2+. See [license](LICENSE) for details.
 - [Typey Type](https://github.com/didoesdigital/typey-type)
 - [Typey Type data](https://github.com/didoesdigital/typey-type-data)
 - [Stenoboard diagram SVG to React](https://github.com/didoesdigital/typey-type-stenoboard-diagram-svg-to-react)
-
