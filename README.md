@@ -52,7 +52,6 @@ Read about each dictionary before using them. For example, you don't need more t
 * [css-declarations.json](dictionaries/css-declarations.json)
 * [css-media-object.json](dictionaries/css-media-object.json)
 * [condensed-strokes.json](dictionaries/condensed-strokes.json)†
-* [condensed-strokes-fingerspelled.json](dictionaries/condensed-strokes-fingerspelled.json)†‡
 * [currency.json](dictionaries/currency.json)†
 * [di-briefs.json](dictionaries/di-briefs.json)
 * [di-nouns.json](dictionaries/di-nouns.json)
@@ -102,8 +101,6 @@ Read about each dictionary before using them. For example, you don't need more t
 * [ux-design.json](dictionaries/ux-design.json)
 * [vim.json](dictionaries/vim.json)
 * [voiceover.json](dictionaries/voiceover.json)
-
-‡ This dictionary is used for Typey Type behaviour and not really for day-to-day steno usage.
 
 ## English Dictionaries
 
