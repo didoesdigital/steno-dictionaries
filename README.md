@@ -75,7 +75,6 @@ Read about each dictionary before using them. For example, you don't need more t
 * [lorem.json](dictionaries/lorem.json)
 * [markdown.json](dictionaries/markdown.json)
 * [medical-suffixes.json](dictionaries/medical-suffixes.json)
-* [misstrokes.json](dictionaries/misstrokes.json)†
 * [modifiers-single-stroke.json](dictionaries/modifiers-single-stroke.json)
 * [modifiers.json](dictionaries/modifiers.json)
 * [navigation.json](dictionaries/navigation.json)
@@ -107,7 +106,6 @@ Read about each dictionary before using them. For example, you don't need more t
 * [vim.json](dictionaries/vim.json)
 * [voiceover.json](dictionaries/voiceover.json)
 
-† This dictionary contains fingerspelling entries for writing words. In rare situations, the fingerspelled entries can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174).
 ‡ This dictionary is used for Typey Type behaviour and not really for day-to-day steno usage.
 
 ## English Dictionaries
