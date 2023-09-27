@@ -45,6 +45,9 @@ Read about each dictionary before using them. For example, you don't need more t
 * [apps.json](dictionaries/apps.json)
 * [briefs.json](dictionaries/briefs.json)
 * [code.json](dictionaries/code.json)†
+* [commands-capmode.json](dictionaries/commands-capmode.json)
+* [commands-plover.json](dictionaries/commands-plover.json)
+* [commands.json](dictionaries/commands.json)
 * [computer-powerups.json](dictionaries/computer-powerups.json)
 * [computer-use.json](dictionaries/computer-use.json)
 * [css-alignment.json](dictionaries/css-alignment.json)
