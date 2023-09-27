@@ -39,7 +39,7 @@ If you notice any misstrokes, see the [Contributing guide](#contributing) below.
 
 # Dictionaries
 
-Read about each dictionary before using them. For example, you don't need more than 1 fingerspelling dictionary. Here are all the dictionaries included:
+Read about each dictionary before using them. For example, you don't need more than 1 fingerspelling dictionary. Here are all the JSON dictionaries included:
 
 * [abbreviations.json](dictionaries/abbreviations.json)†
 * [apps.json](dictionaries/apps.json)
@@ -97,6 +97,12 @@ Read about each dictionary before using them. For example, you don't need more t
 * [ux-design.json](dictionaries/ux-design.json)
 * [vim.json](dictionaries/vim.json)
 * [voiceover.json](dictionaries/voiceover.json)
+
+And Python dictionaries:
+
+* [emily-symbols.py](dictionaries/emily-symbols.py)
+* [jeff-modfifiers.py](dictionaries/jeff-modifiers.py)
+* [jeff-nubers.py](dictionaries/jeff-numbers.py)
 
 † This dictionary contains fingerspelling entries for writing words. In rare situations, the fingerspelled entries can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174).
 
