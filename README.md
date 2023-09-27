@@ -74,7 +74,6 @@ Read about each dictionary before using them. For example, you don't need more t
 * [lorem.json](dictionaries/lorem.json)
 * [markdown.json](dictionaries/markdown.json)
 * [medical-suffixes.json](dictionaries/medical-suffixes.json)
-* [modifiers-single-stroke.json](dictionaries/modifiers-single-stroke.json)
 * [modifiers.json](dictionaries/modifiers.json)
 * [navigation.json](dictionaries/navigation.json)
 * [nouns.json](dictionaries/nouns.json)†
