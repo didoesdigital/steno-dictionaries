@@ -110,16 +110,6 @@ Read about each dictionary before using them. For example, you don't need more t
 The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plover app itself as well as managing spacing and casing in Plover:
 
 - `"TPHR*URB": "{}",`: [Cancels formatting of next word](https://github.com/openstenoproject/plover/wiki/Dictionary-Format#canceling-formatting-of-next-word)
-- `"S-P: {^ ^}`: produces a space
-- `"KPA: {-|}`: forces the first letter of the next word to be uppercase
-- ~~`"{^ ^}`: inserts space without affecting case~~
-- ~~`"{^}`: suppresses a space without affecting case~~
-- `"TK*LS: {^^}`: removes a space without affecting case
-- `"KPA*EUZ: {*&gt;}`: retrospectively lowercase first letter
-- `"KPA*EZ: {*&lt;}`: retrospectively uppercase all letters
-- `"AFPS: {*?}`: retrospectively inserts a space
-- `"TK-FPS: {*!}`: retrospectively remove space
-- `"KPA*E: {&lt;}`: forces the next letter to be uppercase
 - `"KPA*EU: {^}{&lt;}`: suppresses a space and forces the next letter to be uppercase
 - `"KW-GS: {~|\"^}`: carries the capital letter across the next quotation mark
 - `"KR-GS: {^~|\"}`: carries the capital letter across the next quotation mark
@@ -130,25 +120,29 @@ The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plove
 - `"KPHA*PLD: {MODE:SET_SPACE:, }`: sets a custom space mode that replaces all spaces with spaces (normal spacing—you can swap the space character for any character)
 - `"SPAO*EUPBL: {MODE:LOWER} {MODE:SET_SPACE:-}`: switches to lowercase mode and sets the spaces to hyphens for a kind of “spinal case”
 - `"STPHA*EUBG: {MODE:SNAKE}`: switches to snake case mode so all spaces are replaces with underscores
-- `"TAO*EULT: {MODE:TITLE}`: switches to title case mode so each word is capitalised
-- `"TPHO*EFP: {MODE:SET_SPACE:}`: sets to a custom space mode that replaces all spaces with nothing, suppressing spaces
-- `"R*EFT: {MODE:RESET}`: resets all case and spacing modes
-- `"R*EFDZ: {MODE:RESET_CASE}`: resets case modes
-- `"R*EFTS: {MODE:RESET_SPACE}`: resets spacing modes
 
-[commmandsjson](dictionaries/commands.json):
+[commmands.json](dictionaries/commands.json):
 - `"#: {*+}`: repeats the previous stroke
 - `"#*: {*}`: toggles the asterisk key on the previous stroke
 -`"WUZ": {#}`: separates briefs to prevent word boundary errors
--`"TPH-S: {^^}`: suppresses an upcoming space
 
-[commands-capmode.json](dictionaries/commands-capmode.json):
+[commands-capmode.json](dictionaries/commands-capmode.json) - case and mode commands:
 - `"HRO*ER": {&gt;}`: forces the first letter of the next word to be lowercase
-- `"HRO*ERD": {&gt;*}`: forces the first letter of the previous word to be lowercase
+- `"HRO*ERD": {*&gt;}`: forces the first letter of the previous word to be lowercase
 - `"HRO*ERS": {MODE:LOWER}`: switches to lowercase mode so all letters are lowercase
-- `"KPA*": {&lt;}`: uppercases the next word
+- `"KA*PL": {&lt;}`: uppercases the next word
+- `"KA*PS": {MODE:CAPS}`: switches to all caps or uppercase mode so all letters are uppercase
+- `"KA*PD": {*&lt;}`: retrospectively capitalise/uppercase word
+- `"KPA*L": {-|}`: Capitalises/uppercases first letter of the next word
+- `"KPA*S": {MODE:TITLE}`: switches to title case mode so all all words start with capital letters
 - `"KPA*D": {*-|}`: retrospectively capitalise/uppercase first letter
-- `"KPA*S": {MODE:CAPS}`: switches to all caps or uppercase mode so all letters are uppercase
+- `"TPH-S": {^^}`: suppresses an upcoming space
+- `"TPH-SZ": {MODE:SET_SPACE:}`: glues all subsequent strokes together
+- `"AFPS: {*?}`: retrospectively inserts a space
+- `"TK-FPS: {*!}`: retrospectively remove space
+- `"R*EFDZ: {MODE:RESET_CASE}`: resets case modes
+- `"R*EFTS: {MODE:RESET_SPACE}`: resets spacing modes
+- `"RE*FTSDZ*": {MODE:RESET}`: resets all case and spacing modes
 
 [commands-plover.json](dictionaries/commands-plover.json):
 - `"TKUPT": "{PLOVER:ADD_TRANSLATION}",`: opens Plover’s add translation window

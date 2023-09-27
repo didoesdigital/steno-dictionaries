@@ -2,7 +2,17 @@
     "HRO*ER": "{>}",
     "HRO*ERD": "{*>}",
     "HRO*ERS": "{MODE:LOWER}",
-    "KPA*": "{<}",
-    "KPA*S": "{MODE:CAPS}",
-    "KPA*D": "{*-|}"
+    "KA*PL": "{<}",
+    "KA*PS": "{MODE:CAPS}",
+    "KA*PD": "{*<}",
+    "KPA*L": "{-|}",
+    "KPA*S": "{MODE:TITLE}",
+    "KPA*D": "{*-|}",
+    "TPH-S": "{^^}",
+    "TPH-SZ": "{MODE:SET_SPACE:}",
+    "R*EFTSDZ": "{MODE:RESET}",
+    "R*EFTS": "{MODE:RESET_SPACE}",
+    "R*EFDZ": "{MODE:RESET_CASE}",
+    "AFPS": "{*?}",
+    "TK-FPS": "{*!}"
 }
