@@ -26,9 +26,8 @@ I would also suggest dictionaries to operate Plover and your computer, such as:
 - [`computer-use.json`](dictionaries/computer-use.json).
 - [`navigation.json`](dictionaries/navigation.json).
 - [`tabbing.json`](dictionaries/tabbing.json).
-- [`modifiers-single-stroke.json`](dictionaries/modifiers-single-stroke.json).
 
-You *could* also add `condensed-strokes.json` and `condensed-strokes-fingerspelled.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)), but they can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174) in rare fingerspelling situations.
+You *could* also add `condensed-strokes.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)), but they can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174) in rare fingerspelling situations.
 
 > A misstroke is like a "chord typo". It's when you mean to write one chord, but stroke another. Often, dictionaries have misstroke entries that are added when a stenographer frequently misstrokes an entry. For example, take the stroke TKPWAOD (meaning GAOD) which translates to good. Sometimes the stenographer may miss a key, so they could have a misstroke entry TKPAOD which would also translate to good. Then they are protected from these typos in regular writing. There are many misstroke entries in the default dictionary, and you must try to make sense of results when you look up words, instead of blindly accepting the shortest stroke.
 — [Plover project glossary](https://github.com/openstenoproject/plover/wiki/Glossary#misstroke)
@@ -438,7 +437,7 @@ You might also like the related symbols currency dictionary:
 - [`symbols-currency.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/symbols-currency.json) contains briefs for currency symbols, such as cent (`"SPWO*L/KREPBT": "¢"`) and dollar (`"SPWO*L/TKHRAR": "$"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"KREPBT": "cent"` and `"TKHRAR": "dollar"`).
 
 ## Numbers Dictionaries
-
+- [`jeff-nubers.py`](dictionaries/jeff-numbers.py)
 - [`numbers.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/numbers.json) contains the numbers entries from Plover
 - [`numbers-powerups.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/numbers-powerups.json) contains extra entries like:
     ```
