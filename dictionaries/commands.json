@@ -19,8 +19,10 @@
     "PW-FP": "{#BackSpace}",
     "RA*U": "{PLOVER:solo_dict:+commands.json}",
     "RA*UR": "{PLOVER:end_solo_dict}",
-    "R*R": "{#Return}{^}",
-    "R-R": "{^~|\n^}",
+    "TPH-L": "{^~|\n^}",
+    "TPH*L": "{^\n^}",
+    "R*R": "{#shift(Return)}{^}",
+    "R-R": "{#Return}{^}",
     "*UPD": "{*<}",
     "WUZ": "{#}"
 }
