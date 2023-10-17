@@ -96,6 +96,7 @@ Read about each dictionary before using them. For example, you don't need more t
 * [dict-en-AU-with-extra-stroke.json](dictionaries/dict-en-AU-with-extra-stroke.json)†
 * [dict.json](dictionaries/dict.json)†
 * [emoji.json](dictionaries/emoji.json)
+* [exponent-numbers.json](dictionaries/exponent-numbers.json)
 * [fingerspelling.json](dictionaries/fingerspelling.json)
 * [fingerspelling-FPLT.json](dictionaries/fingerspelling-FPLT.json)
 * [fingerspelling-powerups.json](dictionaries/fingerspelling-powerups.json)
@@ -526,6 +527,16 @@ You might also like the related symbols currency dictionary:
 Conflicts:
 
 - [`numbers-powerups.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/numbers-powerups.json) adds `"K-PL": "km",` and `"K*PL": "{^km}",`, which conflicts with `"K*PL": "kilometer"` added in a more recent version of Plover.
+
+
+
+## Exponent numbers
+
+[exponent-numbers.json](dictionaries/exponent-numbers.json) contains suffix entries for writing [exponents](https://en.wikipedia.org/wiki/Exponentiation).
+
+For example, to write the `²` in `E=mc²`, you would stroke `KR*RT/2`.
+
+Based on the entry `KR-RT` for `^`, each entry in this dictionary uses an initial stroke of `KR*RT/` followed by the relevant number stroke.
 
 
 
