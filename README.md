@@ -204,7 +204,7 @@ The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plove
 - `"TKUPT": "{PLOVER:ADD_TRANSLATION}",`: opens Plover’s add translation window
 - `"PHRAOBG": "{PLOVER:LOOKUP}",`: opens Plover’s lookup window
 - `"PHREUG": "{PLOVER:CONFIGURE}",`: opens Plover’s configuration
-- `"PHREUT/PHREUT": "{PLOVER:QUIT}",`: quits Plover’s
+- `"PHREUT/PHREUT": "{PLOVER:QUIT}",`: quits Plover
 - `"PHROEUBGS": "{PLOVER:FOCUS}",`: brings Plover to the front (window focus)
 - `"PHROF": "{PLOVER:SUSPEND}",`: disables Plover’s steno behaviour
 - `"PHROLG": "{PLOVER:TOGGLE}",`: toggles Plover’s steno behaviour between on and off
