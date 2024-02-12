@@ -190,12 +190,12 @@ The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plove
 - `"PREPB: {~|(^}`: carries the capital letter across the next parenthesis
 - `"PR*EPB: {^~|)}`: carries the capital letter across the next parenthesis
 - `"HRO*ER: {MODE:LOWER}`: switches to lowercase mode so all letters are lowercase
-- `"K-BGS: {MODE:CAMEL}`: switches to camelCase mode so spaces are suppressed and subsequent words are capitalised
+- `"K-BGS: {MODE:CAMEL}`: switches to camelCase mode, so spaces are suppressed and subsequent words are capitalised
 - `"KA*PS: {MODE:CAPS}`: switches to all caps or uppercase mode so all letters are uppercase
 - `"KHRAO*ER: {MODE:CLEAR}`: clears all mode settings
 - `"KPHA*PLD: {MODE:SET_SPACE:, }`: sets a custom space mode that replaces all spaces with spaces (normal spacing—you can swap the space character for any character)
 - `"SPAO*EUPBL: {MODE:LOWER} {MODE:SET_SPACE:-}`: switches to lowercase mode and sets the spaces to hyphens for a kind of “spinal case”
-- `"STPHA*EUBG: {MODE:SNAKE}`: switches to snake case mode so all spaces are replaces with underscores
+- `"STPHA*EUBG: {MODE:SNAKE}`: switches to snake case mode so all spaces are replaced with underscores
 - `"TAO*EULT: {MODE:TITLE}`: switches to title case mode so each word is capitalised
 - `"TPHO*EFP: {MODE:SET_SPACE:}`: sets to a custom space mode that replaces all spaces with nothing, suppressing spaces
 - `"R*EFT: {MODE:RESET}`: resets all case and spacing modes
@@ -216,8 +216,8 @@ The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plove
 
 - [`nouns.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/nouns.json) contains a few hundred additional words.
 - [`proper-nouns.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/proper-nouns.json) contains a few hundred proper nouns.
-- [`condensed-strokes.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/condensed-strokes.json) contains a combinations of existing strokes in the main Plover dictionary so that they appear in searches when you look up strokes. These words can already be written using the default Plover dictionary and prefix/suffix strokes or punctuation strokes. It can be useful for improving dictionary lookups, but is not needed to write the words. It can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174) in rare situations so you may want to add it to your Plover config in a certain order so that it is overwritten by the other dictionaries.
-- [`condensed-strokes-fingerspelled.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/condensed-strokes-fingerspelled.json) contains fingerspellings for words that are neither contained in the default Plover dictionary, nor able to be composed using default Plover dictionary strokes. It's less helpful but can also be used for dictionary lookups to confirm that there is no known Plover stroke for a word. It can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/pull/37#issuecomment-1243846921) in rare situations so you may want to exclude it or add it to your Plover config in a certain order so that it is overwritten by the other dictionaries.
+- [`condensed-strokes.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/condensed-strokes.json) contains a combination of existing strokes in the main Plover dictionary so that they appear in searches when you look up strokes. These words can already be written using the default Plover dictionary and prefix/suffix strokes or punctuation strokes. It can be useful for improving dictionary lookups, but it is not needed to write the words. It can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174) in rare situations, so you may want to add it to your Plover config in a certain order so that it is overwritten by the other dictionaries.
+- [`condensed-strokes-fingerspelled.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/condensed-strokes-fingerspelled.json) contains fingerspellings for words that are neither contained in the default Plover dictionary, nor able to be composed using default Plover dictionary strokes. It's less helpful but can also be used for dictionary lookups to confirm that there is no known Plover stroke for a word. It can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/pull/37#issuecomment-1243846921) in rare situations, so you may want to exclude it or add it to your Plover config in a certain order so that it is overwritten by the other dictionaries.
 
 
 
@@ -316,8 +316,8 @@ These outlines are designed to be used with [Keymou](https://manytricks.com/keym
 * ⌘ click to select multiple items individually: `"KPHREUBG": "{#Control_L(Alt_L(Super_L(Shift_L(8))))}",`
 * ⇧ click to select multiple items in a row: `"SPH": "{#Control_L(Alt_L(Super_L(Shift_L(7))))}",`
 * ⇧ click to select multiple items in a row: `"STPHREUBG": "{#Control_L(Alt_L(Super_L(Shift_L(7))))}",`
-* ⌥ click to select alternative options e.g. expanded WIFI details: `"THRA": "{#Control_L(Alt_L(Super_L(Shift_L(6))))}",`
-* ⌥ click to select alternative options e.g. expanded WIFI details: `"THRA*": "{#Control_L(Alt_L(Super_L(Shift_L(6))))}",`
+* ⌥ click to select alternative options e.g. expanded Wi-Fi details: `"THRA": "{#Control_L(Alt_L(Super_L(Shift_L(6))))}",`
+* ⌥ click to select alternative options e.g. expanded Wi-Fi details: `"THRA*": "{#Control_L(Alt_L(Super_L(Shift_L(6))))}",`
 * Press and hold ⇧ for Shift + drag to move elements in a straight line: `"STP": "{#Control_L(Alt_L(Super_L(Shift_L(5))))}",`
 * Press and hold ⌥ for Option + drag to duplicate elements: `"TKRAO": "{#Control_L(Alt_L(Super_L(Shift_L(9))))}",`
 * Release mouse button: `"TKRAOD": "{#Control_L(Alt_L(Super_L(Shift_L(0))))}",`
@@ -384,7 +384,7 @@ Copy the [`punctuation.json`](https://github.com/didoesdigital/steno-dictionarie
 * <strong>Cap</strong>ital with a space `KPA`
 * <strong>Cap</strong>ital without a space `KPA*`
 
-Note: I've prefer this entry for minus from Plover's original dictionary but it's since been replaced by "mountains" so it does not live in the punctuation dictionary:
+Note: I prefer this entry for minus from Plover's original dictionary, but it's since been replaced by "mountains" so it does not live in the punctuation dictionary:
 
 * - `PH*PBS` =&gt; `M-NS` (<strong>m</strong>i<strong>n</strong>u<strong>s</strong>, spaced)
 
@@ -460,7 +460,7 @@ There is an additional stroke for an unspaced double quotation mark combining th
 
 * `KWR-GS`: "
 
-You might then remove the usual strokes for opening and closing double quotation marks from your dictionary so you can still use these marks with spacing on demand. You might also replace these entries with smart or curly double quotation marks, for example:
+You might then remove the usual strokes for opening and closing double quotation marks from your dictionary, so you can still use these marks with spacing on demand. You might also replace these entries with smart or curly double quotation marks, for example:
 
 ```
 "KW-GS": "{“^}",
@@ -469,7 +469,7 @@ You might then remove the usual strokes for opening and closing double quotation
 
 You could then write `Test “test” test.` using `KPA* TEFT KW-GS TEFT KR-GS TEFT TP-PL`.
 
-Similarly with single quotation marks (not included in this dictionary):
+Similarly, with single quotation marks (not included in this dictionary):
 
 ```
 "TP-P": "{‘^}",
@@ -542,7 +542,7 @@ Based on the entry `KR-RT` for `^`, each entry in this dictionary uses an initia
 
 ## Australian English Dictionaries
 
-There are used to be two Australian English companion dictionaries, each intended to be used in combination with the default Plover dictionary. There's now only 1.
+There used to be two Australian English companion dictionaries, each intended to be used in combination with the default Plover dictionary. There's now only 1.
 
 ~~One overrides the default briefs with Australian variations, and also includes Australian prefixes, suffixes, alternative spellings, and vocabulary.  To use this dictionary, copy the [`dict-en-AU.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict-en-AU.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary so that it overrides default Plover briefs.~~ If you want something like this, copy the current [`dict-en-AU-with-extra-stroke.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict-en-AU-with-extra-stroke.json) and remove the trailing `/A*U` from each outline.
 
@@ -587,8 +587,8 @@ There are used to be two Australian English companion dictionaries, each intende
 - Add "U" to `O*R` or `KHROR` strokes for "our" endings in words such as "colour" e.g. `"KHROUR": "colour",`
 
 - For words such as "practice" and "practise", the basic rule is that the noun form uses the "c" spelling while the verb uses the "s" spelling. Therefore, translations have been included for producing both.
-    - For example, Australian briefs for "defense" with an "s" will use `S` in the brief itself, while Australian briefs for "defence" with a "c" will drop the `S`, eg, `"TKEFS": "defense"`, `"TKE/TPEPB": "defence"`.
-    - As another example, drop the `S` or use `KRE` to spell licence with a "c", eg: `"HR-PB": "licence"`, `"HR-PBS": "license",`
+    - For example, Australian briefs for "defense" with an "s" will use `S` in the brief itself, while Australian briefs for "defence" with a "c" will drop the `S`, e.g., `"TKEFS": "defense"`, `"TKE/TPEPB": "defence"`.
+    - As another example, drop the `S` or use `KRE` to spell licence with a "c", e.g.: `"HR-PB": "licence"`, `"HR-PBS": "license",`
 - Use "AE" in strokes for Australian "ae" spellings such as "encyclopaedia":
     - The Australian spelling is used in words stroked with `AE` where it would normally use the long "e" sound stroke `AOE`
     - Briefs form the Australian spelling, eg, "KAOEUPL/RA": "chimaera",
