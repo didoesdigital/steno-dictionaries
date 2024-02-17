@@ -189,7 +189,7 @@ The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plove
 - `"KR-GS: {^~|\"}`: carries the capital letter across the next quotation mark
 - `"PREPB: {~|(^}`: carries the capital letter across the next parenthesis
 - `"PR*EPB: {^~|)}`: carries the capital letter across the next parenthesis
-- `"HRO*ER: {MODE:LOWER}`: switches to lowercase mode so all letters are lowercase
+- `"HRO*ERZ: {MODE:LOWER}`: switches to lowercase mode so all letters are lowercase
 - `"K-BGS: {MODE:CAMEL}`: switches to camelCase mode so spaces are suppressed and subsequent words are capitalised
 - `"KA*PS: {MODE:CAPS}`: switches to all caps or uppercase mode so all letters are uppercase
 - `"KHRAO*ER: {MODE:CLEAR}`: clears all mode settings
