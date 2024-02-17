@@ -130,9 +130,9 @@ Read about each dictionary before using them. For example, you don't need more t
 * [shortcuts.json](dictionaries/shortcuts.json)
 * [sketch-app.json](dictionaries/sketch-app.json)
 * [sublime.json](dictionaries/sublime.json)
-* [symbol-briefs.json](dictionaries/symbol-briefs.json)
-* [symbol-currency.json](dictionaries/symbol-currency.json)
-* [symbol-currency-culled.json](dictionaries/symbol-currency-culled.json)
+* [symbols-briefs.json](dictionaries/symbols-briefs.json)
+* [symbols-currency.json](dictionaries/symbols-currency.json)
+* [symbols-currency-culled.json](dictionaries/symbols-currency-culled.json)
 * [symbols.json](dictionaries/symbols.json)
 * [tabbing.json](dictionaries/tabbing.json)
 * [top-100-words.json](dictionaries/top-100-words.json)
@@ -189,7 +189,7 @@ The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plove
 - `"KR-GS: {^~|\"}`: carries the capital letter across the next quotation mark
 - `"PREPB: {~|(^}`: carries the capital letter across the next parenthesis
 - `"PR*EPB: {^~|)}`: carries the capital letter across the next parenthesis
-- `"HRO*ER: {MODE:LOWER}`: switches to lowercase mode so all letters are lowercase
+- `"HRO*ERZ: {MODE:LOWER}`: switches to lowercase mode so all letters are lowercase
 - `"K-BGS: {MODE:CAMEL}`: switches to camelCase mode, so spaces are suppressed and subsequent words are capitalised
 - `"KA*PS: {MODE:CAPS}`: switches to all caps or uppercase mode so all letters are uppercase
 - `"KHRAO*ER: {MODE:CLEAR}`: clears all mode settings
@@ -204,7 +204,7 @@ The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plove
 - `"TKUPT": "{PLOVER:ADD_TRANSLATION}",`: opens Plover’s add translation window
 - `"PHRAOBG": "{PLOVER:LOOKUP}",`: opens Plover’s lookup window
 - `"PHREUG": "{PLOVER:CONFIGURE}",`: opens Plover’s configuration
-- `"PHREUT/PHREUT": "{PLOVER:QUIT}",`: quits Plover’s
+- `"PHREUT/PHREUT": "{PLOVER:QUIT}",`: quits Plover
 - `"PHROEUBGS": "{PLOVER:FOCUS}",`: brings Plover to the front (window focus)
 - `"PHROF": "{PLOVER:SUSPEND}",`: disables Plover’s steno behaviour
 - `"PHROLG": "{PLOVER:TOGGLE}",`: toggles Plover’s steno behaviour between on and off
