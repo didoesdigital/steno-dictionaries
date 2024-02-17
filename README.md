@@ -462,7 +462,7 @@ There is an additional stroke for an unspaced double quotation mark combining th
 
 You might then remove the usual strokes for opening and closing double quotation marks from your dictionary, so you can still use these marks with spacing on demand. You might also replace these entries with smart or curly double quotation marks, for example:
 
-```
+```JSON
 "KW-GS": "{“^}",
 "KR-GS": "{^”}",
 ```
@@ -471,7 +471,7 @@ You could then write `Test “test” test.` using `KPA* TEFT KW-GS TEFT KR-GS T
 
 Similarly, with single quotation marks (not included in this dictionary):
 
-```
+```JSON
 "TP-P": "{‘^}",
 "TP-L": "{^’}",
 ```
@@ -485,7 +485,7 @@ Similarly, with single quotation marks (not included in this dictionary):
 - [`symbols-currency.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/symbols-currency.json) contains briefs for currency symbols, such as cent (`"SPWO*L/KREPBT": "¢"`) and dollar (`"SPWO*L/TKHRAR": "$"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"KREPBT": "cent"` and `"TKHRAR": "dollar"`).
 - [`symbols-currency-culled.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/symbols-currency-culled.json) contains only these currency symbols:
 
-```json
+```JSON
 "SPWO*L/KREPBT": "¢",
 "SPWO*L/TKHRAR": "$",
 "SPWO*L/*EUR": "€",
@@ -518,7 +518,7 @@ You might also like the related symbols currency dictionary:
 
 - [`numbers.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/numbers.json) contains the numbers entries from Plover
 - [`numbers-powerups.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/numbers-powerups.json) contains extra entries like:
-    ```
+    ```JSON
     "THOEUB": "{^,000}",
     "THOUZ": "{^000}",
     "THO*UZ": "{,^000}",
@@ -956,7 +956,7 @@ Removals:
 
 If these changes are merged in Plover’s default dictionary, we can restore these to [briefs.json]:
 
-```
+```JSON
 "KPES": "excess",
 "KPESZ": "excess",
 "KP*ES": "excess",
