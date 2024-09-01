@@ -139,6 +139,7 @@ Read about each dictionary before using them. For example, you don't need more t
 * [top-1000-words.json](dictionaries/top-1000-words.json)†
 * [top-10000-project-gutenberg-words.json](dictionaries/top-10000-project-gutenberg-words.json)†
 * [top-level-domains.json](dictionaries/top-level-domains.json)
+* [raw-steno.json](dictionaries/raw-steno.json)‡
 * [ux-design.json](dictionaries/ux-design.json)
 * [vim.json](dictionaries/vim.json)
 * [voiceover.json](dictionaries/voiceover.json)
@@ -835,9 +836,52 @@ Copy the [`ruby.json`](https://github.com/didoesdigital/steno-dictionaries/raw/m
 - [medical-suffixes.json](dictionaries/medical-suffixes.json) is inspired by [Odds and Ends | The Plover Blog by Mirabai Knight](http://plover.stenoknight.com/2015/04/odds-and-ends.html)
 
 
+
 ## Di's Dictionaries
 
 I’ve started marking my custom dictionaries with `di-` or `-di` in the filename. For example, `di-briefs.json` contains my own personal briefs while `briefs.json` contains briefs extracted from `dict.json` that exist in the core Plover dictionary. Ditto with `di-nouns.json` and `nouns.json` as well as `di-proper-nouns.json` and `proper-nouns.json`.
+
+
+
+## Raw steno dictionary
+
+The [`raw-steno.json`](dictionaries/raw-steno.json) dictionary is not recommended for day-to-day use. It is designed to produce raw steno output for the steno keys on a Ward Stone Ireland layout. That is, instead of `-S` writing "is", it will just write "-S" and instead of `*` performing an undo action, it will just write "*".
+
+```json
+{
+"#": "#",
+"S": "S",
+"T": "T",
+"K": "K",
+"P": "P",
+"W": "W",
+"H": "H",
+"R": "R",
+"A": "A",
+"O": "O",
+"*": "*",
+"E": "E",
+"U": "U",
+"-F": "F",
+"-R": "-R",
+"-P": "-P",
+"-B": "B",
+"-L": "L",
+"-G": "G",
+"-T": "-T",
+"-S": "-S",
+"-D": "D",
+"-Z": "Z"
+}
+```
+
+When playing the [Typey Type KAOES game](https://didoesdigital.com/typey-type/games/KAOES) to learn the steno layout, I recommend using this `raw-steno.json` dictionary as the highest priority dictionary in Plover. When you're done playing the game, disable the dictionary.
+
+If you want to use this dictionary and still have an outline to perform a steno undo action, add another outline to this dictionary like:
+
+```
+"#*": "=undo",
+```
 
 
 
