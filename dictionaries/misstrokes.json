@@ -1562,6 +1562,7 @@
 "KAUB/TAEUP/-S": "contains",
 "KAUFB/TKEPBS": "confidence",
 "KAUFPB/TEPBS": "confidence",
+"KAUG/*PLT": "augment",
 "KAUGT": "caught",
 "KAUL/-D/-D": "called",
 "KAUL/-L": "call",
