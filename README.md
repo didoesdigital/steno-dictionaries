@@ -553,6 +553,8 @@ There are 3 additional entries in this dictionary:
 - `"PHOEPBLG": "{#}",` to "do nothing"
 - `"SPHAO*EUL": "🙂"` a brief to write a smile emoji
 
+On 24 Oct 2024, `"PHOEPBLG/EG": "🍳"` was removed.
+
 At the time of writing, the generated emoji dictionary assumes you would write the following words using the following briefs, but these are not in the main Typey Type or Plover dictionaries:
 
 ```json
@@ -597,7 +599,7 @@ At the time of writing, the generated emoji dictionary assumes you would write t
 }
 ```
 
-You can check the [Typey Type CLI source code](https://github.com/didoesdigital/typey-type-cli/blob/main/src/lib/stemoji.ts#L185-L223) for the current additions.
+You can check the [Typey Type CLI source code](https://github.com/didoesdigital/typey-type-cli/blob/main/src/lib/stemoji.ts#L209-L247) for the current additions.
 
 
 
