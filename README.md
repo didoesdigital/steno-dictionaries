@@ -498,7 +498,7 @@ Similarly, with single quotation marks (not included in this dictionary):
 
 ## Currency Dictionaries
 
-[`currency.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/currency.json) contains briefs for currency words, such as AUD (`"*AUD": "AUD",`) and dollar (`"SWEUS/TPRAEPBG": "Swiss franc",`), a currency formatting stroke (`"K*RPBS": "{*($c)}",` so you can stroke `34/P-P/5/K*RPBS` to write $34.50), as well as briefs:
+[`currency.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/currency.json) contains briefs for currency words, such as AUD (`"*AUD": "AUD",`) and Swiss franc (`"SWEUS/TPRAEPBG": "Swiss franc",`), a currency formatting stroke (`"K*RPBS": "{*($c)}",` so you can stroke `34/P-P/5/K*RPBS` to write $34.50), as well as briefs:
 
 * `"TKHRAR": "dollar",`
 * `"TKHRARS": "dollars",`
