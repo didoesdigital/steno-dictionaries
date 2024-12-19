@@ -1,12 +1,15 @@
 # Steno Dictionaries
 
-This repository contains Di’s stenography dictionaries used by [Typey Type for Stenographers](https://didoesdigital.com/typey-type/). The dictionaries are in JSON format and use [Plover](http://stenoknight.com/wiki/FAQ#What_is_Plover.3F) theory.
+This repository contains Di’s stenography dictionaries used by [Typey Type for Stenographers](https://didoesdigital.com/typey-type/). The dictionaries are in JSON format and use [Plover theory](https://plover.wiki/index.php/Choosing_a_steno_theory#Open_steno_theories).
 
 
 
 # How to use these dictionaries
 
-If you want to use the dictionaries in this repo instead of Plover's, you have 2 main options. 
+> [!IMPORTANT]
+> I highly recommend using [Typey Type's Full Dictionary](https://didoesdigital.com/typey-type/dictionaries/typey-type/typey-type-full/) instead of Plover's default `main.json`. Plover's built-in dictionary has not had substantial updates since 2018. The dictionaries in this repo are based on Plover's but have continued to improve. Typey Type's Full Dictionary is a combination of a set of dictionaries from this repo, available in a single-dictionary download.
+
+If you want to use the underlying dictionaries in this repo instead of Plover's, you have 2 main options.
 
 The first option is that you can download each individual dictionary you want and add it to your own collection of dictionaries and turn each on in your Plover config as you need. Over time, there will be new entries in these dictionaries, so you may wish to download them again or look at the history for each file and decide what new entries you want to add manually.
 
@@ -36,7 +39,7 @@ You *could* also add `condensed-strokes.json` and `condensed-strokes-fingerspell
 
 # Typey Type’s dictionary
 
-[Typey Type’s dictionary](https://didoesdigital.com/typey-type/dictionaries/typey-type/typey-type/) is generated from this subset of this repo’s dictionaries:
+[Typey Type’s Full Dictionary](https://didoesdigital.com/typey-type/dictionaries/typey-type/typey-type-full/) is generated from this subset of this repo’s dictionaries:
 
 - [`abbreviations.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/abbreviations.json)
 - [`briefs.json`](https://github.com/didoesdigital/steno-dictionaries/blob/master/dictionaries/briefs.json)
@@ -152,7 +155,10 @@ Read about each dictionary before using them. For example, you don't need more t
 ## English Dictionaries
 
 - A main [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict.json) dictionary, containing many English words using briefs and phonetic strokes, but contains fewer misstrokes.
-- A [`top-10000-project-gutenberg-words.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/top-10000-project-gutenberg-words.json) dictionary, containing 10,000 common words from [Project Gutenberg](https://www.gutenberg.org/). This is a great starter dictionary. The [`top-100-words.json`](dictionaries/top-100-words.json) and [`top-1000-words.json`](dictionaries/top-1000-words.json) dictionaries are subsets of this dictionary. If you're using `dict.json`, you won't need `top-10000-project-gutenberg-words.json`. You may want to use `condensed-strokes.json` and `condensed-strokes-fingerspelled.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)).
+- You *may* want to use `condensed-strokes.json` and `condensed-strokes-fingerspelled.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)).
+- A [`top-10000-project-gutenberg-words.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/top-10000-project-gutenberg-words.json) dictionary, containing 10,000 common words from [Project Gutenberg](https://www.gutenberg.org/). This is a great starter dictionary. It is also used by Typey Type to indicate the *preferred* outline for the top 10,000 words.
+    - If you're using `dict.json`, you won't need `top-10000-project-gutenberg-words.json`.
+    - The [`top-100-words.json`](dictionaries/top-100-words.json) and [`top-1000-words.json`](dictionaries/top-1000-words.json) dictionaries are subsets of this dictionary.
 
 Previously, this project contained a `google-10000-english.json` dictionary, including 10,000 popular English words by N-grams. That's now been retired. You can still find it in the [repo’s git history](https://github.com/didoesdigital/steno-dictionaries/blob/39d3c19da3d41cd57061821795e5438c747775e2/dictionaries/top-10000-english-words.json) or [Typey Type’s community lessons spreadsheet](https://docs.google.com/spreadsheets/d/1AlO2SSUwuv3yrz7RI9ix_z1Efbiu_j50c_ibGYwdsgc/edit). Credit goes to [Josh Kaufman's typing word list from Google's Trillion Word Corpus](https://github.com/first20hours/google-10000-english).
 
