@@ -2,7 +2,7 @@
 name: Misstrokes
 about: Create an issue to track and improve misstrokes or other problems with entries
   in these dictionaries
-title: "`example misstroke entry` misstrokes"
+title: "Misstrokes: `example misstroke entry`"
 labels: ''
 assignees: ''
 
@@ -14,30 +14,30 @@ Hello! Thanks for contributing! Your contribution will help new stenographers le
 
 # Dictionary
 
-I noticed this dictionary entry or these dictionary entries in:
+I noticed something in:
 
 - `dict.json`
 - `dict-en-AU-with-extra-stroke.json`
 
 
 
-# Misstroked entry or entries
+# Misstrokes
 
-This looks like a misstroke or could otherwise be better:
+These look like misstrokes or could otherwise be better:
 
 ```json
 "TEFT/KP-PL/PHEUS/STROBG/EP/TREU": "example misstroke entry",
 "TEFT/KP-PL/PHEUS/STROBG/EP/TREU/A*U": "example misstroke entry",
 ```
 
-This looks like a misstroke because:
+These look like misstrokes because:
 
 - "test" does not appear in the translation, as suggested by `TEFT`.
 - "entry" is missing a `B` in `EP` for a phonetic stroke.
 - "entry" could use the brief `SPWREU`.
 - "mis" is not using the prefix stroke `PHEUZ`.
 - "stroke" is missing an `E` in `STROEBG`, which would be the phonetic, Plover theory stroke.
-- It could cause a conflict trying to write "test example misstroke entry".
+- They could cause a conflict trying to write "test example misstroke entry".
 
 
 
@@ -52,7 +52,7 @@ I would expect the outline to be:
 I would expect to see that outline because:
 
 - It uses a prefix stroke.
-- It is consistent with the `main.json` dictionary from Plover 3.
+- It is consistent with the `main.json` dictionary from Plover 4.
 - The phonetic stroke for "stroke" is written using `STROEBG`, which is consistent with the strokes used for "brushstroke", "heatstroke", and "sunstroke".
 - Mirabai says…
 
