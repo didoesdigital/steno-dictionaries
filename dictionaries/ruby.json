@@ -44,7 +44,7 @@
 "TPHRARB/PWR-BGT/SKES": "flash[:success]",
 "TPHRARB/PWR-BGT/TPH-TS": "flash[:notice]",
 "HAOEPTS": "https",
-"KHR-PB/STREUPBG/PREPB/#T-/#A/#A/PR*EPB": ":string(255)",
+"KHR-PB/STREUPBG/PREPB/#T/#A/#A/PR*EPB": ":string(255)",
 "KHR-PB/TKAEUT/TK-LS/TAOEUPL": ":datetime",
 "P-P/H*PLT/RUPBD/SAEUF": ".html_safe",
 "STPH-FPLT/HRO*ER/PWAOL/KWRAPB": ":boolean",
