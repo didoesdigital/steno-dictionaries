@@ -365,7 +365,7 @@
 "SEFRL": "several",
 "PWEUS": "business",
 "WHR": "whether",
-"*E/R*": "er",
+"*E/R*": "{&er}",
 "PHAERPB": "manner",
 "SEBGD": "second",
 "R-PB": "reason",
