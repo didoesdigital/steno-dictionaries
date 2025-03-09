@@ -6081,7 +6081,7 @@
 "HROPBLG/EUBG": "logic",
 "PA*PBG": "panic",
 "RAOE/STRAEUPBD": "restrained",
-"HR*/PW*": "lb",
+"HR*/PW*": "{&lb}",
 "SRA*EUPB/HREU": "vainly",
 "WAOER/REU/-PBS": "weariness",
 "EPB/HRARPBLGD": "enlarged",
