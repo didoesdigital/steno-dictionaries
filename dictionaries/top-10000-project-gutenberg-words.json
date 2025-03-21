@@ -7488,7 +7488,7 @@
 "EURS": "IRS",
 "KAUPB/TPAOEUPB": "confine",
 "SWEG": "sewing",
-"KR*/O*": "co",
+"KR*/O*": "{&co}",
 "TKPWRAT/HRAEUT": "congratulate",
 "WA*LT": "Walt",
 "REBG/SAOEUL": "reconcile",
