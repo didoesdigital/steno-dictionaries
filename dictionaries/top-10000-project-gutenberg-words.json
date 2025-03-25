@@ -5269,7 +5269,7 @@
 "PHORLS": "morals",
 "TKA*PLD": "damned",
 "SREBGS/-D": "vexed",
-"2/TK*": "2d",
+"2/TK*": "{&2d}",
 "PORG": "pouring",
 "PW*ULT": "bullet",
 "KPES/S*EUF": "excessive",
