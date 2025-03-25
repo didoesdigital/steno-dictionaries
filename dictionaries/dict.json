@@ -7853,7 +7853,7 @@
 "AOEBG/WALS": "equals",
 "AOEBG/WAUL": "equal",
 "AOEBG/WAUL/TEU": "equality",
-"AOEBG/WEU/HRAT/RAL": "equilateral-",
+"AOEBG/WEU/HRAT/RAL": "{equilateral-^}",
 "AOEBG/WEU/HREUB/RAOE/KWRUPL": "equilibrium",
 "AOEBG/WEU/HREUB/RAOE/UPL": "equilibrium",
 "AOEBG/WEU/HREUB/RUPL": "equilibrium",
