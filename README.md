@@ -145,7 +145,7 @@ Read about each dictionary before using them. For example, you don't need more t
 * [vim.json](dictionaries/vim.json)
 * [voiceover.json](dictionaries/voiceover.json)
 
-† This dictionary contains fingerspelling entries for writing words. In rare situations, the fingerspelled entries can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174).
+† This dictionary contains fingerspelling entries for writing words. In rare situations in the past, the fingerspelled entries caused [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174). If anything like that happens again, please open a new issue and let me know.
 ‡ This dictionary is used for Typey Type behaviour and not really for day-to-day steno usage.
 
 
