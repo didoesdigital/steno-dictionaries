@@ -34,8 +34,8 @@ I would also suggest dictionaries to operate Plover and your computer, such as:
 - [`tabbing.json`](dictionaries/tabbing.json).
 - [`modifiers-single-stroke.json`](dictionaries/modifiers-single-stroke.json).
 
-You *could* also add `condensed-strokes.json` and `condensed-strokes-fingerspelled.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)), but they can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174) in rare fingerspelling situations.
-
+> [!NOTE]
+> You *could* also add `condensed-strokes.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)), but you should be able to write everything in that dictionary already without including it.
 
 # Typey Type’s dictionary
 
@@ -153,7 +153,7 @@ Read about each dictionary before using them. For example, you don't need more t
 ## English Dictionaries
 
 - A main [`dict.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/dict.json) dictionary, containing many English words using briefs and phonetic strokes, but contains fewer misstrokes.
-- You *may* want to use `condensed-strokes.json` and `condensed-strokes-fingerspelled.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)).
+- You *may* want to use `condensed-strokes.json` to improve lookups (see [## Vocabulary Dictionaries](#vocabulary-dictionaries)).
 - A [`top-10000-project-gutenberg-words.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/top-10000-project-gutenberg-words.json) dictionary, containing 10,000 common words from [Project Gutenberg](https://www.gutenberg.org/). This is a great starter dictionary. It is also used by Typey Type to indicate the *preferred* outline for the top 10,000 words.
     - If you're using `dict.json`, you won't need `top-10000-project-gutenberg-words.json`.
 
@@ -222,10 +222,12 @@ The main [plover-use.json](dictionaries/plover-use.json) helps you use the Plove
 
 - [`nouns.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/nouns.json) contains a few hundred additional words.
 - [`proper-nouns.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/proper-nouns.json) contains a few hundred proper nouns.
-- [`condensed-strokes.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/condensed-strokes.json) contains a combination of existing strokes in the main Plover dictionary so that they appear in searches when you look up strokes. These words can already be written using the default Plover dictionary and prefix/suffix strokes or punctuation strokes. It can be useful for improving dictionary lookups, but it is not needed to write the words. It can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174) in rare situations, so you may want to add it to your Plover config in a certain order so that it is overwritten by the other dictionaries.
-- [`condensed-strokes-fingerspelled.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/condensed-strokes-fingerspelled.json) contains fingerspellings for words that are neither contained in the default Plover dictionary, nor able to be composed using default Plover dictionary strokes. It's less helpful but can also be used for dictionary lookups to confirm that there is no known Plover stroke for a word. It can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/pull/37#issuecomment-1243846921) in rare situations, so you may want to exclude it or add it to your Plover config in a certain order so that it is overwritten by the other dictionaries.
+- [`condensed-strokes.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/condensed-strokes.json) contains entries made up of strokes using existing words, prefixes, suffixes, and punctuation strokes. It can be useful for improving word lookups, but it is not needed to write the words. 
+- It can cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174) in rare situations, so you may want to add it to your Plover config in a certain order so that it is overwritten by the other dictionaries. There are a small number of entries in this dictionary that rely on [Plover's orthography rules](https://www.openstenoproject.org/learn-plover/lesson-7-orthography-rules-and-suffix-keys.html) for the condensed strokes to produce the entry's translation.
+- [`condensed-strokes-fingerspelled.json`](https://github.com/didoesdigital/steno-dictionaries/raw/master/dictionaries/condensed-strokes-fingerspelled.json) is a tiny dictionary that contains only fingerspelled entries to improve Typey Type hints. I intend to make this dictionary redundant and completely delete it in the future.
 
-
+> [!NOTE]
+> Historically, the condensed-stroke dictionaries used to cause [spacing issues](https://github.com/didoesdigital/steno-dictionaries/issues/174) in rare fingerspelling situations. If anything like that happens again, please open a new issue and let me know.
 
 ## Fingerspelling Dictionaries
 
