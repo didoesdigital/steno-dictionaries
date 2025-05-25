@@ -1,6 +1,7 @@
 {
 "#-D": "{^ed}",
 "*EBGS": "{ex-^}",
+"*EPBD": "{^-end}",
 "*EUBS": "issues",
 "*EUF": "IV",
 "*FPLT": "{.}",
